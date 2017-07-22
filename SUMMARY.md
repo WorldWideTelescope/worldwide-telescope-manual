@@ -1,3 +1,6 @@
 # Summary
 
-* [First Chapter](chapter1.md)
+* [Introduction](README.md)
+* [Screen Layout](chapter1.md)
+* [Exploring](chapter2.md)
+

@@ -63,27 +63,11 @@ Use the **Imagery** menu to choose from the available imagery options, including
 | This image of Hawaii is obtained from the **Virtual Earth Hybrid** imagery: |
 | ![](uiimages/TheEarth.jpg) |
 
-#### See Also
-
-*   [Exploring](#Exploring)
-*   [Tutorial: Comparing Night and Day](#TutorialComparingNightandDay)
-
-* * *
 
 ### <a name="EarthTutorials">Earth Tutorials</a>
 
 *   [Tutorial: Comparing Night and Day](#TutorialComparingNightandDay)
 
-#### See Also
-
-*   [Earth](#ExploreEarth)
-*   [Exploring](#Exploring)
-*   [Panorama Tutorials](#PanoramaTutorials)
-*   [Planet Tutorials](#PlanetTutorials)
-*   [Sky Tutorials](#SkyTutorials)
-*   [Solar System Tutorials](#SolarSystemTutorials)
-
-* * *
 
 #### <a name="TutorialComparingNightandDay">Tutorial: Comparing Night and Day</a>
 
@@ -98,11 +82,6 @@ There are several imagery options for the Earth, including aerial photography, s
 
     Try this comparison in different locations around the world!
 
-#### See Also
-
-*   [Earth Tutorials](#EarthTutorials)
-
-* * *
 
 ### <a name="ExplorePlanet">Planet</a>
 
@@ -133,17 +112,6 @@ Use **View**, **Reset Camera** to restore the default view and settings.
 *   [Tutorial: Locating Olympus Mons](#TutorialLocatingOlympusMons)
 *   [Tutorial: Comparing Surface Features of the Solar System](#TutorialComparingSurfaceFeaturesoftheSolarSystem)
 
-#### See Also
-
-*   [Exploring](#Exploring)
-*   [Earth Tutorials](#EarthTutorials)
-*   [Planet](#ExplorePlanet)
-*   [Sky Tutorials](#SkyTutorials)
-*   [Panorama Tutorials](#PanoramaTutorials)
-*   [Solar System Tutorials](#SolarSystemTutorials)
-
-* * *
-
 #### <a name="TutorialLocatingOlympusMons">Tutorial: Locating Olympus Mons</a>
 
 Olympus Mons is the tallest mountain on Mars (and indeed the Solar System). At a colossal 17 miles high it is three times higher than Everest. The following tutorial locates the mountain:
@@ -162,12 +130,6 @@ Olympus Mons is the tallest mountain on Mars (and indeed the Solar System). At a
 5.  Olympus Mons is a _shield_ volcano, approximately 340 miles wide. The most recent volcanic activity is estimated at 2 million years ago, so it is difficult to classify the volcano as extinct. One theory for the huge size of the mountain is that Mars does not have tectonic plates, so there is no gradual crust movement to recycle the surface.  However this theory is countered by the three mountains in a line, which suggests a plate edge. The three smaller mountains are also volcanoes and are named  Arsia Mons, Pavonis Mons  and Ascraeus Mons, though they are smaller only in relation to Olympus Mons (Arsia Mons - the southernmost - is the tallest at about 12 miles high, Pavonis Mons - the middle of the three - the shortest at 8.6 miles, and Ascraeus Mons - the northernmost - is about 11 miles high).
 6.  Other surface features of Mars to look for include the great canyon, Valles Marineris, which runs along the equator and is over 2500 miles long. It is the deepest known crevice in the Solar System. Mars is also known for its plains, polar caps, and clear signs of water and wind erosion. Mars' surface temperature is quite cold, ranging from -140 to 20 Celsius. Its atmosphere is mostly carbon dioxide, but there is enough water vapor to form the occasional clouds.
 
-#### See Also
-
-*   [Planet Tutorials](#PlanetTutorials)
-*   [Tutorial: Comparing Surface Features of the Solar System](#TutorialComparingSurfaceFeaturesoftheSolarSystem)
-
-* * *
 
 #### <a name="TutorialComparingSurfaceFeaturesoftheSolarSystem">Tutorial: Comparing Surface Features of the Solar System</a>
 
