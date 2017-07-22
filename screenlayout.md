@@ -1,11 +1,11 @@
-#Screen Layout
+# Screen Layout
 
 The following image shows the first view that will appear on running WorldWide Telescope. This section describes the layout, and how it changes depending on the selections of the user.
 
 ![](./uiimages/ui_win_Opening-View.png)
 
 
-##The Top Panel
+## The Top Panel
 
 Along the top of the screen is the main menu, with entries **Explore**, **Guided Tours**, **Search**, **Community**, **Telescope**, **View** and **Settings**. These entries are described in detail later on in the documentation, however the basic purpose of each entry follows. Note that the main menu items can be clicked on themselves, which has a different function than selecting the down arrow and opening up the menu contents.
 
