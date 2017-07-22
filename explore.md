@@ -523,6 +523,7 @@ This section describes how to add your own 3D models to WorldWide Telescope.
 ## Keyboard Shortcuts
 
 The following keys are alternatives to using the mouse or joystick in any view, or provide additional functionality:
+
 | Key | Effect |
 | :--- | :--- |
 | Page Up \(or -\) | Zoom out  |
