@@ -1,6 +1,3 @@
-{% gistrun id="935ea8244b5e7628824b5e2e428ec899" %}
-{% endgistrun %}
-
 # The Basics
 
 ## <a name="ScreenLayout">Screen Layout</a>
@@ -14,7 +11,7 @@ The following image shows the first view that will appear on running WorldWide T
 
 Along the top of the screen is the main menu, with entries **Explore**, **Guided Tours**, **Search**, **Community**, **Telescope**, **View** and **Settings**. These entries are described in detail later on in the documentation, however the basic purpose of each entry follows. Note that the main menu items can be clicked on themselves, which has a different function than selecting the down arrow and opening up the menu contents.
 
-![](uiimages/ui_win_Main-Menu-Down-Arrow.png) | Hovering the mouse underneath the main menu item will display a down arrow. Clicking on this down arrow will open up the menu contents. Clicking on the main menu item itself (for example, clicking on the entry **Explore**) will change the appearance of the top panel, and not display the menu contents.
+![](uiimages/ui_win_Main-Menu-Down-Arrow.png)Hovering the mouse underneath the main menu item will display a down arrow. Clicking on this down arrow will open up the menu contents. Clicking on the main menu item itself (for example, clicking on the entry **Explore**) will change the appearance of the top panel, and not display the menu contents.
 
 *   [**Explore**](#Exploring): The first two menu items, **New** and **Open**, are used to start new data files, or open existing data files, respectively. These are the primary purposes of the **Explore** menu - the location of data to display. Clicking the **Explore** entry itself will display the data **Collections** thumbnails across the top panel. Selecting any of these thumbnails will either open up a new set of thumbnails to browse, or change the view to display something new. These thumbnail images either reference individual items, or another set of items (similar to a folder and file structure). A set of images are referred to as _collections_ in WorldWide Telescope.
 *   [**Guided Tours**](#GuidedTours): A tour in WorldWide Telescope is an animated, annotated slide-show, for educational, research or entertainment purposes, usually focusing on a particular topic. Clicking the **Guided Tours** entry itself will display the **Tours** supplied by default with the product in the top panel. The menu entries can be used to search for other tours on the web, and to create a new tour. Opening a tour can also be done from the **Explore > Open** sub-menu.
