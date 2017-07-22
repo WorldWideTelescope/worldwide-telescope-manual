@@ -1,25 +1,14 @@
-## <a name="TheSettingsMenu">The Settings Menu</a>
+# The Settings Menu
 
 Using the **Settings** panel and menu, you can control settings that affect the current view, performance, and operation. Note that these settings differ between the Web Client and the Windows Client.
 
-*   [Constellation Lines](#ConstellationLines)
-*   [Experience](#Experience)
-*   [Network and Cache](#NetworkandCache)
-*   [Settings Menu Entries](#SettingsMenuEntries)
-
 ![](uiimages/ui_win_Settings-Panel.png)
 
-#### See Also
-
-*   [WorldWide Telescope User Guide](#WorldWideTelescopeUserGuide)
-
-* * *
-
-### <a name="ConstellationLines">Constellation Lines</a>
+## Constellation Lines
 
 The **Constellation Lines** settings apply only to the [Sky](#ExploreSky) view.
 
-| ![](uiimages/ui_win_Constellation-Lines.png) |
+![](uiimages/ui_win_Constellation-Lines.png)
 
 Use the **Constellation Lines** pane to create your own library of constellation figures. These are the lines that by default are shown in red, and map out the figures that the constellations are most famous for (the W of Cassiopeia, for example). To create your own library (which does not delete or replace the default library) go through the following steps:
 
@@ -32,19 +21,11 @@ Use the **Constellation Lines** pane to create your own library of constellation
 
 When you next run WorldWide Telescope, the new figure set will be available in this pane. Notice that the default set is available too, and remains unchanged. The **Edit** button can be used to add points for any selected constellation, and the **Delete** button can be used to delete the entire library. The **Delete** button in the **Constellation Figure Editor** will delete the figure for the selected constellation.
 
- |
-
-#### See Also
-
-*   [Sky](#ExploreSky)
-*   [The Settings Menu](#TheSettingsMenu)
-
-* * *
-### <a name="Experience">Experience</a>
+## Experience
 
 The **Experience** settings apply to all of the views, and contain settings that affect mouse operation, panning and zooming, and the appearance of the user interface.
 
-| ![](uiimages/ui_win_Settings-Experience.png)
+![](uiimages/ui_win_Settings-Experience.png)
 
 *   **Zoom Speed** changes the rate at which the view is zoomed when using the mouse wheel.
 *   **Image Quality** adjusts the sharpnetss of the view. This setting is not often apparent, except when viewing the Earth close up.
@@ -56,38 +37,22 @@ The **Experience** settings apply to all of the views, and contain settings that
 *   **Transparent Tabs** makes the panels transparent.
 *   **Reticle/Crosshairs** adds the crosshairs ("+") to the center of the viewing area.
 
- |
-
-#### See Also
-
-*   [The Settings Menu](#TheSettingsMenu)
-
-* * *
-
-### <a name="NetworkandCache">Network and Cache</a>
+# Network and Cache
 
 Use the **Network and Cache** settings to control internet connection settings. These settings apply to all views.
 
-| ![](uiimages/ui_Network-Cache.png)
-![](uiimages/ui_Manage-Data-Cache.png) |
+![](uiimages/ui_Network-Cache.png)
+![](uiimages/ui_Manage-Data-Cache.png)
 
 A proxy server is not used by default, and the default port used to connect to the internet is port 80\. Change these settings only if necessary.
 
 Use **Manage Data Cache** to clear local copies of images, tours or catalogs. Most of this data is not initially stored locally by WorldWide Telescope, and is only downloaded when needed. Once data is downloaded it is cached, and the cached copy is then used on subsequent requests. This is similar to how a web browser operates. If you want to free up disk space, or ensure that the latest data is downloaded, click **Purge** to delete the data in the cache.
 
- |
-
-#### See Also
-
-*   [The Settings Menu](#TheSettingsMenu)
-
-* * *
-
-### <a name="SettingsMenuEntries">Settings Menu Entries</a>
+## Settings Menu Entries
 
 Click the down arrow below **Settings** to open up the menu entries.
 
-| ![](uiimages/ui_win_Settings-Menu-Items.png)
+![](uiimages/ui_win_Settings-Menu-Items.png)
 
 *   **Check for Updates...** detects whether you are running the latest version of WorldWide Telescope.
 *   **Product Support...** links to the WorldWide Telescope support page.
@@ -115,12 +80,3 @@ Click the down arrow below **Settings** to open up the menu entries.
 *   **Regional Data Cache...** enables you to enter a URL for a local data cache. This is handy for classes and groups. Data is downloaded only once to the local cache, which participants can then access. Each user will need to enter the URL one time. The URL is used until the setting is cleared.
     ![](uiimages/shareddatacache.jpg)
     For more details refer to [Regional Data Cache](#RegionalDataCache).
-
- |
-
-#### See Also
-
-*   [The Settings Menu](#TheSettingsMenu)
-*   [WorldWide Telescope User Guide](#WorldWideTelescopeUserGuide)
-
-* * *

@@ -1,4 +1,4 @@
-## <a name="TheSearchMenu">The Search Menu</a>
+# The Search Menu
 
 There are several methods of searching WorldWide Telescope data. Currently only default data is searched, not data that may have been added to your own collections, community data, and so on.
 
@@ -12,20 +12,11 @@ WorldWide Telescope includes the following catalogs in its internal index:
 
 You must be connected to the internet in order for this feature to work.
 
-*   [The Search Panel](#TheSearchPanel)
-*   [Search Menu Entries](#SearchMenuEntries)
-
-#### See Also
-
-*   [WorldWide Telescope User Guide](#WorldWideTelescopeUserGuide)
-
-* * *
-
-### <a name="TheSearchPanel">The Search Panel</a>
+## The Search Panel
 
 You can open the Search panel by clicking **Search** in the upper panel.
 
-| ![](uiimages/SearchPanel1.png)
+![](uiimages/SearchPanel1.png)
 
 To search on a name, such as _Polaris_ or _M51_, enter it in the text box top left. As you type the characters the search will be automatic and display thumbnails as image data is found.
 
@@ -33,30 +24,14 @@ Alternatively, enter an **RA** and **Dec** if you know the approximate location 
 
 **Plot Results** On the Windows Client, checking the **Plot Results** checkbox will make the search results appear both as thumbnails and circle annotations in the view. For example, entering 20 for **RA**, 18 for **Dec**, clicking **Go**, **Search View** and **Plot Results**, will reveal a constellation full of objects, as shown below. Use the [Finder Scope](#TheFinderScope) to further identify the objects.
 
- |
 
-#### See Also
-
-*   [The Search Menu](#TheSearchMenu)
-
-* * *
-
-### <a name="SearchMenuEntries">Search Menu Entries</a>
+## Search Menu Entries
 
 Click the down arrow below **Search** to expand the menu.
 
-| ![](uiimages/SearchMenuEntries.png) |
+![](uiimages/SearchMenuEntries.png)
 
 *   **SIMBAD Search...** enables you to search the SIMBAD database by name. If a matching item is found the view will change to the location provided in the database.
 
 *   **VO Cone Search/Registry Lookup...** provides a more complex dialog for searching [Virtual Observatory](#VirtualObservatoryTables) databases based on RA, Dec or registry titles.
 *   **Find Earth Based Location...** lets you search for a specific location on Earth. Note that this feature only applies to **Earth** view.
-
- |
-
-#### See Also
-
-*   [The Search Menu](#TheSearchMenu)
-*   [WorldWide Telescope User Guide](#WorldWideTelescopeUserGuide)
-
-* * *

@@ -1,20 +1,8 @@
-## <a name="TheViewMenu">The View Menu</a>
+# The View Menu
 
 The **View** pane and menu entries contain a range of settings that affect the current view.
 
-*   [Observing Location](#ObservingLocation)
-*   [Observing Time](#ObservingTime)
-*   [View Menu Entries](#ViewMenuEntries)
-
-#### See Also
-
-*   [WorldWide Telescope User Guide](#WorldWideTelescopeUserGuide)
-
-* * *
-
-* * *
-
-### <a name="ObservingLocation">Observing Location</a>
+## Observing Location
 
 The entries in the **Observing Location** box apply only to the [Sky](#ExploreSky) view.
 
@@ -26,12 +14,12 @@ The **Observing Location** pane is used to set the viewpoint on Earth. You can e
 
 Check the **View from this location** checkbox to view from the selected location. Note the position of the horizon line. To show the full sky without the horizon line, uncheck the **View from this location** checkbox.
 
-| View from Quito, Ecuador:
-![](uiimages/ui_Quito-View.png) |
+View from Quito, Ecuador:
+![](uiimages/ui_Quito-View.png)
 
-<a name="ViewingfromaNewLocation"></a>
+## Viewing From a New Location
 
-#### Set observing time for a new location
+### Set observing time for a new location
 
 Changing the observing location does _not_ change the observing time to local time in that location. Following this procedure will ensure the correct rise, transit and set times for the planets, moon and stars, from that particular location. To view the sky from a new location in local time:
 
@@ -39,18 +27,12 @@ Changing the observing location does _not_ change the observing time to local ti
 2.  Set your computer clock time zone to that of the new location.
 3.  Restart WorldWide Telescope and set the observing location.
 
-#### See Also
-
-*   [The View Menu](#TheViewMenu)
-
-* * *
-
-### <a name="ObservingTime">Observing Time</a>
+### Observing Time
 
 The entries in the **Observing Time** box apply to the [Sky](#ExploreSky) and [Solar System](#ExploreSolarSystem) views.
 
-| ![](uiimages/ui_win_Observing-Time.png)
-![](uiimages/ui_win_Date-Time-Selection.png) |
+![](uiimages/ui_win_Observing-Time.png)
+![](uiimages/ui_win_Date-Time-Selection.png)
 
 Use the **Observing Time** pane to change the time of the current view, or to greatly accelerate or decelerate the simulated time. The movement applies to the Sun, and the planets and moons of the Solar System. To set the observing time, click the down arrow next to the currently displayed time and date. Click the pin icon to keep the **Observing Time** dialog open.
 
@@ -58,15 +40,7 @@ One specific use of this feature is in viewing the shadows from past or future s
 
 **Important:** The date set must be between the limits of 0001/12/25 and 4000/12/31\. Simulated time will freeze if it reaches one of these limits.
 
- |
-
-#### See Also
-
-*   [The View Menu](#TheViewMenu)
-
-* * *
-
-### <a name="ViewMenuEntries">View Menu Entries</a>
+## View Menu Entries
 
 Click the down arrow below **View** to open the view menu entries.
 
@@ -123,10 +97,3 @@ Click the down arrow below **View** to open the view menu entries.
     *   **Target Frame Rate** sets the target frame rate for the main display. Reduce this setting if the display does not pan, zoom or move smoothly on your system. The default setting is **60 FPS**.
 
     ![](uiimages/ui_win_Frame-Rate.png)
-
-#### See Also
-
-*   [The View Menu](#TheViewMenu)
-*   [WorldWide Telescope User Guide](#WorldWideTelescopeUserGuide)
-
-* * *

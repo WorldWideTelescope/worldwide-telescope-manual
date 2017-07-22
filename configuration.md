@@ -1,29 +1,8 @@
-## <a name="Configuration">Configuration</a>
+# Configuration
 
 This section contains technical information on how to configure WorldWide Telescope to run in environments other than on a single desktop or laptop client computer.
 
-*   [Regional Data Cache](#RegionalDataCache)
-*   [Multi-Monitor Cluster](#MultiMonitorCluster)
-
-*   [Single Slave Computer](#SingleSlaveComputer)
-*   [Remote Starting of the Multi-Monitor Cluster](#RemoteStartingoftheMultiMonitorCluster)
-
-*   [Single-Projector Planetarium](#SingleProjectorPlanetarium)
-
-*   [Custom Warp Files](#CustomWarpFiles)
-
-*   [Multi-Projector Planetarium](#MultiProjectorPlanetarium)
-
-*   [Projection Designer Configuration](#ProjectionDesignerConfiguration)
-*   [External Blending Configuration](#ExternalBlendingConfiguration)
-
-#### See Also
-
-*   [WorldWide Telescope User Guide](#WorldWideTelescopeUserGuide)
-
-* * *
-
-### <a name="RegionalDataCache">Regional Data Cache</a>
+## Regional Data Cache
 
 A regional data cache can be set up to improve data download performance on both a small and a large scale. A small scale data cache might be for a classroom of students, by setting up a local cache on the student network the number of simultaneous requests across the internet for one piece of data, a tour perhaps, can be greatly reduced. For the student all they have to do is enter a URL using the [Settings Menu Entries](#SettingsMenuEntries).
 
@@ -35,91 +14,67 @@ Note that the use of a regional data cache will only improve performance if the 
 
 To set up a regional data cache, either on a small or large scale, contact the [WorldWide Telescope support team](http://www.worldwidetelescope.org/help/SupportHelp.aspx?Page=IssuesAndBugs) for details.
 
-#### See Also
-
-*   [Configuration](#Configuration)
-*   [Settings Menu Entries](#SettingsMenuEntries)
-*   [WorldWide Telescope User Guide](#WorldWideTelescopeUserGuide)
-
-* * *
-
-### <a name="MultiMonitorCluster">Multi-Monitor Cluster</a>
+## Multi-Monitor Cluster
 
 A straightforward example of a multi-monitor cluster is to have a single master computer, and a matrix of slave computers each rendering a portion of the view.
 
-| ![](uiimages/Cluster1.jpg)
+![](uiimages/Cluster1.jpg)
 Hoag's Object - a rare ring galaxy - displayed on a 4 x 3 cluster. With a resolution on each monitor of 1920 x 1200 the full image is 27 Megapixels.
 
 The master computer is shown lower right.
- |
 
 To setup a multi-monitor cluster, go through the following procedure:
 
 1.  Setup the hardware required, with each computer installed with WorldWide Telescope. Each monitor is run by a single computer, so the hardware setup may take some time, and require some additional hardware, such as the support structure shown in the image above. The computers must all be linked to the same local network. The identification system used for a matrix of computers and monitors is shown in the following table (with the four by three matrix shown in the image above used as an example):
 
-| 0,0 | 1,0 | 2,0 | 3,0 |
-| 0,1 | 1,1 | **2,1** | 3,1 |
-| 0,2 | 1,2 | 2,2 | 3,2 |
+    | 0,0 | 1,0 | 2,0 | 3,0 |
+    | 0,1 | 1,1 | **2,1** | 3,1 |
+    | 0,2 | 1,2 | 2,2 | 3,2 |
 
-3.  Some of the bios settings for each of the slave computer need to be changed. This process is different for each make of computer - on some it involves pressing F2 during the startup process. This will bring up a bios settings menu, and make the following changes:
-    1.  Ensure the Ethernet card is on. For example on a Dell computer, go to **Power Management** and set the **Low Power Mode** setting to **Off**.
-    2.  Enable a remote computer to start up this one. For example on a Dell computer, also in **Power Management** set the **Remote startup** setting to **On**.
-4.  Turn off any screen savers on the slave computers.
-5.  If it is necessary to remotely edit the config.xml files, then enable remote login. The following links may be useful:
+1.  Some of the bios settings for each of the slave computer need to be changed. This process is different for each make of computer - on some it involves pressing F2 during the startup process. This will bring up a bios settings menu, and make the following changes:
+        1.  Ensure the Ethernet card is on. For example on a Dell computer, go to **Power Management** and set the **Low Power Mode** setting to **Off**.
+        2.  Enable a remote computer to start up this one. For example on a Dell computer, also in **Power Management** set the **Remote startup** setting to **On**.
+1.  Turn off any screen savers on the slave computers.
+1.  If it is necessary to remotely edit the config.xml files, then enable remote login. The following links may be useful:
 
     *   [How to use the Remote Desktop feature of Windows XP Professional](http://support.microsoft.com/kb/315328)
     *   [Remote Desktop Connection for Windows 7 and Vista](http://www.microsoft.com/windows/windows-vista/features/remote-desktop-connection.aspx?tabid=1&catid=1)
 
-6.  For all the slave computers in the matrix create a configuration file (called config.xml) in the root C: folder, with the following contents:
+1.  For all the slave computers in the matrix create a configuration file (called config.xml) in the root C: folder, with the following contents:
 
-|
+    | XML | Description |
+    | :-- | :-- |
+    | **<?xml version="1.0" encoding="utf-8"?>** |
+    | **<DeviceConfig>** |
+    | **<Config>** |
+    | **<Device** |
+    | **    MonitorCountX="4"** | The number of monitors in the X axis of the matrix. |
+    | **    MonitorCountY="3"** | The number of monitors in the Y axis of the matrix. |
+    | **    MonitorX="2"** | The X position of the computer in the matrix. The computer (shown in bold in the table above) is shown as the example value. Note that this index starts at zero. |
+    | **    MonitorY="1"** | The Y position of the computer in the matrix. Note that this index starts from zero. |
+    | **    Master="False"** | Set to "**False**". |
+    | **    Width="1920"** | The desired screen resolution width for the slave. |
+    | **    Height="1200"** | The desired screen resolution height for the slave. |
+    | **    Bezel="1.07"** | As the physical edge of the monitors must be taken into account, certain pixels will not be rendered (those that would theoretically appear behind the edges of the monitors). The Bezel factor is the ratio of the size of the monitor to the size of the screen. An estimate of 107 percent is used in this example.
+    The minimum Bezel value is 1.0.
+    ![](uiimages/Cluster2.jpg) |
+    | **    ConfigFile=""** | The following three entries should be present, but with empty strings as parameters. |
+    | **    BlendFile=""** |
+    | **    DistortionGrid="">** |
+    | **</Device>** |
+    | **</Config>** |
+    | **</DeviceConfig>** |
 
-##### XML
+1.  If the WWTRemoteControl utility is _not_ being used, add WorldWide Telescope on the slave computers to the start up list of programs for that computer (this is done through the Control Panel).
+1.  For large clusters consider adding a proxy server to the setup, such as an [ISA Proxy Server](http://www.microsoft.com/forefront/edgesecurity/isaserver/en/us/default.aspx), to reduce the amount of traffic over the web.
+1.  Finally, on the master computer, start WorldWide Telescope, and in the **Settings > Advanced** menu, select **Master Controller**. From now on the slave computers (when they are running WorldWide Telescope) should display their section of the view on the master computer.
 
- |
-
-##### Description
-
- |
-| **<?xml version="1.0" encoding="utf-8"?>** |
-| **<DeviceConfig>** |
-| **<Config>** |
-| **<Device** |
-| **    MonitorCountX="4"** | The number of monitors in the X axis of the matrix. |
-| **    MonitorCountY="3"** | The number of monitors in the Y axis of the matrix. |
-| **    MonitorX="2"** | The X position of the computer in the matrix. The computer (shown in bold in the table above) is shown as the example value. Note that this index starts at zero. |
-| **    MonitorY="1"** | The Y position of the computer in the matrix. Note that this index starts from zero. |
-| **    Master="False"** | Set to "**False**". |
-| **    Width="1920"** | The desired screen resolution width for the slave. |
-| **    Height="1200"** | The desired screen resolution height for the slave. |
-| **    Bezel="1.07"** | As the physical edge of the monitors must be taken into account, certain pixels will not be rendered (those that would theoretically appear behind the edges of the monitors). The Bezel factor is the ratio of the size of the monitor to the size of the screen. An estimate of 107 percent is used in this example.
-The minimum Bezel value is 1.0.
-![](uiimages/Cluster2.jpg) |
-| **    ConfigFile=""** | The following three entries should be present, but with empty strings as parameters. |
-| **    BlendFile=""** |
-| **    DistortionGrid="">** |
-| **</Device>** |
-| **</Config>** |
-| **</DeviceConfig>** |
-
-8.  If the WWTRemoteControl utility is _not_ being used, add WorldWide Telescope on the slave computers to the start up list of programs for that computer (this is done through the Control Panel).
-9.  For large clusters consider adding a proxy server to the setup, such as an [ISA Proxy Server](http://www.microsoft.com/forefront/edgesecurity/isaserver/en/us/default.aspx), to reduce the amount of traffic over the web.
-10.  Finally, on the master computer, start WorldWide Telescope, and in the **Settings > Advanced** menu, select **Master Controller**. From now on the slave computers (when they are running WorldWide Telescope) should display their section of the view on the master computer.
-
-<h7>Restrictions</h7>
+### Restrictions
 
 *   Currently the slave computers will not show text or graphic overlays when playing a tour.
 *   The slave computers will not respond to changes in the **View** or **Settings** menu - they will only run with the default settings.
 
-#### See Also
-
-*   [Configuration](#Configuration)
-*   [Settings Menu Entries](#SettingsMenuEntries)
-*   [WorldWide Telescope User Guide](#WorldWideTelescopeUserGuide)
-
-* * *
-
-#### <a name="SingleSlaveComputer">Single Slave Computer</a>
+### Single Slave Computer
 
 If remote control from a master computer of a single slave computer is required, then create a confix.xml file on the slave computer such as:
 
@@ -136,14 +91,7 @@ If remote control from a master computer of a single slave computer is required,
   </DeviceConfig>
 ** |
 
-#### See Also
-
-*   [Configuration](#Configuration)
-*   [WorldWide Telescope User Guide](#WorldWideTelescopeUserGuide)
-
-* * *
-
-#### <a name="RemoteStartingoftheMultiMonitorCluster"></a>Remote Starting of the Multi-Monitor Cluster
+### Remote Starting of the Multi-Monitor Cluster
 
 With a large cluster such as the one shown in the image in the previous section, it is helpful to automate the startup and shutdown of all the slave computers from the master. To do this use the **WWTRemoteControl** utility. For this to work though, go through the following procedure:
 
@@ -156,28 +104,23 @@ With a large cluster such as the one shown in the image in the previous section,
 7.  Click **Close All** to finish the session and **Shutdown All** to shutdown the slave computers.
 8.  The node list is saved to the application properties for the utility, so the next time it is run there is no need to re-enter the node list.
 
-#### See Also
 
-*   [Configuration](#Configuration)
-*   [Multi-Monitor Cluster](#MultiMonitorCluster)
-*   [WorldWide Telescope User Guide](#WorldWideTelescopeUserGuide)
-
-* * *
-
-### <a name="SingleProjectorPlanetarium">Single-Projector Planetarium</a>
+## Single-Projector Planetarium
 
 A single projector planetarium is typically a small planetarium up to around 20 feet in diameter. To see plans and instructions for building a planetarium suitable for a small class of students, refer to [WorldWide Telescope Planetarium](http://www.worldwidetelescope.org/docs/WorldWideTelescopePlanetarium.html). The key to single-projector planetariums is that the output has to be warped in such a way that it appears correct on the dome (or geodesic dome). This warping is most noticeable in the rendering of lines (rather than spheres). The image below shows Saturn and the Milky Way warped for a 16:9 projector.
 
-| ![](uiimages/MirrorWarping.jpg) |
+![](uiimages/MirrorWarping.jpg)
 
 Select **Full Dome** from the [View Menu Entries](#ViewMenuEntries) to initiate setup for a small planetarium.
 
-| ![](uiimages/FullDome.jpg) | Before clicking on **Full Dome** to activate the warping, select **Dome Setup** to provide a few basic parameters.
+![](uiimages/FullDome.jpg)
+Before clicking on **Full Dome** to activate the warping, select **Dome Setup** to provide a few basic parameters.
 
 **Start Listener** is a toggle setting, used in [Multi-Projector Planetariums](#MultiProjectorPlanetarium), so leave this unchecked.
 
-**Detach Main View to Second Monitor** will turn the current screen blank, and input control is transferred to the second view (dome or second monitor). |
-| ![](uiimages/domesetup.jpg) | For **Dome Type** select from the drop down list:
+**Detach Main View to Second Monitor** will turn the current screen blank, and input control is transferred to the second view (dome or second monitor).
+![](uiimages/domesetup.jpg)
+For **Dome Type** select from the drop down list:
 **Fisheye**
 **Mirrordome 16:9**
 **Mirrordome 4:3**
@@ -191,15 +134,8 @@ Check **Large Textures** at higher resolutions, such as 1920x1080 or 1920x1200\.
 
 A typical setup for running WorldWide Telescope in a small telescope would be to have the software running on a laptop, with a 16:9 projector connected to the computer using an HDMI cable. When giving presentations in the planetarium it can be helpful to have the image present on both the dome and the laptop screen, in order to point out objects of interest with the mouse, for example. If this is the case then consider setting the screen resolution of the laptop to match the aspect ratio of the projector; the following table shows some common options:
 
-|
-
-##### Screen resolution
-
- |
-
-##### Aspect ratio
-
- |
+| Screen resolution | Aspect ratio |
+| :-- | :-- |
 | 800 x 600  | 4:3 |
 | 1024 x 768 | 4:3 |
 | 1152 x 864 | 4:3 |
@@ -210,15 +146,7 @@ A typical setup for running WorldWide Telescope in a small telescope would be to
 
 If the option to **Detach Main View to Second Monitor** is used then there is no need to match screen resolution with aspect ratio. Also note that an [Xbox Controller](#XboxController) can be used to navigate in WorldWide Telescope, which can make controlling the view in the dome more comfortable.
 
-#### See Also
-
-*   [Configuration](#Configuration)
-*   [View Menu Entries](#ViewMenuEntries)
-*   [WorldWide Telescope User Guide](#WorldWideTelescopeUserGuide)
-
-* * *
-
-#### <a name="CustomWarpFiles">Custom Warp Files</a>
+### Custom Warp Files
 
 Custom warp files should be used when the aspect ratio of the projector is not 16:9 or 4:3, or you are using a variant of the standard fisheye projector.
 
@@ -228,46 +156,22 @@ Warp files have a .data extension and can be created using a third-party tool ca
 
 This website also contains a lot of interesting and useful information about small planetariums.
 
-#### See Also
-
-*   [Configuration](#Configuration)
-*   [WorldWide Telescope User Guide](#WorldWideTelescopeUserGuide)
-
-* * *
-
-### <a name="MultiProjectorPlanetarium">Multi-Projector Planetarium</a>
+## Multi-Projector Planetarium
 
 The following section applies to the use of WorldWide Telescope in planetariums that use multiple projectors and a blended image. Typically these are large and commercial or university planetariums.
 
 Projection into a large planetarium is often done using six projectors, with each projector projecting onto an area of the dome - with special blending done to mask the edges. The following diagram shows two common six-projector projection layouts:
 
-| ![](uiimages/ProjectionSixA.jpg) |
+![](uiimages/ProjectionSixA.jpg)
 
 There are two methods of projection that can be configured in WorldWide Telescope, the first using P_rojection Designer_ software, the second using an external blending system such as _Global Immersion<sup>�</sup>_. One of the main differences between the two is that blending is done by WorldWide Telescope when using _Projection Designer_, but is usually done in dedicated hardware when using external blending. The two methods require different parameters in the config.xml file.
 
-*   [Projection Designer Configuration](#ProjectionDesignerConfiguration)
-*   [External Blending Configuration](#ExternalBlendingConfiguration)
-
-#### See Also
-
-*   [Configuration](#Configuration)
-*   [WorldWide Telescope User Guide](#WorldWideTelescopeUserGuide)
-
-* * *
-
-#### <a name="ProjectionDesignerConfiguration">Projection Designer Configuration</a>
+### Projection Designer Configuration
 
 Follow this link for more detailed information on [Projection Designer](http://orihalcon.jp/projdesigner/). Use Projection Designer to calibrate and set blending parameters for the dome, then define the configuration file as follows:
 
-|
-
-##### XML
-
- |
-
-##### Description
-
- |
+| XML | Description |
+| :-- | :-- |
 | **<?xml version="1.0" encoding="utf-8"?>** |
 | **<DeviceConfig>** |
 | **<Config>** |
@@ -289,30 +193,14 @@ Follow this link for more detailed information on [Projection Designer](http://o
 | **</Config>** |
 | **</DeviceConfig>** |
 
-#### See Also
-
-*   [Configuration](#Configuration)
-*   [Multi-Projector Planetarium](#MultiProjectorPlanetarium)
-*   [Settings Menu Entries](#SettingsMenuEntries)
-*   [WorldWide Telescope User Guide](#WorldWideTelescopeUserGuide)
-
-* * *
-
-#### <a name="ExternalBlendingConfiguration">External Blending Configuration</a>
+### External Blending Configuration
 
 Follow this link for more detailed information on [Global Immersion](http://www.globalimmersion.com/Default.asp).
 
 Define the configuration file as follows:
 
-|
-
-##### XML
-
- |
-
-##### Description
-
- |
+| XML | Description |
+| :-- | :-- |
 | **<?xml version="1.0" encoding="utf-8"?>** |
 | **<DeviceConfig>** |
 | **<Config>** |
@@ -339,10 +227,3 @@ Define the configuration file as follows:
 | **</Device>** |
 | **</Config>** |
 | **</DeviceConfig>** |
-
-#### See Also
-
-*   [Configuration](#Configuration)
-*   [Multi-Projector Planetarium](#MultiProjectorPlanetarium)
-*   [Settings Menu Entries](#SettingsMenuEntries)
-*   [WorldWide Telescope User Guide](#WorldWideTelescopeUserGuide)
