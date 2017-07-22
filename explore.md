@@ -142,7 +142,7 @@ Much more imagery data is available under **Explore &gt; Collections &gt; Planet
 | Demo Name | Description | Link |
 | :--- | :--- | :--- |
 | **WWT Web Client Hi-Def Planet Explorer** | Provides a range of options for exploring the surfaces of our Moon and Mars. Thousands of surface features, including craters, mountains, valleys, seas, plains, ridges and depressions, are available to step through, sort, search and view. Make sure to select the correct planet or moon in the **Look At** and **Imagery** drop down lists, after starting the program. | [**Run**](http://www.worldwidetelescope.org/docs/Samples/wwtwebclientplanetexplorer.html) |
-| **WWT Web Client Distant Planet Explorer**  Provides a range of options for exploring the surfaces of Mercury, Venus, and the four main moons of Jupiter: IO, Ganymede, Europa and Callisto. Hundreds of surface features, are available to step through, sort, search and view. Make sure to select the correct planet or moon in the **Look At** and **Imagery** drop down lists, after starting the program. | [**Run**](http://www.worldwidetelescope.org/docs/Samples/wwtwebclientdistantplanetexplorer.html) |
+| **WWT Web Client Distant Planet Explorer** | Provides a range of options for exploring the surfaces of Mercury, Venus, and the four main moons of Jupiter: IO, Ganymede, Europa and Callisto. Hundreds of surface features, are available to step through, sort, search and view. Make sure to select the correct planet or moon in the **Look At** and **Imagery** drop down lists, after starting the program. | [**Run**](http://www.worldwidetelescope.org/docs/Samples/wwtwebclientdistantplanetexplorer.html) |
 
 ## Sky
 
@@ -257,9 +257,10 @@ In this tutorial you'll learn how to use the search features of WorldWide Telesc
 
    **Note**: the Messier Catalog referenced in this tutorial can be viewed in full in the Web Client version of WorldWide Telescope, using the following program.
 
-Demo Name \| Description \| Link  
-**WWT Web Client Messier Catalog** \|  
-All 110 objects in this famous catalog can be viewed, displayed as a slide show, sorted and searched. \| [**Run**](http://www.worldwidetelescope.org/docs/Samples/wwtwebclientmessiercatalog.html)
+ | Demo Name | Description | Link |
+ | :--- | :--- | :--- |
+| **WWT Web Client Messier Catalog** |  
+All 110 objects in this famous catalog can be viewed, displayed as a slide show, sorted and searched. | [**Run**](http://www.worldwidetelescope.org/docs/Samples/wwtwebclientmessiercatalog.html) |
 
 ### Tutorial: The Sky Tonight
 
@@ -522,19 +523,19 @@ This section describes how to add your own 3D models to WorldWide Telescope.
 ## Keyboard Shortcuts
 
 The following keys are alternatives to using the mouse or joystick in any view, or provide additional functionality:
-
-Key \| Effect  
- Page Up \(or -\) \| Zoom out  
- Page Down \(or +\) \|  Zoom in  
- Arrow Up \| Rotate up  
- Arrow Down \| Rotate down  
- Arrow Left \| Rotate left  
- Arrow Right \| Rotate right  
- Shift + zoom  \(Page Up/Down\) \| Zoom slowly  
- Shift + pan \(Arrow\) \| Pan at a constant altitude  
- Esc \| Pause a tour.  
- F5 \| Refresh the view.  
- F11 \| Toggle between full screen and windowed mode.
+| Key | Effect |
+| :--- | :--- |
+| Page Up \(or -\) | Zoom out  |
+| Page Down \(or +\) |  Zoom in |
+| Arrow Up | Rotate up  |
+| Arrow Down | Rotate down |  
+| Arrow Left | Rotate left  |
+| Arrow Right | Rotate right |
+| Shift + zoom  \(Page Up/Down\) | Zoom slowly  |
+| Shift + pan \(Arrow\) | Pan at a constant altitude  |
+| Esc | Pause a tour.  |
+| F5 | Refresh the view. |  
+| F11 | Toggle between full screen and windowed mode. |
 
 ## Xbox Controller
 
@@ -544,18 +545,13 @@ As an alternative to using the mouse, a USB wired Xbox controller can be used to
 
 The following table provides the purpose of the controller buttons:
 
-Button \|Purpose
-
-**Right Trigger** \| Zoom in.  
- **Left Trigger** \| Zoom out.  
- **Left Thumbstick** \| Pan and scroll.  
- **Right Thumbstick** \| Rotate.  
- **Left Bumper** \|  
- **Right Bumper** \| In Sky view each click will step through the objects in the context search.  
-In the 3D Solar System view each click will step through the planets and moons of the solar system.  
- **Directional Pad**  
- **Back and Start buttons**  
- **A X Y and B buttons**
+| Button |Purpose |
+| :--- | :--- |
+| **Right Trigger** | Zoom in.  |
+| **Left Trigger** | Zoom out.  |
+| **Left Thumbstick** | Pan and scroll.  |
+| **Right Thumbstick** | Rotate.  |
+| **Left Bumper**, **Right Bumper** | In Sky view each click will step through the objects in the context search. In the 3D Solar System view each click will step through the planets and moons of the solar system.  |
 
 Other compatible joystick controllers can also be used. If more than one is connected though, there may be conflicts, so for best results only one controller should be connected.
 
