@@ -1,5 +1,5 @@
 {
     "plugins": [
-        "image-captions", "gistrun"
+        "image-captions"
     ]
 }
