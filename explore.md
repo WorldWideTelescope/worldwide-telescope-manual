@@ -24,10 +24,7 @@ Use the **Imagery** menu to choose from the available imagery options, including
 This image of Hawaii is obtained from the **Virtual Earth Hybrid** imagery:
 ![](uiimages/TheEarth.jpg)
 
-
-### Earth Tutorials
-
-#### Tutorial: Comparing Night and Day
+### Tutorial: Comparing Night and Day
 
 There are several imagery options for the Earth, including aerial photography, streets, a hybrid of these two, and a night view. The night imagery is the simplest, yet it reveals information that the other views do not convey as well. In this tutorial we'll examine relative population density by comparing night and day images.
 
@@ -57,9 +54,8 @@ Use **View**, **Reset Camera** to restore the default view and settings.
 Some moons are available under the **Planet** imagery, including Io, one of the best known of Jupiter's many moons:
 ![](uiimages/Io.jpg)
 
-### Planet Tutorials
 
-#### Tutorial: Locating Olympus Mons
+### Tutorial: Locating Olympus Mons
 
 Olympus Mons is the tallest mountain on Mars (and indeed the Solar System). At a colossal 17 miles high it is three times higher than Everest. The following tutorial locates the mountain:
 
@@ -72,7 +68,7 @@ Olympus Mons is the tallest mountain on Mars (and indeed the Solar System). At a
 5.  Olympus Mons is a _shield_ volcano, approximately 340 miles wide. The most recent volcanic activity is estimated at 2 million years ago, so it is difficult to classify the volcano as extinct. One theory for the huge size of the mountain is that Mars does not have tectonic plates, so there is no gradual crust movement to recycle the surface.  However this theory is countered by the three mountains in a line, which suggests a plate edge. The three smaller mountains are also volcanoes and are named  Arsia Mons, Pavonis Mons  and Ascraeus Mons, though they are smaller only in relation to Olympus Mons (Arsia Mons - the southernmost - is the tallest at about 12 miles high, Pavonis Mons - the middle of the three - the shortest at 8.6 miles, and Ascraeus Mons - the northernmost - is about 11 miles high).
 6.  Other surface features of Mars to look for include the great canyon, Valles Marineris, which runs along the equator and is over 2500 miles long. It is the deepest known crevice in the Solar System. Mars is also known for its plains, polar caps, and clear signs of water and wind erosion. Mars' surface temperature is quite cold, ranging from -140 to 20 Celsius. Its atmosphere is mostly carbon dioxide, but there is enough water vapor to form the occasional clouds.
 
-#### Tutorial: Comparing Surface Features of the Solar System
+### Tutorial: Comparing Surface Features of the Solar System
 
 Highly detailed surface images and elevation data are currently only available for the Earth, our Moon, and Mars. However, there is enough detail on many of the solar system planets and moons to locate their most notable features.
 
@@ -187,10 +183,7 @@ Also check the **Constellation Lines** and **Experience** options in the [The Se
 
 Use **View > Reset Camera** to restore a default view and settings.
 
-
-### Sky Tutorials
-
-#### Tutorial: Tracking a Conjunction
+### Tutorial: Tracking a Conjunction
 
 A conjunction occurs when two or more objects in the sky appear close to each other. The following tutorial tracks a conjunction between the crescent Moon, Jupiter and Venus that occurred on 1st December 2008.
 
@@ -206,7 +199,7 @@ A conjunction occurs when two or more objects in the sky appear close to each ot
 Conjunctions are a visually interesting phenomenon that usually involve near-Earth objects. To examine a range of distant features of the known universe, try the following tutorial, or select the examples in the [Context Search](#ContextSearch) table.
 
 
-#### Tutorial: Visiting the Neighbors
+### Tutorial: Visiting the Neighbors
 
 In this tutorial you'll learn how to use the search features of WorldWide Telescope to locate our stellar neighbors.
 
@@ -276,7 +269,7 @@ Demo Name | Description | Link
 All 110 objects in this famous catalog can be viewed, displayed as a slide show, sorted and searched. | **[Run](http://www.worldwidetelescope.org/docs/Samples/wwtwebclientmessiercatalog.html)**
 
 
-#### Tutorial: The Sky Tonight
+### Tutorial: The Sky Tonight
 
 This tutorial shows how to use WorldWide Telescope to plan an evening's astronomical observing. In the first set of steps, you'll learn how to set your location, and track the sun to determine the ideal time to begin viewing. Complete the tutorial by following the steps to help locate common objects in either the [Northern Hemisphere](#NorthernHemisphere), or [Southern Hemisphere](#SouthernHemisphere).
 
@@ -295,7 +288,7 @@ This tutorial shows how to use WorldWide Telescope to plan an evening's astronom
 1.  The plotted results for the Solar System will include our own moon. It is a beautiful object to look at and it can be so bright it dominates the night sky. Click the Moon's thumbnail in the search results panel. Now you can see whether the Moon will be above or below the horizon, what phase it will be in, and what other objects it will be near.
 1.  Outside of the Solar System, look for constellations and [asterisms](http://dictionary.reference.com/browse/asterism).
 
-##### Northern Hemisphere
+#### Northern Hemisphere
 
 1.  Look to the north to find the Big Dipper, stars part of the constellation Ursa Major. The ladle of the dipper has two stars that can be used to point to Polaris, the north star. Polaris is very close to the Earth's rotational axis, so it will be in the northern sky at an elevation equal to an observer's latitude all day and night. Polaris is a _Cepheid variable star_, a star with a pulsating outer atmosphere, making it slightly brighter and then dimmer depending mostly on its changing surface area.
 
@@ -312,9 +305,7 @@ This tutorial shows how to use WorldWide Telescope to plan an evening's astronom
 
 That completes the Sky Tonight tutorial. Take your notes outside at the calculated time, and scan the skies!
 
-
-
-##### Southern Hemisphere
+#### Southern Hemisphere
 
 1.  If you are in the Southern hemisphere, there is an equally great variety of objects to look for. The two galaxies, the Large Magellanic Cloud and Small Magellanic Cloud, may be in view. These galaxies may be satellites of the Milky Way - or may just be passing through - or may even be attempting to pass by but in fact will become satellites. As big as the Large Magellanic Cloud is, it is about one tenth the mass of the Milky Way. These galaxies are fairly close to the bright star Canopus.
 
@@ -332,7 +323,7 @@ The bright star mentioned above, Rigil Kentaurus, along with its nearly-as-brigh
 That completes the Sky Tonight tutorial. Take your notes outside at the calculated time, and scan the skies!
 
 
-#### Tutorial: Astronomy Terminology
+### Tutorial: Astronomy Terminology
 
 In this tutorial WorldWide Telescope is used to demonstrate the purpose behind some of the most commonly used terms in astronomy.
 
@@ -413,12 +404,7 @@ Use **View > Reset Camera** to restore the default view and settings.
  ![](uiimages/Panorama.jpg)
 
 
-### Panorama Tutorials
-
-*   [Tutorial: Comparing Styles of Panorama](#TutorialComparingStylesofPanorama)
-
-
-#### Tutorial: Comparing Styles of Panorama
+### Tutorial: Comparing Styles of Panorama
 
 There is much less expanse to explore in panoramas than in the other viewing options. In most cases rotating the view will cover most of the content fairly quickly. The following tutorial simply goes through a number of the different panoramas, showing different presentation styles.
 
@@ -476,10 +462,7 @@ Use the mouse wheel to zoom out from the Solar System to view the Cosmos, pausin
 
 ![](uiimages/milkyway.jpg)
 
-
-### Solar System Tutorials
-
-#### Tutorial: Tracking a Solar Eclipse
+### Tutorial: Tracking a Solar Eclipse
 
 A solar eclipse occurs when the Moon passes in front of the Sun, as seen from some locations on Earth. The result is a spectacular mid-day darkness along a path across the Earth. To view the effect in WorldWide Telescope, go through the following procedure:
 
