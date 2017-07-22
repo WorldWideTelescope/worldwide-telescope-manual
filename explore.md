@@ -141,15 +141,8 @@ Much more imagery data is available under **Explore &gt; Collections &gt; Planet
 
 | Demo Name | Description | Link |
 | :--- | :--- | :--- |
-|  |  |  |
-|  |  |  |
-
-Demo Name \|  Description \| Link
-
-**WWT Web Client Hi-Def Planet Explorer**  Provides a range of options for exploring the surfaces of our Moon and Mars. Thousands of surface features, including craters, mountains, valleys, seas, plains, ridges and depressions, are available to step through, sort, search and view. \| Make sure to select the correct planet or moon in the **Look At** and **Imagery** drop down lists, after starting the program. \|  
-  [**Run**](http://www.worldwidetelescope.org/docs/Samples/wwtwebclientplanetexplorer.html)
-
-**WWT Web Client Distant Planet Explorer**  Provides a range of options for exploring the surfaces of Mercury, Venus, and the four main moons of Jupiter: IO, Ganymede, Europa and Callisto. Hundreds of surface features, are available to step through, sort, search and view. \| Make sure to select the correct planet or moon in the **Look At** and **Imagery** drop down lists, after starting the program. \| [**Run**](http://www.worldwidetelescope.org/docs/Samples/wwtwebclientdistantplanetexplorer.html)
+| **WWT Web Client Hi-Def Planet Explorer** | Provides a range of options for exploring the surfaces of our Moon and Mars. Thousands of surface features, including craters, mountains, valleys, seas, plains, ridges and depressions, are available to step through, sort, search and view. Make sure to select the correct planet or moon in the **Look At** and **Imagery** drop down lists, after starting the program. | [**Run**](http://www.worldwidetelescope.org/docs/Samples/wwtwebclientplanetexplorer.html) |
+| **WWT Web Client Distant Planet Explorer**  Provides a range of options for exploring the surfaces of Mercury, Venus, and the four main moons of Jupiter: IO, Ganymede, Europa and Callisto. Hundreds of surface features, are available to step through, sort, search and view. Make sure to select the correct planet or moon in the **Look At** and **Imagery** drop down lists, after starting the program. | [**Run**](http://www.worldwidetelescope.org/docs/Samples/wwtwebclientdistantplanetexplorer.html) |
 
 ## Sky
 
@@ -582,4 +575,3 @@ The **Open** options enable the opening of a tour, a data collection, an image \
 Clicking **Show Finder** will bring up [The Finder Scope](#TheFinderScope).
 
 Clicking **Getting Started** links to this User Guide, **WorldWide Telescope Home Page** links to the website.
-
