@@ -48,7 +48,7 @@ The **Finder Scope** is a pane designed to help you fix on and research a partic
 
 Certain celestial objects, when pointed to, display a circle and a name. This indicates that the object is in one of the databases that WorldWide Telescope links to. Right-click the object to display the **Finder Scope.** With the **Finder Scope**, you can refine your search in the field of view, or research your selected object from online references.
 
-You can also view the object's image from the [DSS](#digitized-sky-survey) or [SDSS](#sloan-digital-sky-survey) archive, download its DSS [FITS](#fits-images) file, or run a [USNO](http://www.us-vo.org) NVO cone search for objects near the selected object.
+You can also view the object's image from the [DSS](#digitized-sky-survey) or [SDSS](#sdss-sloan-digital-sky-survey) archive, download its DSS [FITS](#fits-images) file, or run a [USNO](http://www.us-vo.org) NVO cone search for objects near the selected object.
 
 If you find an object you wish to research further, try not to move the **Finder Scope** as the RA and Dec will change, so if you then click **Research** for example, this will use the new values and not those of the object.
 
@@ -59,9 +59,9 @@ An object in space may have multiple names: **Ksora** and **HIP6686** in the exa
 
 Click **Show object** to return to the view of the object if for any reason the view no longer shows it.
 
-The properties of the object (**RA**, **Dec**, **Alt** and so on), are explained in the [Astronomy Terminology](#TutorialAstronomyTutorial) tutorial.
+The properties of the object (**RA**, **Dec**, **Alt** and so on), are explained in the [Astronomy Terminology](explore.md#tutorial-astronomy-tutorial) tutorial.
 
-Refer also to the note: [Viewing from a new location](#viewing-from-a-new-location).
+Refer also to the note: [Viewing from a new location](viewmenu.md#viewing-from-a-new-location).
 
 Both the **X** in the top right corner, and the **Close** button, close the **Finder Scope**.
 ![](uiimages/FinderScopeExpandedMenu.jpg)
@@ -88,7 +88,7 @@ The **Set as Foreground Imagery**, **Set as Background Imagery**, and **Remove f
 [**FITS**](#fits-images): Flexible Image Transport System image, commonly used in astronomy because of its ability to store human-readable metadata.
  |
 | Virtual Observatory Searches
-![](uiimages/FinderScopeVO.jpg) | Refer to the [Virtual Observatory Tables](#VirtualObservatoryTables) example below. |
+![](uiimages/FinderScopeVO.jpg) | Refer to the [Virtual Observatory Tables](#virtual-observatory-tables) example below. |
 | SAMP options
 ![](uiimages/FinderScopeSampMenu.jpg) | Send the image or table data to **Broadcast** to be picked up by all other [SAMP](http://www.ivoa.net/Documents/WD/App/SAMP-20080625.html) compliant programs you are running. |
 
@@ -170,7 +170,7 @@ A comprehensive sky survey in the visible wavelength, first published in 1994\. 
 
 #### Hipparcos Catalog
 
-Hipparcos is the name of a European Space Agency Mission and Satellite that took images from 1989 to 1993 and accurately catalogued 118,218 stars. Taken from space, the measurements avoided the gravitational, atmospheric and thermal distortions that were limiting ground based telescopes. The error in the positioning of stars in this catalog is under 0.001 arc seconds. An auxiliary star mapper pinpointed many more stars with lesser but still considerable accuracy at 0.03 arc seconds. Known as the [Tycho Catalog](#tycho) this identified 1,058,332 stars.
+Hipparcos is the name of a European Space Agency Mission and Satellite that took images from 1989 to 1993 and accurately catalogued 118,218 stars. Taken from space, the measurements avoided the gravitational, atmospheric and thermal distortions that were limiting ground based telescopes. The error in the positioning of stars in this catalog is under 0.001 arc seconds. An auxiliary star mapper pinpointed many more stars with lesser but still considerable accuracy at 0.03 arc seconds. Known as the [Tycho Catalog](#tycho-Synthetic- optical) this identified 1,058,332 stars.
 ![](uiimages/survey_hipparcos.jpg)
 
 
@@ -227,7 +227,7 @@ The Tycho-2 catalog is based on a mix of 1991 space-based data from the European
 
 #### USNOB: US Naval Observatory B1.0 (Synthetic, Optical)
 
-The US Naval Obersvatory-B1.0 is a catalog of 1,042,618,261 objects. The data were obtained from scans of 7,435 Schmidt plates taken for the various sky surveys during the last 50 years by the Precision Measuring Machine (PMM) at the US Naval Observatory in Flagstaff, Arizona. The originating plate material includes five complete coverages of the northern sky and four of the southern sky To be included in the catalog, an object must have been detected on two different surveys, to avoid the unreliability of single detections. The [Tycho-2 Catalog](#tycho) is the astrometric reference. The USNO-B1.0 is believed to provide all-sky coverage, completeness down to 0.2 arc second astrometric accuracy at J2000, 0.3 magnitude photometric accuracy in up to five colors, and 85% accuracy for distinguishing stars from non-stellar objects. 
+The US Naval Obersvatory-B1.0 is a catalog of 1,042,618,261 objects. The data were obtained from scans of 7,435 Schmidt plates taken for the various sky surveys during the last 50 years by the Precision Measuring Machine (PMM) at the US Naval Observatory in Flagstaff, Arizona. The originating plate material includes five complete coverages of the northern sky and four of the southern sky To be included in the catalog, an object must have been detected on two different surveys, to avoid the unreliability of single detections. The [Tycho-2 Catalog](#tycho-Synthetic- optical) is the astrometric reference. The USNO-B1.0 is believed to provide all-sky coverage, completeness down to 0.2 arc second astrometric accuracy at J2000, 0.3 magnitude photometric accuracy in up to five colors, and 85% accuracy for distinguishing stars from non-stellar objects. 
 ![](uiimages/survey_USNaval.jpg)
 
 
