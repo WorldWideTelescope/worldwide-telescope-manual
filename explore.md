@@ -89,13 +89,10 @@ Much more imagery data is available under **Explore &gt; Collections &gt; Planet
 
 3. Earth
 
-   Refer to [Earth](#ExploreEarth).  
    Our solitary moon is old and heavily cratered, one of the best known craters is called Copernicus. It can be located visually using the **Explore &gt; Collections &gt; Planets/Moons** data \(noting the three craters in a near line\), or from its latitude and longitude:  
    ![](uiimages/CopernicusCrater.jpg)
 
 4. Mars
-
-   See the description in the [Locating Olympus Mons](#TutorialLocatingOlympusMons) tutorial.
 
    Mars has two moons, Phobos and Deimos. Some image data is available, find the thumbnails in the **Explore &gt; Collections &gt; Planets/Moons** data. Currently they are not represented in the **Sky** or **SolarSystem** views. Deimos is notable for its smooth surface:  
    ![](uiimages/Deimos.jpg)
@@ -162,7 +159,7 @@ By default the **Explore &gt; Collections** options are shown in the top panel. 
 
 ![](uiimages/HubbleStudies.jpg)
 
-These images are detailed individual \(or composite\) pictures of the objects, and will be rendered over the background sky image. Note the down arrow in the lower right of the image. This can be used to show a much larger top panel, with many more thumbnails present. Interesting comparisons can be made by using the cross-fade slider \(located in the lower panel\) to compare the image you have loaded with the [Sky Survey](#SkySurveys).  
+These images are detailed individual \(or composite\) pictures of the objects, and will be rendered over the background sky image. Note the down arrow in the lower right of the image. This can be used to show a much larger top panel, with many more thumbnails present. Interesting comparisons can be made by using the cross-fade slider \(located in the lower panel\) to compare the image you have loaded with the [Sky Survey](astronomicalresearch.md#sky-surveys).  
 ![](uiimages/ImageCrossfade.jpg)
 
 Note that Collections data can be in various modes; most are in the **Sky** view. When selecting an object from a collection the **Look At** mode will be switched to the appropriate view automatically.
@@ -173,9 +170,9 @@ If there are too many context thumbnails to scroll though, use the up arrow to s
 ![](uiimages/MaxContext.jpg)  
 Click in the globe, then drag the mouse, to change the field of view relative to the Celestial Sphere. Click in the constellation box to center the view on that constellation -- Draco in this example:  
 ![](uiimages/CelestialSphere.jpg)  
-All of the [The View Menu](#TheViewMenu) options apply to the Sky view, except the **3d Solar System** pane. In particular refer to the [Observing Location](#ObservingLocation) pane to select a different viewpoint on Earth.
+All of the [The View Menu](viewmenu.md) options apply to the Sky view, except the **3d Solar System** pane. In particular refer to the [Observing Location](viewmenu.md#observing-location) pane to select a different viewpoint on Earth.
 
-Also check the **Constellation Lines** and **Experience** options in the [The Settings Menu](#TheSettingsMenu).
+Also check the **Constellation Lines** and **Experience** options in the [The Settings Menu](settingsmenu.md).
 
 Use **View &gt; Reset Camera** to restore a default view and settings.
 
@@ -192,17 +189,17 @@ A conjunction occurs when two or more objects in the sky appear close to each ot
 7. Zoom in a bit on the Moon, which is right in the center of Sagittarius.
 8. The crescent Moon makes a smiley face with Venus and Jupiter. Note that to show both annotations the following image is a composite of two screenshots. ![](uiimages/ConjunctionMoonVenusJupiter.jpg)
 
-Conjunctions are a visually interesting phenomenon that usually involve near-Earth objects. To examine a range of distant features of the known universe, try the following tutorial, or select the examples in the [Context Search](#ContextSearch) table.
+Conjunctions are a visually interesting phenomenon that usually involve near-Earth objects. To examine a range of distant features of the known universe, try the following tutorial, or select the examples in the [Context Search](astronomicalresearch.md#context-search) table.
 
 ### Tutorial: Visiting the Neighbors
 
 In this tutorial you'll learn how to use the search features of WorldWide Telescope to locate our stellar neighbors.
 
-1. In the **Look At** list ensure that **Sky** is selected, and in the **Imagery** list select the [**Hipparcos Catalog**](#HipparcosCatalog).
+1. In the **Look At** list ensure that **Sky** is selected, and in the **Imagery** list select the [**Hipparcos Catalog**](astronomicalresearch.md#hipparcos-catalog).
 2. In the **View** pane ensure **View from this location** is not selected.
 3. Outside of the Solar System, the nearest known star to Earth is so dim it is impossible to see with the naked eye. The star, Proxima Centauri, is about 4.2 light years distant. It has two very bright neighbors known either as Alpha Centauri \(A and B\) or Rigil Kentaurus. To locate these click [**Search**](#TheSearchPanel) so that the search panel appears, and type "Prox" into the search text box. Note that the search narrows as you enter each letter, and it is only necessary to enter a few to locate this star. Double click the thumbnail to jump to the location. ![](uiimages/ProximaCentauri.jpg) The image shows that there can be some discrepancy between the recorded position of a star, and its location on a photograph.
 
-   Proxima Centauri has an apparent magnitude of around 11.05. This is on a [Stellar Brightness](#StellarBrightness) logarithmic scale \(the higher the numbers, the lower the brightness\). A value of 11 is 2.5 times dimmer than a value of 10, which is 2.5 times dimmer than a value of 9, and so on.
+   Proxima Centauri has an apparent magnitude of around 11.05. This is on a [Stellar Brightness](astronomyresearch.md#stellar-brightness) logarithmic scale \(the higher the numbers, the lower the brightness\). A value of 11 is 2.5 times dimmer than a value of 10, which is 2.5 times dimmer than a value of 9, and so on.
 
 4. Use the mouse wheel to zoom out from Proxima Centauri until the bright stars of Alpha Centuari and Hadar appear \(Hadar is also known as Beta Centauri\). Notice that Proxima Centauri is no longer visible. Hadar has a brightness magnitude of 0.61 \(Rigil Kentaurus is even brighter at -0.01\) and Proxima Centauri has a brightness magnitude of 11.05, which makes Hadar 15000 times more bright than Proxima Centauri. Our nearest star is certainly not the brightest!
 
@@ -213,7 +210,7 @@ In this tutorial you'll learn how to use the search features of WorldWide Telesc
    However, Canopus is 308 light years distant from us, and Sirius only 8.6 light years, so Canopus would appear much brighter if it were not so distant.
 
 1. Another interesting nearby star is Epsilon Eridani. At a distance of 10.5 light years, and with an apparent magnitude of 3.73, it is often visible to the naked eye. Early observations of the star suggested, but did not confirm, that it is the nearest star with a planet - a gas giant similar to but larger than Jupiter - in a 7 Earth-year orbit. Search "Epsilon Eridani" to locate the star. Measurements using the Hubble Space Telescope have since confirmed the planet's existence. Planets are very difficult to detect because they are lost in the glare of their parent star. Their presence is usually inferred from a wobble in the star's movement \(suggesting a nearby gravitational tug\), or by coincidence when the planet crosses in front of the star from our viewpoint and alters the star's brightness to a degree. Because of these limitations in detection, most of the nearly 400 planets so far located are Jupiter-like in size. The nearest Earth-like planet so far detected orbits the red-dwarf star Gliese 581, located 20 light years from Earth. Good images of planets are very hard to come by.
-2. Visiting the nearest galaxy requires some definition. Large galaxies like the Milky Way have many smaller satellite galaxies, usually called dwarf galaxies. The nearest known dwarf galaxy is Canis Major Dwarf, about 25,000 light years distant from us. WorldWide Telescope does not yet have a single image of this galaxy, so we will visit instead the previous contender for the closest satellite galaxy, the Sagittarius Dwarf Elliptical Galaxy, believed to be around 70,000 light years from here. Change the **Imagery** selection from Hipparcos to the [**Digitized Sky Survey**](#DigitizedSkySurvey) and type "Sagittarius Dwarf" into the search text box.  
+2. Visiting the nearest galaxy requires some definition. Large galaxies like the Milky Way have many smaller satellite galaxies, usually called dwarf galaxies. The nearest known dwarf galaxy is Canis Major Dwarf, about 25,000 light years distant from us. WorldWide Telescope does not yet have a single image of this galaxy, so we will visit instead the previous contender for the closest satellite galaxy, the Sagittarius Dwarf Elliptical Galaxy, believed to be around 70,000 light years from here. Change the **Imagery** selection from Hipparcos to the [**Digitized Sky Survey**](astronomicalresearch.md#digitized-sky-survey) and type "Sagittarius Dwarf" into the search text box.  
    ![](uiimages/SagittariusDwarfGalaxy.jpg)
 
    The Sagittarius Dwarf Elliptical Galaxy is very faint as it currently resides on the opposite side of the galactic core of the Milky Way. It is set to pass through the Milky Way and will probably be absorbed entirely into the larger galaxy.
@@ -223,7 +220,7 @@ In this tutorial you'll learn how to use the search features of WorldWide Telesc
 
    Zoom in on the **Star Forming Region in the Large Magellanic Cloud**. Sometimes classified as irregular, this galaxy may have been a barred spiral galaxy before succumbing to the tidal forces of the gravity of the Milky Way.
 
-4. The galaxy most often quoted as our nearest neighbor is the Andromeda galaxy. This behemoth of a galaxy contains an estimated one trillion stars, and is so bright it is one of the furthest objects \(at 2.5 Million light years\) that can be seen from Earth with the naked eye. Despite having many more stars than the Milky Way it is calculated to have about the same mass, because of the greater amount of dark matter in the Milky Way. The two giant galaxies are set to collide in the distant future \(the subject of a [guided tour](#GuidedTours) in WorldWide Telescope\). The Andromeda galaxy is also well known by its Messier Catalog name, M31. Type "M31" into the search text box. ![](uiimages/Andromeda.jpg)
+4. The galaxy most often quoted as our nearest neighbor is the Andromeda galaxy. This behemoth of a galaxy contains an estimated one trillion stars, and is so bright it is one of the furthest objects \(at 2.5 Million light years\) that can be seen from Earth with the naked eye. Despite having many more stars than the Milky Way it is calculated to have about the same mass, because of the greater amount of dark matter in the Milky Way. The two giant galaxies are set to collide in the distant future \(the subject of a [guided tour](guidedtours.md) in WorldWide Telescope\). The Andromeda galaxy is also well known by its Messier Catalog name, M31. Type "M31" into the search text box. ![](uiimages/Andromeda.jpg)
 
    The Andromeda galaxy is a classic spiral galaxy. It has at least 19 satellite galaxies in orbit, including M32 highlighted in the image, with M110 - an elliptical galaxy containing millions of stars - visible above the main body.
 
@@ -264,14 +261,14 @@ All 110 objects in this famous catalog can be viewed, displayed as a slide show,
 
 ### Tutorial: The Sky Tonight
 
-This tutorial shows how to use WorldWide Telescope to plan an evening's astronomical observing. In the first set of steps, you'll learn how to set your location, and track the sun to determine the ideal time to begin viewing. Complete the tutorial by following the steps to help locate common objects in either the [Northern Hemisphere](#NorthernHemisphere), or [Southern Hemisphere](#SouthernHemisphere).
+This tutorial shows how to use WorldWide Telescope to plan an evening's astronomical observing. In the first set of steps, you'll learn how to set your location, and track the sun to determine the ideal time to begin viewing. Complete the tutorial by following the steps to help locate common objects in either the [Northern Hemisphere](#northern-hemisphere), or [Southern Hemisphere](#southern-hemisphere).
 
 **To Set Location and Determine Optimal Viewing Time**
 
 1. Ensure that the **Look at** box has been set to **Sky**, and that the **Imagery** is set to **Digitized Sky Survey**.
 2. In the **View** panel, set the **Observing Location** and **Observing time** to match your viewing location \(Windows Client only; the Web Client will automatically use your present location\).
 3. Check the **View from this location** checkbox.
-4. Click **Search** and enter **Sun**. Click on the thumbnail for the Sun to track it. Right click on the Sun to bring up and track the [The Finder Scope](#TheFinderScope).
+4. Click **Search** and enter **Sun**. Click on the thumbnail for the Sun to track it. Right click on the Sun to bring up and track the [The Finder Scope](astronomicalresearch.md#the-finder-scope).
 5. Click **View** to bring back the view panel, and fast forward the observing time \(usually **x1000** works well\) while tracking the Sun. Faint stars and galaxies are best seen once the Sun is at least 18 degrees below the horizon. Pause the **Observing time** when the Sun's **Alt** is close to `-18:00:00`. Use reverse time if you overshoot! Now write down the **Observing Time** shown in the **View** panel.
 6. The sky now displayed by WorldWide Telescope is ready to be viewed. Keep your notebook handy to jot down the altitude and azimuth of any object that might be visible.
 7. Click on **Search** to bring up the search options again, type **Solar System**, but this time click the checkbox **Plot Results**. Now pan and zoom around the sky to see if any planets will be in view. The best time to observe a planet, neglecting weather conditions, is close to its transit time \(when it is at its highest point in the sky\).
@@ -337,7 +334,7 @@ In this tutorial WorldWide Telescope is used to demonstrate the purpose behind s
 
 5. The right ascension and declination of celestial objects do not change, unless the position of the objects changes relative to the coordinate system which of course they do, but very slowly, so slowly that it is only necessary to revise the coordinate system every 50 years. Each time a coordinate system is fixed, it is called an _epoch_. The current epoch, and the only one supported in WorldWide Telescope, is the **J2000** epoch - namely the position of the celestial objects and coordinate system at Noon on January 1st in the year 2000, at the Royal Observatory, Greenwich, England. The change to the J2000 epoch was made in 1984, as the positions of stars can be predicted accurately in advance of the actual year. There may of course be a change to the J2050 epoch, perhaps sometime after the year 2025.
 
-6. Of course stars and all other objects do appear to move in the sky, as a result of the rotation and orbit of the Earth. At any one moment the position of an object in the sky can be referenced by its _azimuth_ and _altitude_. Azimuth is similar to longitude or right ascension, in that it is an east-west bearing from true north. Altitude is an angle rather than a distance, it is the angle up or down from the horizon. By convention positive azimuth is to the east, negative to the west, and positive altitude is up from the horizon. Unlike right ascension and declination, azimuth and altitude change continuously. For example, open the **Search** panel, then enter **Sirius** in the search text box. When the bright star Sirius appears, zoom away from it until the view is from Earth \(that is, minimize the zoom completely\). Right-click on Sirius in the sky to bring up the [Finder Scope](#TheFinderScope).
+6. Of course stars and all other objects do appear to move in the sky, as a result of the rotation and orbit of the Earth. At any one moment the position of an object in the sky can be referenced by its _azimuth_ and _altitude_. Azimuth is similar to longitude or right ascension, in that it is an east-west bearing from true north. Altitude is an angle rather than a distance, it is the angle up or down from the horizon. By convention positive azimuth is to the east, negative to the west, and positive altitude is up from the horizon. Unlike right ascension and declination, azimuth and altitude change continuously. For example, open the **Search** panel, then enter **Sirius** in the search text box. When the bright star Sirius appears, zoom away from it until the view is from Earth \(that is, minimize the zoom completely\). Right-click on Sirius in the sky to bring up the [Finder Scope](astronmicalresearch.md#the-finder-scope).
 
    ![](uiimages/azimuthaltitude.jpg)
 
@@ -347,7 +344,7 @@ In this tutorial WorldWide Telescope is used to demonstrate the purpose behind s
 
    Altitude and azimuth are very useful values when aligning a physical telescope from Earth to locate a particular star or planet. The values are different for every view point on Earth, hence the usefulness of right ascension and declination as a fixed coordinate system.
 
-1. The **Magnitude** entry on the **Finder Scope** refers to the _apparent magnitude_ of the brightness of Sirius. For a description of what this means refer to the [Stellar Brightness](#StellarBrightness) section, or work through the [Tutorial: Visiting the Neighbors](#TutorialVisitingtheNeighbors) tutorial.
+1. The **Magnitude** entry on the **Finder Scope** refers to the _apparent magnitude_ of the brightness of Sirius. For a description of what this means refer to the [Stellar Brightness](astronmicalresearch.md#stellar-brightness) section, or work through the [Tutorial: Visiting the Neighbors](#tutorial-visiting-the-neighbors) tutorial.
 
 2. The **Distance** entry on the **Finder Scope** is the distance to the object in _light years_. A light year is an enormous distance. The speed of light in a vacuum is 186,282.397 miles per second \(a _light second_\), which works out to just under six trillion miles per year, approximately 5,878,500,000,000 \(186.282.397 x 60 x 60x 24 x 365.2424\) miles. The Sun is about 500 light seconds from Earth, the next nearest star is 4.2 light years away, or over 24 trillion miles. Occasionally space telescopes pick up events that help us visualize how sizeable a light year is in relation to the cosmos. For example, click **Explore**, then **Hubble Studies**, then click **Supernova1987A** .This will bring up a range of seven thumbnails. Click on the fifth, **Supernova1987A - 28th November 2003**. Now click on the sixth thumbnail, **Supernova1987A - 12th December 2004**.
 
@@ -445,7 +442,7 @@ Basic navigation is much easier using the lower panel thumbnails as the starting
 Three of the most visited objects in the virtual Universe, the Earth, the Moon and Saturn. For this particular image planet size is magnified to the maximum:  
 ![](uiimages/EarthMoonSun.jpg)
 
-Refer to the [3d Solar System](#3dSolarSystem) settings in the **View** pane. Of great interest is the [Observing Time](#ObservingTime) pane, which enables the planets to be set in motion \(more rapidly than in real time\) and orbits to be observed, and also, for expert users of WorldWide Telescope, eclipse times and locations to be identified \(see the [Tutorial: Tracking a Solar Eclipse](#TutorialTrackingaSolarEclipse)\).
+Refer to the [3d Solar System](#3d-solar-system) settings in the **View** pane. Of great interest is the [Observing Time](#ObservingTime) pane, which enables the planets to be set in motion \(more rapidly than in real time\) and orbits to be observed, and also, for expert users of WorldWide Telescope, eclipse times and locations to be identified \(see the [Tutorial: Tracking a Solar Eclipse](#tutorial-tracking-a-solar-eclipse)\).
 
 Use the mouse wheel to zoom out from the Solar System to view the Cosmos, pausing on the way to look at the Milky Way, noted for its two large spiral arms. The crosshairs show the position of the Solar System.
 
