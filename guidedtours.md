@@ -22,7 +22,7 @@ To pause a tour, click the Escape key. You are then free to explore at will. Whe
 
 To restart the tour, press the play arrow in the top left corner of the screen. If the tour is not visible in the top panel, click the name of the tour in the menu bar to bring it up.
 
-Note the thumbnails in the top panel show the tour stops (the large **M** that appears in the first image indicates that this is a master slide - refer to [Creating a Tour](#CreatingaTour) for more details).
+Note the thumbnails in the top panel show the tour stops (the large **M** that appears in the first image indicates that this is a master slide - refer to [Creating a Tour](#creating-a-tour) for more details).
 
 ![](uiimages/Tours_Running.jpg)
 
@@ -41,11 +41,11 @@ To navigate the folders of tours click on the thumbnails to open up folders and 
 ### Notes
 
 *   There are other ways to start a tour. For example from the **Explore > Open > Tour...** menu, from community data, and from other data collections that contain tours.
-*   When a tour is selected, a copy of it is downloaded to your local computer, and the entry **Save Tour As...** is added to the [Guided Tours Menu Entries](#GuidedToursMenuEntries). This tour can then be played again without internet access, and edited (though be mindful of copyright and ownership issues).
+*   When a tour is selected, a copy of it is downloaded to your local computer, and the entry **Save Tour As...** is added to the [Guided Tours Menu Entries](#guided-tours-menu-entries). This tour can then be played again without internet access, and edited (though be mindful of copyright and ownership issues).
 
 ### Playing Tours in Demo Mode
 
-Refer to the [Guided Tours Menu Entries](#GuidedToursMenuEntries) section for details on how to play one or more tours in demo mode (that is, continuously).
+Refer to the [Guided Tours Menu Entries](#guided-tours-menu-entries) section for details on how to play one or more tours in demo mode (that is, continuously).
 
 ## Creating a Tour
 
@@ -72,7 +72,7 @@ Adding slides to your tour could hardly be easier. Simply navigate to where you 
 
 The key editing elements are to the right of the image above. **Tour Properties** will bring up the original properties dialog, for editing. **Music**, **Voiceover**, **Text**, **Shapes** and **Picture** items can be added to the slide. The **Show Safe Area** checkbox can be used if you are using a wide screen, but plan on the tour being fully visible to users of narrower screens - checking it simply shades out the wider area.
 
-*   **Music**: MP3 and WMA files are the supported formats for both music and voice. Browse for a suitable piece. Note that there are not fade-in, fade-out or other sound effects available in WorldWide Telescope, so applying effects must be done independently in audio editing software. Only volume can be adjusted while editing a tour. If a piece of music is attached to an individual slide, and the piece is longer than the slide display time, the music will cut off suddenly at the end of the slide. The recommended approach is to attach music to the starting [Master Slide](#MasterSlides), so that the music runs without glitches throughout the tour. Start by completing a silent version of the tour, so you know exactly how long the tour is, then locate suitable music and apply fading and perhaps other effects (using quality music editing software) and finally apply it to the tour when the music and tour are in a completed state.  Note that the entire music file is embedded in the tour binary, so it is a good idea to fade out and truncate the music at exactly the right time, so as not to store unnecessary data.
+*   **Music**: MP3 and WMA files are the supported formats for both music and voice. Browse for a suitable piece. Note that there are not fade-in, fade-out or other sound effects available in WorldWide Telescope, so applying effects must be done independently in audio editing software. Only volume can be adjusted while editing a tour. If a piece of music is attached to an individual slide, and the piece is longer than the slide display time, the music will cut off suddenly at the end of the slide. The recommended approach is to attach music to the starting [Master Slide](#master-slides), so that the music runs without glitches throughout the tour. Start by completing a silent version of the tour, so you know exactly how long the tour is, then locate suitable music and apply fading and perhaps other effects (using quality music editing software) and finally apply it to the tour when the music and tour are in a completed state.  Note that the entire music file is embedded in the tour binary, so it is a good idea to fade out and truncate the music at exactly the right time, so as not to store unnecessary data.
 *   **Voiceover**: Use a similar procedure as for music, recording and editing the audio using quality software. The Sound Recorder accessory provided with Windows can be used to create voiceovers if you have a microphone attached to your computer, but without any editing features it is of limited utility. The difference between voiceovers and music is that voiceovers _should_ be applied to each individual slide, to get the timing right. Both music and voice can be rendered simultaneously, though adjust the volumes appropriately.
 *   **Text**: Enter the text into the dialog, along with font and color information. Note that the text can be resized on the slide, so there is no need to get the point size perfect within this dialog. If a background color is required for the text, select one after clicking on the palette icon in the text dialog. Add line breaks by pressing ENTER where required.
 
@@ -92,7 +92,7 @@ The key editing elements are to the right of the image above. **Tour Properties*
 
     **Animate** enables the movement, recoloring and resizing of text, shapes or pictures. To animate an object, first move it, size it and color it at the location in the view you wish it to start. Then click **Animate**. Then drag the object to the location you wish the animation to end, and recolor and resize the object if required. Then deselect the object. Animations are only enabled between a starting point and an ending point. Right-click the slide you are working on, select **Preview Tour From Here...** and test the animations. Each animated object should smoothly move, recolor and resize over the time period assigned to the slide.
 
-*   **Picture**: Jpeg, Tiff, Png and [FITS](#FITSImages) still images can be added to the slide. Similar to text and shape entries, picture entries can be resized and rotated on the slide. The same right click menu available for **Shapes** can be used with pictures.
+*   **Picture**: Jpeg, Tiff, Png and [FITS](#fits-images) still images can be added to the slide. Similar to text and shape entries, picture entries can be resized and rotated on the slide. The same right click menu available for **Shapes** can be used with pictures.
 
 ### Slide Editing Menu
 
@@ -158,7 +158,7 @@ Tours can be sent by email to friends and colleagues. A tour is stored in a .wtt
 
 An interactive tour is a tour where the user is required to give feedback. This feedback could be in response to a menu of possible selections, such as in a quiz with multiple choice answers, or even as simple as "where do you want to go from here?". The main difference between an interactive tour and a normal tour is that an interactive tour will not follow a set sequence of events, but will instead jump from one stop on the tour to another that has been selected by the user, or is in response to input from the user.
 
-The basic process for creating an interactive tour is very similar to that of creating any other tour, this section just covers the differences. So if you are not familiar with the process of creating a tour, start with the [Creating a Tour](#CreatingaTour) section.
+The basic process for creating an interactive tour is very similar to that of creating any other tour, this section just covers the differences. So if you are not familiar with the process of creating a tour, start with the [Creating a Tour](#creating-a-tour) section.
 
 Scenarios for interactive tours include providing "Back" buttons in normal tours, creating coursework quizzes - perhaps at the end of a normal tour, the students can be quizzed on its contents, and in providing some control over the flow of a complex or long tour.
 

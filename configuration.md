@@ -4,7 +4,7 @@ This section contains technical information on how to configure WorldWide Telesc
 
 ## Regional Data Cache
 
-A regional data cache can be set up to improve data download performance on both a small and a large scale. A small scale data cache might be for a classroom of students, by setting up a local cache on the student network the number of simultaneous requests across the internet for one piece of data, a tour perhaps, can be greatly reduced. For the student all they have to do is enter a URL using the [Settings Menu Entries](#SettingsMenuEntries).
+A regional data cache can be set up to improve data download performance on both a small and a large scale. A small scale data cache might be for a classroom of students, by setting up a local cache on the student network the number of simultaneous requests across the internet for one piece of data, a tour perhaps, can be greatly reduced. For the student all they have to do is enter a URL using the [Settings Menu Entries](#settings-menu-entries).
 
 A large scale data cache could be setup for a region of the world where there is a requirement for a significant amount of data in a local language. Again all the users have to do is enter the URL.
 
@@ -111,12 +111,12 @@ A single projector planetarium is typically a small planetarium up to around 20 
 
 ![](uiimages/MirrorWarping.jpg)
 
-Select **Full Dome** from the [View Menu Entries](#ViewMenuEntries) to initiate setup for a small planetarium.
+Select **Full Dome** from the [View Menu Entries](#view-menu-entries) to initiate setup for a small planetarium.
 
 ![](uiimages/FullDome.jpg)
 Before clicking on **Full Dome** to activate the warping, select **Dome Setup** to provide a few basic parameters.
 
-**Start Listener** is a toggle setting, used in [Multi-Projector Planetariums](#MultiProjectorPlanetarium), so leave this unchecked.
+**Start Listener** is a toggle setting, used in [Multi-Projector Planetariums](#multi-projector-planetarium), so leave this unchecked.
 
 **Detach Main View to Second Monitor** will turn the current screen blank, and input control is transferred to the second view (dome or second monitor).
 ![](uiimages/domesetup.jpg)
@@ -126,7 +126,7 @@ For **Dome Type** select from the drop down list:
 **Mirrordome 4:3**
 **<Custom Warp>**
 
-The 16:9 or 4:3 numbers refer to the aspect ratio of the projector. These are the two most common specifications, however the option to create [Custom Warp Files](#CustomWarpFiles) for other curvatures is provided.
+The 16:9 or 4:3 numbers refer to the aspect ratio of the projector. These are the two most common specifications, however the option to create [Custom Warp Files](#custom-warp-files) for other curvatures is provided.
 
 The **Dome Tilt** angle, in degrees, locates the center of interest. For the [WorldWide Telescope Planetarium](http://www.worldwidetelescope.org/docs/WorldWideTelescopePlanetarium.html) dome tilted at 20 degrees, the center of interest is 70 degrees. For a classic horizontal dome enter 90 degrees, for a kiosk look-ahead type planetarium enter 0 degrees.
 
@@ -144,7 +144,7 @@ A typical setup for running WorldWide Telescope in a small telescope would be to
 | 1600 x 1200 | 4:3 |
 | 1920 x 1080 | 16:9 |
 
-If the option to **Detach Main View to Second Monitor** is used then there is no need to match screen resolution with aspect ratio. Also note that an [Xbox Controller](#XboxController) can be used to navigate in WorldWide Telescope, which can make controlling the view in the dome more comfortable.
+If the option to **Detach Main View to Second Monitor** is used then there is no need to match screen resolution with aspect ratio. Also note that an [Xbox Controller](#xbox-controller) can be used to navigate in WorldWide Telescope, which can make controlling the view in the dome more comfortable.
 
 ### Custom Warp Files
 

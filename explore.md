@@ -369,7 +369,7 @@ In this tutorial WorldWide Telescope is used to demonstrate the purpose behind s
 
 3. The J2000, also known as the [equatorial coordinate system](http://en.wikipedia.org/wiki/Equatorial_coordinate_system), uses right ascension, declination, and the J2000 epoch. You will find the J2000 coordinate system to be the most useful, but there are also other coordinate systems. In the **Search** panel there are options for **J2000**, **Azimuth and Altitude**, **Ecliptic** and **Galactic** coordinate systems. The Ecliptic coordinate system uses the Sun's ecliptic circle as the celestial equator, rather than a projection of the Earth's equator. Try changing the coordinate system from **J2000** to **Galactic**. The galactic coordinate system is based on a line from the Sun to the center of the Milky Way, with a celestial equator in line with the galactic plane. The Sun rotates about the center of the Milky Way at a speed of about 220 kilometers per second in an imperfect circle, and one rotation is called a **galactic year**. It takes around 230 million Earth years to complete one galactic year. Now enter zero for both lambda \(λ\) and beta \(β\), then click **Go**. You should now be looking at the center of the Milky Way.
 
-   ![](uiimages/CenterofMilkyWay.png)  
+   ![](uiimages/CenterofMilkyWay.jpg)  
    The center of the Milky Way is 25,000 light years distant, in Sagittarius, shown here using the Digitized Sky Survey.
 
    The actual center is not visible at most wavelengths, because of the presence of dust, but is now known to be a supermassive black hole.

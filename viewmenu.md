@@ -4,7 +4,7 @@ The **View** pane and menu entries contain a range of settings that affect the c
 
 ## Observing Location
 
-The entries in the **Observing Location** box apply only to the [Sky](#ExploreSky) view.
+The entries in the **Observing Location** box apply only to the [Sky](explore.md#sky) view.
 
 ![](uiimages/ui_win_Observing-Location.png)
 
@@ -29,14 +29,14 @@ Changing the observing location does _not_ change the observing time to local ti
 
 ### Observing Time
 
-The entries in the **Observing Time** box apply to the [Sky](#ExploreSky) and [Solar System](#ExploreSolarSystem) views.
+The entries in the **Observing Time** box apply to the [Sky](explore.md#sky) and [Solar System](explore.md#solar-system) views.
 
 ![](uiimages/ui_win_Observing-Time.png)
 ![](uiimages/ui_win_Date-Time-Selection.png)
 
 Use the **Observing Time** pane to change the time of the current view, or to greatly accelerate or decelerate the simulated time. The movement applies to the Sun, and the planets and moons of the Solar System. To set the observing time, click the down arrow next to the currently displayed time and date. Click the pin icon to keep the **Observing Time** dialog open.
 
-One specific use of this feature is in viewing the shadows from past or future solar eclipses on the Earth (see the [Tutorial: Tracking a Solar Eclipse)](#TutorialTrackingaSolarEclipse).
+One specific use of this feature is in viewing the shadows from past or future solar eclipses on the Earth (see the [Tutorial: Tracking a Solar Eclipse)](explore.md#tutorial-tracking-a-solar-eclipse).
 
 **Important:** The date set must be between the limits of 0001/12/25 and 4000/12/31\. Simulated time will freeze if it reaches one of these limits.
 

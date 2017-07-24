@@ -6,7 +6,7 @@ Using the **Settings** panel and menu, you can control settings that affect the 
 
 ## Constellation Lines
 
-The **Constellation Lines** settings apply only to the [Sky](#ExploreSky) view.
+The **Constellation Lines** settings apply only to the [Sky](explore.md#sky) view.
 
 ![](uiimages/ui_win_Constellation-Lines.png)
 
@@ -61,7 +61,7 @@ Click the down arrow below **Settings** to open up the menu entries.
 
     ![](uiimages/ui_win_Advanced-Settings-Menu.png)
 
-    *   **Show Download Queue** shows the current image tiles being downloaded. The queue can be stopped, started again, flushed (all items are removed from the queue) and cleared (all items are removed from memory). Refer also to the section on the [Network and Cache](#NetworkandCache).
+    *   **Show Download Queue** shows the current image tiles being downloaded. The queue can be stopped, started again, flushed (all items are removed from the queue) and cleared (all items are removed from memory). Refer also to the section on the [Network and Cache](configuration.md#network-and-cache).
     *   **Start Queue** starts the download queue.
     *   **Stop Queue** stops the download queue.
     *   **Tile Loading Throttling** lets you set the tile loading rate in tiles per second (15tps, 30tps, 60tps, 120tps, Unlimited).
@@ -69,7 +69,7 @@ Click the down arrow below **Settings** to open up the menu entries.
     *   **Restore Cache from Cabinet File...** lets you import a .cab file with image cache data.
     *   **Flush Cache** clears the current cache.
     *   **Show Performance Data** adds a few performance metrics to the title bar (such as frame rate).
-    *   **Master Controller**: refer to the [Multi-Monitor Cluster](#MultiMonitorCluster) section.
+    *   **Master Controller**: refer to the [Multi-Monitor Cluster](configuration.md#multi-monitor-cluster) section.
     *   **Multi-Channel Calibration** provides options for calibrating the output of multiple projectors.
     *   **Projector Server List** lets you choose from available projector servers.
     *   **Send Layers to Projector Servers** sends the current layers to the selected projector servers.
@@ -79,4 +79,4 @@ Click the down arrow below **Settings** to open up the menu entries.
 *   **Select Your Language...** changes the language of the user interface.
 *   **Regional Data Cache...** enables you to enter a URL for a local data cache. This is handy for classes and groups. Data is downloaded only once to the local cache, which participants can then access. Each user will need to enter the URL one time. The URL is used until the setting is cleared.
     ![](uiimages/shareddatacache.jpg)
-    For more details refer to [Regional Data Cache](#RegionalDataCache).
+    For more details refer to [Regional Data Cache](configuration.md#regional-data-cache).

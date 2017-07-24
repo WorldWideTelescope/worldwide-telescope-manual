@@ -8,7 +8,7 @@ A _Collection_ is the term used to describe a WorldWide Telescope data file. You
 
 To create a new collection, either select **Explore > New > Collection...**, or select **Collections > My Collections > Add New Item**, which has the same effect. Enter an appropriate name in the **Create New Collection** dialog box. Your new collection will be added under **My Collections** and the data will be saved off automatically when you add new images to it.
 
-To add images to this new collection use the **Research** option of the [Finder Scope](#TheFinderScope), which has an **Add to Collection** menu entry. If you select the **Add New Item** thumbnail when the new collection is displayed in the top panel this will add a new _folder_ to your collection, enabling a folder and image structure which might be helpful for a large or complex collection. Add as many folders and images as you like to the collection.
+To add images to this new collection use the **Research** option of the [Finder Scope](#the-finder-scope), which has an **Add to Collection** menu entry. If you select the **Add New Item** thumbnail when the new collection is displayed in the top panel this will add a new _folder_ to your collection, enabling a folder and image structure which might be helpful for a large or complex collection. Add as many folders and images as you like to the collection.
 
 To edit the metadata for any one of the images, right click the thumbnail for the image, and select **Edit**. This will bring up the **Edit Object Information** dialog:
 
@@ -38,7 +38,7 @@ Another method of comparing images is available if there are several thumbnails 
 
 To change the default operation of a study as foreground and survey as background there are a number of options. All default surveys appear as thumbnails in the **Collections > All-Sky Surveys** folder. Simply clicking on the thumbnail will load the survey as background. However if you right-click on the picture icon, there is the option to load the survey as foreground or background. Load one as foreground and one as background and the **Image Crossfade** slider will be enabled to compare the two. Similarly two studies can be compared this way.
 
-There are options in the [**Finder Scope**](#TheFinderScope) to set images as foreground or background, and then there is the greater flexibility (and complexity) provided by the SDK (refer to the [WorldWide Telescope Data Files Reference](http://www.worldwidetelescope.org/docs/WorldWideTelescopeDataFilesReference.html) document).
+There are options in the [**Finder Scope**](#the-finder-scope) to set images as foreground or background, and then there is the greater flexibility (and complexity) provided by the SDK (refer to the [WorldWide Telescope Data Files Reference](http://www.worldwidetelescope.org/docs/WorldWideTelescopeDataFilesReference.html) document).
 
 Note that not all images of an object are taken from exactly the same camera position. Also sky survey images are composite images -- perhaps with images taken at different times or even by different telescopes -- so the exact location of an object may appear to vary.
 
@@ -48,7 +48,7 @@ The **Finder Scope** is a pane designed to help you fix on and research a partic
 
 Certain celestial objects, when pointed to, display a circle and a name. This indicates that the object is in one of the databases that WorldWide Telescope links to. Right-click the object to display the **Finder Scope.** With the **Finder Scope**, you can refine your search in the field of view, or research your selected object from online references.
 
-You can also view the object's image from the [DSS](#DigitizedSkySurvey) or [SDSS](#SloanDigitalSkySurvey) archive, download its DSS [FITS](#FITSImages) file, or run a [USNO](http://www.us-vo.org) NVO cone search for objects near the selected object.
+You can also view the object's image from the [DSS](#digitized-sky-survey) or [SDSS](#sloan-digital-sky-survey) archive, download its DSS [FITS](#fits-images) file, or run a [USNO](http://www.us-vo.org) NVO cone search for objects near the selected object.
 
 If you find an object you wish to research further, try not to move the **Finder Scope** as the RA and Dec will change, so if you then click **Research** for example, this will use the new values and not those of the object.
 
@@ -61,7 +61,7 @@ Click **Show object** to return to the view of the object if for any reason the 
 
 The properties of the object (**RA**, **Dec**, **Alt** and so on), are explained in the [Astronomy Terminology](#TutorialAstronomyTutorial) tutorial.
 
-Refer also to the note: [Viewing from a new location](#ViewingfromaNewLocation).
+Refer also to the note: [Viewing from a new location](#viewing-from-a-new-location).
 
 Both the **X** in the top right corner, and the **Close** button, close the **Finder Scope**.
 ![](uiimages/FinderScopeExpandedMenu.jpg)
@@ -85,7 +85,7 @@ The **Set as Foreground Imagery**, **Set as Background Imagery**, and **Remove f
 | Imagery
  ![](uiimages/FinderScopeImagery.jpg) | **DSS**: Digitized Sky Survey
 **SDSS**: Sloan Digitized Sky Survey
-[**FITS**](#FITSImages): Flexible Image Transport System image, commonly used in astronomy because of its ability to store human-readable metadata.
+[**FITS**](#fits-images): Flexible Image Transport System image, commonly used in astronomy because of its ability to store human-readable metadata.
  |
 | Virtual Observatory Searches
 ![](uiimages/FinderScopeVO.jpg) | Refer to the [Virtual Observatory Tables](#VirtualObservatoryTables) example below. |
@@ -96,7 +96,7 @@ The **Set as Foreground Imagery**, **Set as Background Imagery**, and **Remove f
 
 Virtual Observatory (VO) tables are spreadsheets of mainly numerical astronomical data, layout to a standard set by the [National Virtual Observatory](http://www.us-vo.org).
 
-For example, use the [Search Panel](#TheSearchPanel) to navigate to the galaxy M51 -- much better known as the _Whirlpool Galaxy_, and right click to bring up the **Finder Scope**, select **Research > Virtual Observatory Searches > NED**. This will bring up the VO table shown below. Select **Plot All** in the **VO Table Viewer** to annotate all the located objects in the view with the selected **Plot Type** (white circles by default) -- a lot in the case of M51! Now use the **Finder Scope** on the individual plots to investigate them further, many will be unidentified electromagnetic wave sources.
+For example, use the [Search Panel](searchpanel.md) to navigate to the galaxy M51 -- much better known as the _Whirlpool Galaxy_, and right click to bring up the **Finder Scope**, select **Research > Virtual Observatory Searches > NED**. This will bring up the VO table shown below. Select **Plot All** in the **VO Table Viewer** to annotate all the located objects in the view with the selected **Plot Type** (white circles by default) -- a lot in the case of M51! Now use the **Finder Scope** on the individual plots to investigate them further, many will be unidentified electromagnetic wave sources.
 
 ![](uiimages/NEDSearchVOTable.jpg)
 ![](uiimages/NEDSearchM51.jpg)
@@ -170,7 +170,7 @@ A comprehensive sky survey in the visible wavelength, first published in 1994\. 
 
 #### Hipparcos Catalog
 
-Hipparcos is the name of a European Space Agency Mission and Satellite that took images from 1989 to 1993 and accurately catalogued 118,218 stars. Taken from space, the measurements avoided the gravitational, atmospheric and thermal distortions that were limiting ground based telescopes. The error in the positioning of stars in this catalog is under 0.001 arc seconds. An auxiliary star mapper pinpointed many more stars with lesser but still considerable accuracy at 0.03 arc seconds. Known as the [Tycho Catalog](#Tycho) this identified 1,058,332 stars.
+Hipparcos is the name of a European Space Agency Mission and Satellite that took images from 1989 to 1993 and accurately catalogued 118,218 stars. Taken from space, the measurements avoided the gravitational, atmospheric and thermal distortions that were limiting ground based telescopes. The error in the positioning of stars in this catalog is under 0.001 arc seconds. An auxiliary star mapper pinpointed many more stars with lesser but still considerable accuracy at 0.03 arc seconds. Known as the [Tycho Catalog](#tycho) this identified 1,058,332 stars.
 ![](uiimages/survey_hipparcos.jpg)
 
 
@@ -221,13 +221,13 @@ The survey has not yet covered the constellation Cygnus, so the image shows the 
 
 #### Tycho (Synthetic, Optical)
 
-The Tycho-2 catalog is based on a mix of 1991 space-based data from the European Space Agency's [Hipparcos](#HipparcosCatalog) satellite, data from the Tycho 1 catalog, and over 140 other astrometric catalogs. The catalog also included the re-analysis of positional data for the Tycho-1 stars. The celestial co-ordinate data for all the earlier catalogs was corrected to match the J2000 epoch of the Hipparcos catalog. The mix increased the number of stars in the catalog to 2,539,913 of the brightest stars in the Milky Way, of which about 5000 are visible to the naked eye. Components of double stars with separations down to 0.8 arc seconds are included.
+The Tycho-2 catalog is based on a mix of 1991 space-based data from the European Space Agency's [Hipparcos](#hipparcos-catalog) satellite, data from the Tycho 1 catalog, and over 140 other astrometric catalogs. The catalog also included the re-analysis of positional data for the Tycho-1 stars. The celestial co-ordinate data for all the earlier catalogs was corrected to match the J2000 epoch of the Hipparcos catalog. The mix increased the number of stars in the catalog to 2,539,913 of the brightest stars in the Milky Way, of which about 5000 are visible to the naked eye. Components of double stars with separations down to 0.8 arc seconds are included.
 ![](uiimages/survey_tycho.jpg)
 
 
 #### USNOB: US Naval Observatory B1.0 (Synthetic, Optical)
 
-The US Naval Obersvatory-B1.0 is a catalog of 1,042,618,261 objects. The data were obtained from scans of 7,435 Schmidt plates taken for the various sky surveys during the last 50 years by the Precision Measuring Machine (PMM) at the US Naval Observatory in Flagstaff, Arizona. The originating plate material includes five complete coverages of the northern sky and four of the southern sky To be included in the catalog, an object must have been detected on two different surveys, to avoid the unreliability of single detections. The [Tycho-2 Catalog](#Tycho) is the astrometric reference. The USNO-B1.0 is believed to provide all-sky coverage, completeness down to 0.2 arc second astrometric accuracy at J2000, 0.3 magnitude photometric accuracy in up to five colors, and 85% accuracy for distinguishing stars from non-stellar objects. 
+The US Naval Obersvatory-B1.0 is a catalog of 1,042,618,261 objects. The data were obtained from scans of 7,435 Schmidt plates taken for the various sky surveys during the last 50 years by the Precision Measuring Machine (PMM) at the US Naval Observatory in Flagstaff, Arizona. The originating plate material includes five complete coverages of the northern sky and four of the southern sky To be included in the catalog, an object must have been detected on two different surveys, to avoid the unreliability of single detections. The [Tycho-2 Catalog](#tycho) is the astrometric reference. The USNO-B1.0 is believed to provide all-sky coverage, completeness down to 0.2 arc second astrometric accuracy at J2000, 0.3 magnitude photometric accuracy in up to five colors, and 85% accuracy for distinguishing stars from non-stellar objects. 
 ![](uiimages/survey_USNaval.jpg)
 
 
@@ -264,7 +264,7 @@ Note that there are more surveys available in WorldWide Telescope than are inclu
 
 The _Context Search_ automatically searches the constellation that the reticle is currently on for deep sky objects that are listed in a catalog, such as the Messier or New General catalogs. If it finds any objects, its thumbnail image is added to the list in the lower panel. As you move the Field of View (FOV) to a new constellation, the thumbnails for the deep sky objects change automatically to reflect all the deep sky objects in the new constellation.
 
-To obtain some information on the items in the Context Search, right-click on the thumbnails in the lower panel and select **Properties** from the menu. This will display the same information that appears in the [The Finder Scope](#TheFinderScope), for example:
+To obtain some information on the items in the Context Search, right-click on the thumbnails in the lower panel and select **Properties** from the menu. This will display the same information that appears in the [The Finder Scope](#the-finder-scope), for example:
 
 ![](uiimages/ContextProperties.jpg)
 In this example M86 has appeared in the lower panel as a result of the context search. Selecting **Properties** from the right-click menu displays the property data without changing the view.
@@ -351,7 +351,7 @@ HR2554** |
 
 4.4 |
 
-The brightness magnitude usually quoted for a star is the _apparent magnitude_, which is how bright it appears to us on Earth. The _absolute magnitude_ of an object is how bright it would appear at a standard distance away from the observer (a distance which has been fixed at 10 parsecs or 32,616 light years). Both figures are often quoted in catalogs of stars, the [Finder Scope](#TheFinderScope) quotes only the apparent magnitude. Apparent magnitude is often referenced as the letter V, absolute magnitude as the letters M<sub>V</sub>.
+The brightness magnitude usually quoted for a star is the _apparent magnitude_, which is how bright it appears to us on Earth. The _absolute magnitude_ of an object is how bright it would appear at a standard distance away from the observer (a distance which has been fixed at 10 parsecs or 32,616 light years). Both figures are often quoted in catalogs of stars, the [Finder Scope](#the-finder-scope) quotes only the apparent magnitude. Apparent magnitude is often referenced as the letter V, absolute magnitude as the letters M<sub>V</sub>.
 
 To calculate the relative brightness of one object to another (either apparent or absolute magnitude) use the following C# code:
 
