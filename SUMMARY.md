@@ -79,7 +79,7 @@
           * [Hydrogen Alpha Full Sky Map](astronomicalresearch.md#hydrogen-alpha-full-sky-map)
           * [SDSS: Sloan Digital Sky Survey](astronomicalresearch.md#sdss-sloan-digital-sky-survey)
           * [Tycho (Synthetic, Optical)](astronomicalresearch.md#tycho-synthetic-optical)
-          * [USNOB: US Naval Observatory B1.0 (Synthetic, Optical)](astronomicalresearch.md#usnob-us-naval-observatory-b1.0-synthetic-optical)
+          * [USNOB: US Naval Observatory B1.0 (Synthetic, Optical)](astronomicalresearch.md#usnob-us-naval-observatory-b10-synthetic-optical)
           * [GALEX (Ultraviolet)](astronomicalresearch.md#galex-ultraviolet)
           * [RASS: ROSAT All Sky Survey (X-Ray)](astronomicalresearch.md#rass-rosat-all-sky-survey-x-ray)
           * [Fermi (Gamma)](astronomicalresearch.md#fermi-gamma)
