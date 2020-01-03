@@ -309,12 +309,11 @@ holes, supernovas, and pulsars.
 Electromagnetic radiation is classified as follows:
 
 | Wavelength |  Name |
-| :-- | :-- |
+| :-- |
 | Greater than 10cm | Radio waves |
 | Between 10cm and 1mm | Microwaves |
-| Between 1mm and 700nm | Infrared radiation. |
-| Between 700nm and 400nm | Visible light
-![](uiimages/VisibleLight.jpg) |
+| Between 1mm and 700nm | Infrared radiation |
+| Between 700nm and 400nm | Visible light |
 | Between 400nm and 10nm | Ultraviolet radiation |
 | Between 10nm and 1/100nm | X-rays |
 | Less than 1/100nm | Gamma rays |
@@ -591,11 +590,11 @@ Click on the thumbnail images below to link to the example. And then click on
 the thumbnails as they appear in the top panel to bring the objects into view.
 
 | Group | Title | Description | Example |
-| **Solar System** | The Sun, or any planet or moon of our own Solar System. | [![](uiimages/SolarSystemSaturn.jpg)](http://www.worldwidetelescope.org/wwtweb/goto.aspx?object=Saturn&ra=11.1310226934708&dec=7.92703939594174&zoom=0.1) |
+| :-- |
+| **Solar System** | | The Sun, or any planet or moon of our own Solar System. | [![](uiimages/SolarSystemSaturn.jpg)](http://www.worldwidetelescope.org/wwtweb/goto.aspx?object=Saturn&ra=11.1310226934708&dec=7.92703939594174&zoom=0.1) |
 | **Stellar** | **Star** | A ball of gas held together by its own gravity and emitting its own radiation. | [![](uiimages/Star.jpg)](http://www.worldwidetelescope.org/wwtweb/goto.aspx?object=Bellatrix&ra=5.41861111133333&dec=6.349722222&zoom=1.40625) |
- **Supernova** | A star (at least 8 times more massive than the Sun) that does not have enough fuel for the fusion process in its core will explode due to gravitational collapse. The explosion is called a supernova. The remaining material is known as a supernova remnant. | [![](uiimages/Supernova.jpg)](http://www.worldwidetelescope.org/wwtweb/goto.aspx?object=Supernova Dust Factory in M74&ra=1.61166666666667&dec=15.7405555555556&zoom=1.415)
-Supernova Dust Factory in M74 |
- **Black Hole** | A star (at least 10-15 times more massive than the Sun) that became a supernova and then further collapsed in on itself. The infinite density of the supernova's remnants causes the path of light to wrap around it. | [![](uiimages/BlackHole1.jpg)](http://www.worldwidetelescope.org/wwtweb/goto.aspx?object=Black Hole-Powered Jet of Electrons and Sub-Atomic Particles Streams From Center of Galaxy M87&ra=12.5136111111111&dec=12.3927777777778&zoom=0.595)
+| | **Supernova** | A star (at least 8 times more massive than the Sun) that does not have enough fuel for the fusion process in its core will explode due to gravitational collapse. The explosion is called a supernova. The remaining material is known as a supernova remnant. | [![](uiimages/Supernova.jpg)](http://www.worldwidetelescope.org/wwtweb/goto.aspx?object=Supernova%20Dust%20Factory%20in%20M74&ra=1.61166666666667&dec=15.7405555555556&zoom=1.415) Supernova Dust Factory in M74 |
+| | **Black Hole** | A star (at least 10-15 times more massive than the Sun) that became a supernova and then further collapsed in on itself. The infinite density of the supernova's remnants causes the path of light to wrap around it. | [![](uiimages/BlackHole1.jpg)](http://www.worldwidetelescope.org/wwtweb/goto.aspx?object=Black Hole-Powered Jet of Electrons and Sub-Atomic Particles Streams From Center of Galaxy M87&ra=12.5136111111111&dec=12.3927777777778&zoom=0.595) |
 
 Black Hole-Powered Jet of Electrons and Sub-Atomic Particles Streams From Center of Galaxy M87
  |

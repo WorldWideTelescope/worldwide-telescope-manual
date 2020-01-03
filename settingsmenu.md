@@ -69,7 +69,7 @@ user interface.
   viewing area.
 
 
-# Network and Cache
+## Network and Cache
 
 Use the **Network and Cache** settings to control internet connection
 settings. These settings apply to all views.
