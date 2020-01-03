@@ -25,8 +25,7 @@ Clicking on this down arrow will open up the menu contents. Clicking on the
 main menu item itself (for example, clicking on the entry **Explore**) will
 change the appearance of the top panel, and not display the menu contents.
 
-
-* [**Explore**](explore.md): The first two menu items, **New** and **Open**,
+- [**Explore**](explore.md): The first two menu items, **New** and **Open**,
   are used to start new data files, or open existing data files, respectively.
   These are the primary purposes of the **Explore** menu - the location of
   data to display. Clicking the **Explore** entry itself will display the data
@@ -36,18 +35,18 @@ change the appearance of the top panel, and not display the menu contents.
   individual items, or another set of items (similar to a folder and file
   structure). A set of images are referred to as _collections_ in WorldWide
   Telescope.
-* [**Guided Tours**](guidedtours.md): A tour in WorldWide Telescope is an
+- [**Guided Tours**](guidedtours.md): A tour in WorldWide Telescope is an
   animated, annotated slide-show, for educational, research or entertainment
   purposes, usually focusing on a particular topic. Clicking the **Guided
   Tours** entry itself will display the **Tours** supplied by default with the
   product in the top panel. The menu entries can be used to search for other
   tours on the web, and to create a new tour. Opening a tour can also be done
   from the **Explore > Open** sub-menu.
-* [**Search**](searchmenu.md): Clicking on this main menu item itself will
+- [**Search**](searchmenu.md): Clicking on this main menu item itself will
   change the top panel to show a range of search parameters, that are used to
   search on the default data provided with the product. Opening up the
   **Search** menu will enable some internet based searches.
-* [**Community**](communities.md): A community in WorldWide Telescope is a
+- [**Community**](communities.md): A community in WorldWide Telescope is a
   public or private group that can be set up to share data. Clicking on the
   **Community** entry itself will display the **My Communities** entries in
   the top panel. This list will obviously be empty the first time the product
@@ -55,17 +54,17 @@ change the appearance of the top panel, and not display the menu contents.
   public communities. Joining these communities will add them to your **My
   Communities** list, and give you a new collection of data, magazine
   articles, and so on, to browse and explore.
-* [**Telescope**](telescopemenu.md): This menu item should only be selected if
+- [**Telescope**](telescopemenu.md): This menu item should only be selected if
   you have a physical telescope that can be connected to your computer with a
   USB cable and has the appropriate software interface. If you have access to
   such a telescope this feature enables some interesting possibilities,
   including using WorldWide Telescope to identify or locate objects in the
   sky, and perhaps to add your own images into the mix.
-* [**View**](viewmenu.md): This menu item displays options to control the
+- [**View**](viewmenu.md): This menu item displays options to control the
   observing location and time. You can set WorldWide Telescope to show you the
   view from any location around the globe, using the current time or a
   time/date in the past or future.
-* [**Settings**](settingsmenu.md): Clicking on this menu item itself will
+- [**Settings**](settingsmenu.md): Clicking on this menu item itself will
   display a range of settings, these are somewhat similar to the View
   settings, controlling what is displayed.
 
@@ -97,7 +96,7 @@ Underneath the top panel is the main view! In this case the user has selected
 
 The images of the sky are annotated with the outlines of the constellations.
 The constellation most central to the view is referred to as the _selected_
-_constellation_, and is outlined in yellow. The red lines display _figures_ -
+_constellation_, and is outlined in yellow. The red lines display _figures_ —
 in this case linking the main stars that make up the constellation. Cassiopeia
 is of course known for the five bright stars making up the large _W_.
 
@@ -168,7 +167,7 @@ There are a lot of entries in the list, starting with the planet Saturn. This
 list does not only include the stellar objects in the constellation Corvus,
 but all those objects in the current view. They are sorted in order. The first
 items are the planets and named objects, the later ones often do not have a
-name other than their catalog entries - _NGC4024_ for example. If this list is
+name other than their catalog entries — _NGC4024_ for example. If this list is
 long, which it often is, use the previous and next arrows to scroll through
 it. Notice too that the context list is populated when a view comes to a halt,
 it is often empty when the view is animating from one location to the next.
@@ -177,7 +176,7 @@ The size of the contexts lists can be reduced by de-selecting items in the
 
 ![](uiimages/ContextSearchFilter.jpg)
 
-Only stars and supernova will now appear in the context list - no black holes
+Only stars and supernova will now appear in the context list — no black holes
 or neutron stars!
 
 The final elements of the lower panel are shown in the image below:
@@ -189,7 +188,7 @@ itself.
 
 The pane to the far right of the lower panel shows the _skyball_ (displaying
 the field of view relative to the celestial sphere), and the selected
-constellation. This pane also shows the parameters of the view - the right
+constellation. This pane also shows the parameters of the view — the right
 ascension, declination and field of view in degrees (60:00:00 in this
 example).
 
