@@ -1,4 +1,6 @@
-# Exploring
+---
+description: Exploring the sky with AAS WorldWide Telescope.
+---
 
 Exploring the universe is the most fun thing you can do with WorldWide
 Telescope! This section covers the views that you can choose from, and shows

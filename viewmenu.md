@@ -1,4 +1,6 @@
-# The View Menu
+---
+description: The View menu of the AAS WorldWide Telescope program.
+---
 
 The **View** pane and menu entries contain a range of settings that affect the
 current view.

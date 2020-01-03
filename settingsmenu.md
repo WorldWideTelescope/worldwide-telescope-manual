@@ -1,4 +1,6 @@
-# The Settings Menu
+---
+description: The Settings menu of the AAS WorldWide Telescope.
+---
 
 Using the **Settings** panel and menu, you can control settings that affect
 the current view, performance, and operation. Note that these settings differ

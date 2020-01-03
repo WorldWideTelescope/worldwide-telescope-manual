@@ -1,4 +1,6 @@
-# Astronomy Research
+---
+description: Using AAS WorldWide Telescope for astronomical research.
+---
 
 There is more information available within WorldWide Telescope that a newcomer
 can easily grasp, and there are terabytes of astronomical information

@@ -1,4 +1,6 @@
-# Communities
+---
+description: Data sharing through AAS WorldWide Telescope communities.
+---
 
 Communities are public or private groups that can share data using WorldWide
 Telescope.

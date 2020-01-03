@@ -1,4 +1,6 @@
-# Earth and Planet Research
+---
+description: Earth and planetary research with AAS WorldWide Telescope.
+---
 
 WorldWide Telescope can be used by Earth scientists to study events on our own
 planet in some detail. The main feature for this purpose is the **Layer

@@ -1,4 +1,6 @@
-# Guided Tours
+---
+description: Creating and viewing guided “tours” in AAS WorldWide Telescope.
+---
 
 Guided Tours are annotated and animated slide-shows, created to demonstrate a
 feature of WorldWide Telescope (such as the **Welcome** tour), galaxies (such

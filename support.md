@@ -1,4 +1,6 @@
-# Support
+---
+description: Help and support for the AAS WorldWide Telescope.
+---
 
 WorldWide Telescope is under development at Microsoft Research. Feel free to
 contact the development team, or post comments on public forums.

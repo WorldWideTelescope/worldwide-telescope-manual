@@ -1,4 +1,6 @@
-# The Telescope Menu
+---
+description: The Telescope menu of the AAS WorldWide Telescope program.
+---
 
 It is possible to control and track a physical telescope connected directly to
 your computer with a USB cable. With everything working correctly it is

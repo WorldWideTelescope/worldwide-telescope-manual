@@ -1,4 +1,6 @@
-# The Search Menu
+---
+description: The Search panel of the AAS WorldWide Telescope user interface
+---
 
 There are several methods of searching WorldWide Telescope data. Currently
 only default data is searched, not data that may have been added to your own

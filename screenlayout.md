@@ -1,4 +1,6 @@
-# Screen Layout
+---
+description: The layout of the main AAS WorldWide Telescope interface.
+---
 
 The following image shows the first view that will appear on running WorldWide
 Telescope. This section describes the layout, and how it changes depending on

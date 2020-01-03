@@ -1,4 +1,6 @@
-# Configuration
+---
+description: How to configure AAS WorldWide Telescope in non-standard ways.
+---
 
 This section contains technical information on how to configure WorldWide
 Telescope to run in environments other than on a single desktop or laptop

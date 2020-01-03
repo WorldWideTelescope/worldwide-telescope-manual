@@ -1,4 +1,6 @@
-# Introduction
+---
+description: The AAS WorldWide Telescope User Manual.
+---
 
 The AAS WorldWide Telescope is a software environment that enables your
 computer to function as a virtual telescope, combining terabytes of imagery
