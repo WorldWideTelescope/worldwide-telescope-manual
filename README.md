@@ -1,11 +1,42 @@
-# Introduction
+# WWT User Manual Documentation: Source Code
 
-The WorldWide Telescope is a software environment that enables your computer to function as a virtual telescope, combining terabytes of imagery from such famous telescopes as Hubble, Chandra and Spitzer into one vast panorama of the universe.
+This repository contains the source code for the [AAS WorldWide User Manual].
+The `master` branch of this repo is rendered by [GitBook] to appear here:
 
-WorldWide Telescope allows seamless panning and zooming around the night sky, our Solar System, and other space-orientated panoramas, such as the pictures taken of the surfaces of the Moon and Mars. [Explore](explore.md) the sky at multiple wavelengths: see the x-ray view of the sky and zoom into bright radiation clouds, and then cross-fade into the visible light view and discover the cloud remnants of a supernova explosion from a thousand years ago. Switch to the Hydrogen Alpha view to see the distribution and illumination of massive primordial hydrogen cloud structures lit up by the high energy radiation coming from nearby stars in the Milky Way.
+### https://worldwidetelescope.gitbook.io/user-manual/
 
-For a dazzling educational experience, our Solar System is modeled in three dimensions, with the planets rotating and orbiting the Sun. Watch the majestic beauty of Saturn's rings or the distant orbit of the dwarf planet Pluto as they track across the sky in their accurately modeled days and years. Accelerate the simulated time to plan a visit to the best spot for the next solar or lunar eclipse.
+If you’re just interested in the documentation itself, you should go to that
+website. If you’re interested in *contributing* to this documentation, you’ve
+come to the right place! If you’re new to the project, please see the
+[WWT Contributors’ Guide] and the [WWT Code of Conduct]. We operate with a
+standard [fork-and-pull] model.
 
-Newcomers to WorldWide Telescope are recommended to browse the growing number of [Guided Tours](guidedtours.md) of the sky by astronomers and educators from some of the most respected observatories and planetariums. Most of the features can be discovered simply by using the program. This documentation is provided as a resource to help describe what is going on, and to help locate the features that this project has to offer. There are two versions of WorldWide Telescope, a Windows application and a web client. This documentation set describes both, where necessary indicating where a feature only applies to one. The essential differences between the two are that the Windows version is downloaded and installed first, then run, and has a few more features. The web client is not downloaded and installed, is based on HTML5, and has fewer features but can be customized.
+[AAS WorldWide Telescope User Manual]: https://worldwidetelescope.gitbook.io/user-manual/
+[WWT Contributors’ Guide]: https://worldwidetelescope.github.io/contributing/
+[WWT Code of Conduct]: https://worldwidetelescope.github.io/code-of-conduct/
+[fork-and-pull]: https://help.github.com/en/articles/about-collaborative-development-models
 
-_WorldWide Telescope is created by Microsoft Research using the Microsoft high performance Visual Experience Engine , and the project is dedicated  to legendary researcher Jim Gray, without whom this project would not have happened. WorldWide Telescope is released as a free resource to the astronomy and education community with the hope that it will inspire and empower people to explore and understand the universe like never before._
+The files in this repository follow the structure described in the
+[WWT GitBook Markdown documentation specification]. The content is
+fundamentally in [Markdown] format, but there are special patterns and extra
+features used by [GitBook].
+
+[GitBook]: https://docs.gitbook.com/
+[WWT GitBook Markdown documentation specification]: https://worldwidetelescope.gitbook.io/miscellaneous/documents/gitbook-spec
+[Markdown]: https://commonmark.org/
+
+
+## Acknowledgments
+
+The AAS WorldWide Telescope system is a [.NET Foundation] project managed by
+the non-profit [American Astronomical Society] (AAS). Work on WWT has been
+supported by the AAS, the US [National Science Foundation] (grants [1550701]
+and [1642446]), the [Gordon and Betty Moore Foundation], and [Microsoft].
+
+[.NET Foundation]: https://dotnetfoundation.org/
+[American Astronomical Society]: https://aas.org/
+[National Science Foundation]: https://www.nsf.gov/
+[1550701]: https://www.nsf.gov/awardsearch/showAward?AWD_ID=1550701
+[1642446]: https://www.nsf.gov/awardsearch/showAward?AWD_ID=1642446
+[Gordon and Betty Moore Foundation]: https://www.moore.org/
+[Microsoft]: https://www.microsoft.com/
