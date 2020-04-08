@@ -1,6 +1,8 @@
----
-description: Exploring the sky with AAS WorldWide Telescope.
----
++++
+title = "Explore"
+description = "Exploring the sky with AAS WorldWide Telescope."
+weight = 200
++++
 
 Exploring the universe is the most fun thing you can do with WorldWide
 Telescope! This section covers the views that you can choose from, and shows
@@ -33,7 +35,7 @@ including aerial, streets, hybrid and nighttime views.
 
 This image of Hawaii is obtained from the **Virtual Earth Hybrid** imagery:
 
-![](uiimages/TheEarth.jpg)
+![](TheEarth.jpg)
 
 ### Tutorial: Comparing Night and Day
 
@@ -48,14 +50,14 @@ night and day images.
 3. In the **Settings** pane ensure that **Earth Cloud Layer Overlay** is not
    selected.
 4. Rotate the Earth using the mouse until southwest Australia is in view, then
-   zoom in to the following location: ![](uiimages/ex_Earth-OzDay.png)
+   zoom in to the following location: ![](ex_Earth-OzDay.png)
 5. Without changing the zoom or pan settings, change the **Imagery** to
    **Earth at Night**. Notice that the same view angle is maintained even
    though the imagery has changed. Try toggling the **Imagery** to **Bing Maps
    Streets**, then back to **Earth at Night** again. Human population density
    is readily revealed with the glow of artificial light in the night view.
    The bright areas on the night map exactly matches the city of Perth named
-   on the **Bing Maps Streets** view. ![](uiimages/ex_Earth-OzNight.png)
+   on the **Bing Maps Streets** view. ![](ex_Earth-OzNight.png)
 
 
 ## Planet
@@ -80,7 +82,7 @@ Use **View**, **Reset Camera** to restore the default view and settings.
 Some moons are available under the **Planet** imagery, including Io, one of
 the best known of Jupiter's many moons:
 
-![](uiimages/Io.jpg)
+![](Io.jpg)
 
 ### Tutorial: Locating Olympus Mons
 
@@ -94,11 +96,11 @@ following tutorial locates the mountain:
    close to the Martian equator. The mountain can be located visually either
    from its top-down view, which is distinctive, or from its proximity to
    three smaller mountains than are in a near perfect line. These two views
-   are shown in the following images: ![](uiimages/OlympusMons3.jpg)
-   ![](uiimages/OlympusMons1.jpg)
+   are shown in the following images: ![](OlympusMons3.jpg)
+   ![](OlympusMons1.jpg)
 4. Zoom in and use the **CTRL** key as you click and drag vertically. This
    will tilt the view to show just how tall Olympus Mons actually is:
-   ![](uiimages/OlympusMons2.jpg)
+   ![](OlympusMons2.jpg)
 5. Olympus Mons is a _shield_ volcano, approximately 340 miles wide. The most
    recent volcanic activity is estimated at 2 million years ago, so it is
    difficult to classify the volcano as extinct. One theory for the huge size
@@ -161,14 +163,14 @@ Planets/Moons**.
    craters is called Copernicus. It can be located visually using the
    **Explore > Collections > Planets/Moons** data (noting the three craters in
    a near line), or from its latitude and longitude:
-   ![](uiimages/CopernicusCrater.jpg)
+   ![](CopernicusCrater.jpg)
 
 4. Mars
 
    Mars has two moons, Phobos and Deimos. Some image data is available, find
    the thumbnails in the **Explore > Collections > Planets/Moons** data.
    Currently they are not represented in the **Sky** or **SolarSystem** views.
-   Deimos is notable for its smooth surface: ![](uiimages/Deimos.jpg)
+   Deimos is notable for its smooth surface: ![](Deimos.jpg)
 
 5. Jupiter
 
@@ -190,7 +192,7 @@ Planets/Moons**.
    Jupiter has many other satellites, totaling at least 63, though none of the
    others match the size of the four largest. Ganymede has ancient dark
    surface matter, and not quite so ancient lighter surface matter, marked
-   with grooves and ridges: ![](uiimages/GanymedeSurface.jpg)
+   with grooves and ridges: ![](GanymedeSurface.jpg)
 
 6. Saturn
 
@@ -209,7 +211,7 @@ Planets/Moons**.
    are small. Partial imagery exists in the Explore > Collections >
    Planets/Moons data for Mimas, Enceladus, Tethys, Dione, Rhea, and Iapetus.
    Mimas is known for its huge impact crater — 62 miles in diameter:
-   ![](uiimages/Mimas.jpg)
+   ![](Mimas.jpg)
 
 7. Uranus
 
@@ -222,7 +224,7 @@ Planets/Moons**.
    Collections > Planets/Moons** data. Miranda has some strange rocky surface
    features called ovoids, that have near parallel ridges and canyons. One of
    these ovoids is clearly visible in the partial data:
-   ![](uiimages/MirandaOvoid.jpg)
+   ![](MirandaOvoid.jpg)
 
 8. Neptune
 
@@ -276,7 +278,7 @@ around us. To enter **Sky** view, select **Sky** from the **Look At** menu
 The Crab Nebula is one of the best known features of the constellation Taurus.
 It is a supernova remnant:
 
-![](uiimages/TheNightSky.jpg)
+![](TheNightSky.jpg)
 
 By default the **Explore > Collections** options are shown in the top panel.
 You can use the **Collections** panel to explore image data in WorldWide
@@ -284,7 +286,7 @@ Telescope. Thumbnails in the **Collections** panel behave like files and
 folders; each thumbnail links either to another set of collections, or to a
 single piece of image data.
 
-![](uiimages/HubbleStudies.jpg)
+![](HubbleStudies.jpg)
 
 These images are detailed individual (or composite) pictures of the objects,
 and will be rendered over the background sky image. Note the down arrow in the
@@ -293,7 +295,7 @@ with many more thumbnails present. Interesting comparisons can be made by
 using the cross-fade slider (located in the lower panel) to compare the image
 you have loaded with the [Sky Survey](astronomicalresearch.md#sky-surveys).
 
-![](uiimages/ImageCrossfade.jpg)
+![](ImageCrossfade.jpg)
 
 Note that Collections data can be in various modes; most are in the **Sky**
 view. When selecting an object from a collection the **Look At** mode will be
@@ -306,18 +308,18 @@ NGC2555 in the example below. Hovering the mouse over the thumbnail will
 illuminate the object with an annotation in the main view (if the object is
 visible in the main view).
 
-![](uiimages/SkyContext.jpg)
+![](SkyContext.jpg)
 
 If there are too many context thumbnails to scroll though, use the up arrow to
 show many more of them:
 
-![](uiimages/MaxContext.jpg)
+![](MaxContext.jpg)
 
 Click in the globe, then drag the mouse, to change the field of view relative
 to the Celestial Sphere. Click in the constellation box to center the view on
 that constellation — Draco in this example:
 
-![](uiimages/CelestialSphere.jpg)
+![](CelestialSphere.jpg)
 
 All of the [The View Menu](viewmenu.md) options apply to the Sky view, except
 the **3d Solar System** pane. In particular refer to the
@@ -349,7 +351,7 @@ Jupiter and Venus that occurred on 1st December 2008.
 7. Zoom in a bit on the Moon, which is right in the center of Sagittarius.
 8. The crescent Moon makes a smiley face with Venus and Jupiter. Note that to
    show both annotations the following image is a composite of two
-   screenshots. ![](uiimages/ConjunctionMoonVenusJupiter.jpg)
+   screenshots. ![](ConjunctionMoonVenusJupiter.jpg)
 
 Conjunctions are a visually interesting phenomenon that usually involve
 near-Earth objects. To examine a range of distant features of the known
@@ -373,7 +375,7 @@ Telescope to locate our stellar neighbors.
    type "Prox" into the search text box. Note that the search narrows as you
    enter each letter, and it is only necessary to enter a few to locate this
    star. Double click the thumbnail to jump to the location.
-   ![](uiimages/ProximaCentauri.jpg) The image shows that there can be some
+   ![](ProximaCentauri.jpg) The image shows that there can be some
    discrepancy between the recorded position of a star, and its location on a
    photograph.
 
@@ -391,7 +393,7 @@ Telescope to locate our stellar neighbors.
    certainly not the brightest!
 5. To visit the brightest star type **Sirius** into the search text box, and
    click on the thumbnail. Aside from the Sun, Sirius is the brightest star in
-   the sky by a considerable margin. ![](uiimages/Sirius.jpg)
+   the sky by a considerable margin. ![](Sirius.jpg)
 
    Sirius has a brightness magnitude of -1.46. The second brightest star,
    Canopus, has a magnitude of -0.72. This makes Sirius very nearly twice as
@@ -426,7 +428,7 @@ Telescope to locate our stellar neighbors.
    selection from Hipparcos to the
    [**Digitized Sky Survey**](astronomicalresearch.md#digitized-sky-survey)
    and type "Sagittarius Dwarf" into the search text box.
-   ![](uiimages/SagittariusDwarfGalaxy.jpg)
+   ![](SagittariusDwarfGalaxy.jpg)
 
    The Sagittarius Dwarf Elliptical Galaxy is very faint as it currently
    resides on the opposite side of the galactic core of the Milky Way. It is
@@ -441,7 +443,7 @@ Telescope to locate our stellar neighbors.
    they will not escape the huge gravitational forces of the Milky Way, and
    will become satellites. Typing "Large" into the search text box is enough
    to bring up a range of thumbnails for the Large Magellanic Cloud galaxy.
-   ![](uiimages/LargeMagellanicCloud.jpg)
+   ![](LargeMagellanicCloud.jpg)
    Zoom in on the **Star Forming Region
    in the Large Magellanic Cloud**. Sometimes classified as irregular, this
    galaxy may have been a barred spiral galaxy before succumbing to the tidal
@@ -456,7 +458,7 @@ Telescope to locate our stellar neighbors.
    [guided tour](guidedtours.md) in WorldWide Telescope). The Andromeda galaxy
    is also well known by its Messier Catalog name, M31. Type "M31" into the
    search text box.
-   ![](uiimages/Andromeda.jpg)
+   ![](Andromeda.jpg)
    The Andromeda galaxy is a classic spiral galaxy. It has at least 19
    satellite galaxies in orbit, including M32 highlighted in the image, with
    M110 — an elliptical galaxy containing millions of stars — visible above
@@ -472,7 +474,7 @@ Telescope to locate our stellar neighbors.
     will get different search results for each of these three names, even
     though they can refer to the same object! This is because the search is
     reliant on the names given to the objects by the creators of the images.
-    ![](uiimages/Pinwheel.jpg)
+    ![](Pinwheel.jpg)
 
     The Triangulum, M33 or Pinwheel, galaxy may be remote but it is
     gravitationally bound to the Andromeda galaxy.
@@ -491,15 +493,15 @@ Telescope to locate our stellar neighbors.
     the RA and Dec boxes in the search panel. Click **Go** to navigate to the
     location.
 
-    ![](uiimages/PinwheelRADec.jpg)
-    ![](uiimages/M33.jpg)
+    ![](PinwheelRADec.jpg)
+    ![](M33.jpg)
 
 12. Triangulum may have a satellite galaxy called the Pisces Dwarf, but
     searching on this name will not currently reveal the galaxy. However we
     can locate it using its known right ascension and declination values, so
     enter `1 03 55` for **RA** and `21 53 06` for **Dec**, and click **Go**.
 
-    ![](uiimages/PiscesDwarf.jpg)
+    ![](PiscesDwarf.jpg)
 
     The Pisces Dwarf galaxy appears only as the faint cloud between the bright
     stars at the top and bottom of the image.
@@ -518,7 +520,7 @@ Telescope to locate our stellar neighbors.
     Click **Go** to see the last image in this tutorial — the bright objects
     in the image are very bright galaxies.
 
-    ![](uiimages/VirgoCluster.jpg)
+    ![](VirgoCluster.jpg)
 
     The elliptical galaxy Messier 87 is one of the brightest galaxies in the
     Virgo Cluster, and can be seen in the bottom left hand corner of the
@@ -578,7 +580,7 @@ either the [Northern Hemisphere](#northern-hemisphere), or
    observe a planet, neglecting weather conditions, is close to its transit
    time (when it is at its highest point in the sky).
 
-   ![](uiimages/skytonight_jupiterfinder.jpg)
+   ![](skytonight_jupiterfinder.jpg)
 8. The plotted results for the Solar System will include our own moon. It is a
    beautiful object to look at and it can be so bright it dominates the night
    sky. Click the Moon's thumbnail in the search results panel. Now you can
@@ -597,7 +599,7 @@ either the [Northern Hemisphere](#northern-hemisphere), or
    star_, a star with a pulsating outer atmosphere, making it slightly
    brighter and then dimmer depending mostly on its changing surface area.
 
-   ![](uiimages/skytonight_Polaris.jpg)
+   ![](skytonight_Polaris.jpg)
 2. If it is winter in the northern hemisphere, Orion the great hunter will be
    climbing through the sky. Easily identifiable by his belt, the surrounding
    constellations are also interesting. To the west, find Taurus the bull with
@@ -620,7 +622,7 @@ either the [Northern Hemisphere](#northern-hemisphere), or
    both in orbit with a white dwarf star, the collapsed core of a star that
    was once about the size of our Sun.
 
-   ![](uiimages/skytonight_wintertriangle.jpg)
+   ![](skytonight_wintertriangle.jpg)
 4. In the summer, three bright stars make up the summer triangle.
    Counterclockwise from the left, Deneb, Vega, and Altair. Deneb is an
    amazing star, a blue super giant that appears bright in our skies even
@@ -633,7 +635,7 @@ either the [Northern Hemisphere](#northern-hemisphere), or
    appearance is actually due to many stars and nebulae so distant we can't
    separate them. You have to be far from a city to see the Milky Way.
 
-   ![](uiimages/skytonight_summertriangle.jpg)
+   ![](skytonight_summertriangle.jpg)
 
 That completes the Sky Tonight tutorial. Take your notes outside at the
 calculated time, and scan the skies!
@@ -648,7 +650,7 @@ calculated time, and scan the skies!
    Cloud is, it is about one tenth the mass of the Milky Way. These galaxies
    are fairly close to the bright star Canopus.
 
-   ![](uiimages/skytonight_Canopus.jpg)
+   ![](skytonight_Canopus.jpg)
 2. Of special interest are the closest stars to Earth (at 4.3 light years),
    the binary system of Alpha Centauri, which might be visible in the
    constellation Centaurus. To locate it search on its alternative name: Rigil
@@ -661,7 +663,7 @@ calculated time, and scan the skies!
 The bright star mentioned above, Rigil Kentaurus, along with its
 nearly-as-bright neighbor Hadar, are visible at the bottom of this image.
 
-![](uiimages/skytonight_SouthernCross.jpg)
+![](skytonight_SouthernCross.jpg)
 
 1. The globular cluster Omega Centauri contains millions of stars, many as
    close as 0.1 light years to each other, and may be the remains of a small
@@ -704,7 +706,7 @@ some of the most commonly used terms in astronomy.
 4. Open the **Search** panel, enter `0` for **RA** and `0` for **Dec**, then
    click **Go**.
 
-   ![](uiimages/firstpointofaries.jpg)
+   ![](firstpointofaries.jpg)
 
    The track of the Sun across the sky is known as the **ecliptic**. The
    First Point of Aries should now be in the middle of your view.
@@ -734,7 +736,7 @@ some of the most commonly used terms in astronomy.
    minimize the zoom completely). Right-click on Sirius in the sky to bring up
    the [Finder Scope](astronmicalresearch.md#the-finder-scope).
 
-   ![](uiimages/azimuthaltitude.jpg)
+   ![](azimuthaltitude.jpg)
 
    Note that the seconds values for the Altitude (**Alt**) and Azimuth
    (**Az**) of Sirius are changing, even when you look at the star in real
@@ -768,7 +770,7 @@ some of the most commonly used terms in astronomy.
    thumbnails. Click on the fifth, **Supernova1987A - 28th November 2003**.
    Now click on the sixth thumbnail, **Supernova1987A - 12th December 2004**.
 
-   ![](uiimages/Supernova2003.jpg) ![](uiimages/Supernova2004.jpg)
+   ![](Supernova2003.jpg) ![](Supernova2004.jpg)
 
    Though not taken exactly one year apart these two supernova images just
    might be showing one light year in the increased radius of the explosion.
@@ -806,7 +808,7 @@ some of the most commonly used terms in astronomy.
     simulated time down, you should be able to match the rising and setting
     times with those on the **Finder Scope.**
 
-    ![](uiimages/Moonrise.jpg)  Moonrise in New York.
+    ![](Moonrise.jpg)  Moonrise in New York.
 
     Rise, transit and set times are given in local time, not UTC. Notice that
     the **Observing Time** of 21:56:11 is just a minute after the **Rise**
@@ -821,7 +823,7 @@ some of the most commonly used terms in astronomy.
     Depending on the time of year and location, the Sun can become
     circumpolar, as in the example.
 
-    ![](uiimages/Circumpolar.jpg)
+    ![](Circumpolar.jpg)
 
     Accelerate simulated time to **x1000** or **x10000** to show that the Sun
     does not dip below the horizon, but instead casts an ellipse in the sky.
@@ -862,7 +864,7 @@ some of the most commonly used terms in astronomy.
     and beta (β), then click **Go**. You should now be looking at the center
     of the Milky Way.
 
-    ![](uiimages/CenterofMilkyWay.jpg)
+    ![](CenterofMilkyWay.jpg)
 
     The center of the Milky Way is 25,000 light years distant, in Sagittarius,
     shown here using the Digitized Sky Survey.
@@ -888,7 +890,7 @@ Use **View > Reset Camera** to restore the default view and settings.
 The Apollo 12 landing site panorama provides some close up detail of the moon
 surface:
 
- ![](uiimages/Panorama.jpg)
+ ![](Panorama.jpg)
 
 ### Tutorial: Comparing Styles of Panorama
 
@@ -905,7 +907,7 @@ panoramas, showing different presentation styles.
    rock strewn landscape. The rover, named _Sojourner_, is only 25 inches
    long.
 
-   ![](uiimages/Panorama_ManyRovers.jpg)
+   ![](Panorama_ManyRovers.jpg)
 3. Taking panoramic photographs is one of the objectives of unmanned missions.
    However, discerning detail from a camera at a low elevation and at a fixed
    point can be problematic. One method of addressing this is to increase the
@@ -915,12 +917,12 @@ panoramas, showing different presentation styles.
    understand why researchers color images. Notice how the false color image
    makes certain details much more visible!
 
-   ![](uiimages/Panorama_FalseColor.jpg)
+   ![](Panorama_FalseColor.jpg)
 4. To see another method of highlighting landscape, scroll in the **Imagery**
    list to **Opportunity: Lyell**. Rotate the view until the large crater is
    in view, shown in the following image:
 
-   ![](uiimages/Panorama_Lyell.jpg)
+   ![](Panorama_Lyell.jpg)
 5. Now load the **Opportunity: Lyell (stereo)** imagery, and using a pair of
    red and cyan glasses, pan to the same location in the stereo view. The
    escarpment certainly stands out!
@@ -933,12 +935,12 @@ panoramas, showing different presentation styles.
    Note that if you load a panorama and see only black background, rotate the
    view as the panorama may only be partial.
 
-   ![](uiimages/Panorama_Cliff.jpg)
+   ![](Panorama_Cliff.jpg)
 7. Scroll in **Imagery** to the **Opportunity: Erebus** panorama. At first the
    panorama appears complete, but see if you can find the missing piece. Note
    the solar panels that cover the spacecraft:
 
-   ![](uiimages/Panorama_Erebus.jpg)
+   ![](Panorama_Erebus.jpg)
 
 
 ## Solar System
@@ -952,7 +954,7 @@ most visited objects in the virtual Universe, the Earth, the Moon and Saturn.
 * Click and drag to rotate the planet.
 * Use the **Planet Size** slider to increase or decrease the size of the Sun
   and planets.
-  ![](uiimages/3Dsolarsystem.jpg)
+  ![](3Dsolarsystem.jpg)
 * Use the mouse wheel to zoom in and out.
 * To tilt the field of view **CTRL + click** and drag vertically.
 * To rotate the field of view **CTRL + click** and drag horizontally.
@@ -963,12 +965,12 @@ Basic navigation is much easier using the lower panel thumbnails as the
 starting point, as there are only one star, nine planets, and five moons to
 choose from!
 
-![](uiimages/3Dsolarsystem2.jpg)
+![](3Dsolarsystem2.jpg)
 
 Three of the most visited objects in the virtual Universe, the Earth, the Moon
 and Saturn. For this particular image planet size is magnified to the maximum:
 
-![](uiimages/EarthMoonSun.jpg)
+![](EarthMoonSun.jpg)
 
 Refer to the [3d Solar System](#3d-solar-system) settings in the **View**
 pane. Of great interest is the [Observing Time](#ObservingTime) pane, which
@@ -981,7 +983,7 @@ Use the mouse wheel to zoom out from the Solar System to view the Cosmos,
 pausing on the way to look at the Milky Way, noted for its two large spiral
 arms. The crosshairs show the position of the Solar System.
 
-![](uiimages/milkyway.jpg)
+![](milkyway.jpg)
 
 ### Tutorial: Tracking a Solar Eclipse
 
@@ -1015,7 +1017,7 @@ the following procedure:
     continent. It should look similar to the following image as it passes Lake
     Victoria (at a time of 12.52.05 UTC):
 
-    ![](uiimages/Eclipse.jpg)
+    ![](Eclipse.jpg)
 
 To see the same eclipse but in the **Sky** view use the following procedure:
 
@@ -1032,8 +1034,8 @@ To see the same eclipse but in the **Sky** view use the following procedure:
 7. Accelerate the time to **x100** to view the eclipse. You may have to pan
    the screen a bit to keep the eclipse in view.
 
-   ![](uiimages/PartialEclipse.jpg)
-   ![](uiimages/TotalEclipse.jpg)
+   ![](PartialEclipse.jpg)
+   ![](TotalEclipse.jpg)
 
 Note that lunar eclipses (where the Earth passes in front of the Moon which
 turns the Moon's appearance a shade of red) are not currently implemented in
@@ -1060,7 +1062,7 @@ This section describes how to add your own 3D models to WorldWide Telescope.
 
 1. Right-click on "Sandbox" in the layer manager and select **Add**.
 
-   ![](uiimages/ex_Sandbox-add.png)
+   ![](ex_Sandbox-add.png)
 
 2. Navigate to the OBJ or 3DS file you want to load. WWT scans the file and
    looks at the bounds of the model to scale it into the viewable 3D space. In
@@ -1070,7 +1072,7 @@ This section describes how to add your own 3D models to WorldWide Telescope.
 3. Right-click the item in layer manager and select **Properties**. Here you
    can position the object within the sandbox space.
 
-   ![](uiimages/ex_3d-model-properties.png)
+   ![](ex_3d-model-properties.png)
 
    When the **Properties** dialog is active, click and drag the colored arrows
    to position the selected object:
@@ -1079,7 +1081,7 @@ This section describes how to add your own 3D models to WorldWide Telescope.
    * Green: Y axis
    * Blue: Z axis
 
-   ![](uiimages/ex_3d-model-xyz.png)
+   ![](ex_3d-model-xyz.png)
 
    You can load multiple models and have them placed in a common coordinate
    system by making some invisible geometry at the same boundaries in 3D space
@@ -1112,7 +1114,7 @@ As an alternative to using the mouse, a USB wired Xbox controller can be used
 to navigate the view. Simply plug in the Xbox controller and appropriate
 device driver software will be located and installed.
 
-![](uiimages/XboxController.jpg)
+![](XboxController.jpg)
 
 The following table provides the purpose of the controller buttons:
 
@@ -1133,11 +1135,11 @@ controller should be connected.
 
 Clicking on the down arrow below **Explore** opens up the menu entries.
 
-![](uiimages/ui_win_Explore-Menu.png)
+![](ui_win_Explore-Menu.png)
 
 The **New** options start a new data collection of images, or initiate the [tour creation process](#CreatingaTour).
 
-![](uiimages/ExploreMenuEntries2.jpg)
+![](ExploreMenuEntries2.jpg)
 
 The **Open** options enable the opening of a tour, a data collection, an image
 (which will be placed in the sky if it includes AVM metadata, or simply
@@ -1145,7 +1147,7 @@ centered if there is no such data) and, for astronomers only, a
 [Virtual Observatory Table](#VirtualObservatoryTables). Finally there is an
 option to load ESRI Shape Files.
 
-![](uiimages/ui_win_Explore-Menu-Submenu-Open.png)
+![](ui_win_Explore-Menu-Submenu-Open.png)
 
 Clicking **Show Finder** will bring up [The Finder Scope](#TheFinderScope).
 

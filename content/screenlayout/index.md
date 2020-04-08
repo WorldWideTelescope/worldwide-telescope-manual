@@ -1,12 +1,14 @@
----
-description: The layout of the main AAS WorldWide Telescope interface.
----
++++
+title = "Screen Layout"
+description = "The layout of the main AAS WorldWide Telescope interface."
+weight = 100
++++
 
 The following image shows the first view that will appear on running WorldWide
 Telescope. This section describes the layout, and how it changes depending on
 the selections of the user.
 
-![](./uiimages/ui_win_Opening-View.png)
+![](ui_win_Opening-View.png)
 
 
 ## The Top Panel
@@ -18,7 +20,7 @@ documentation, however the basic purpose of each entry follows. Note that the
 main menu items can be clicked on themselves, which has a different function
 than selecting the down arrow and opening up the menu contents.
 
-![](uiimages/ui_win_Main-Menu-Down-Arrow.png)
+![](ui_win_Main-Menu-Down-Arrow.png)
 
 Hovering the mouse underneath the main menu item will display a down arrow.
 Clicking on this down arrow will open up the menu contents. Clicking on the
@@ -72,14 +74,14 @@ The _Top Panel_ is shown in the image below. It is a glass panel that displays
 a range of thumbnail images. Thumbnail images are there to be clicked on, with
 the underlying text helping identity the data.
 
-![](uiimages/ui_win_Top-Panel.png)
+![](ui_win_Top-Panel.png)
 
 In this top panel view, the user has selected the thumbnail
 **Constellations**, so the top panel now displays all 89 constellation
 entries. Astronomers will note that there are 88 constellations, however
 WorldWide Telescope treats the divided Serpens constellation as two.
 
-![](uiimages/TopPanelNext.jpg)
+![](TopPanelNext.jpg)
 
 If there are more thumbnails than the top panel can display, the number of
 rows of thumbnails (with _previous_ and _next_ arrows) will appear to the far
@@ -92,7 +94,7 @@ the options.
 Underneath the top panel is the main view! In this case the user has selected
 **Constellations** then **Cassiopeia**:
 
-![](uiimages/MainViewHeartNebula.jpg)
+![](MainViewHeartNebula.jpg)
 
 The images of the sky are annotated with the outlines of the constellations.
 The constellation most central to the view is referred to as the _selected_
@@ -113,7 +115,7 @@ Clicking the right mouse button brings up the
 around the screen with the mouse to help identify objects. In the image below,
 it has been used to select one of the stars in Cassiopeia.
 
-![](uiimages/FinderScope.jpg)
+![](FinderScope.jpg)
 
 Click the **X** in the top right corner of the **Finder Scope** to close it.
 
@@ -124,7 +126,7 @@ At the bottom of the screen there is the lower panel. This performs a variety
 of functions, the most significant of which are the **Look At** and
 **Imagery** entries.
 
-![](uiimages/LookAt.jpg)
+![](LookAt.jpg)
 
 The **Look At** list includes **[Earth](explore.md#earth),
 [Planet](explore.md#planet), [Sky](explore.md#sky),
@@ -161,7 +163,7 @@ and shorter this list will become. For example, select **Explore** then
 **Constellations** then click on **Corvus**. The context list is shown in the
 image below:
 
-![](uiimages/ContextSearch.jpg)
+![](ContextSearch.jpg)
 
 There are a lot of entries in the list, starting with the planet Saturn. This
 list does not only include the stellar objects in the constellation Corvus,
@@ -174,14 +176,14 @@ it is often empty when the view is animating from one location to the next.
 The size of the contexts lists can be reduced by de-selecting items in the
 **[Context Search](astronomicalresearch.md#context-search) Filter**.
 
-![](uiimages/ContextSearchFilter.jpg)
+![](ContextSearchFilter.jpg)
 
 Only stars and supernova will now appear in the context list — no black holes
 or neutron stars!
 
 The final elements of the lower panel are shown in the image below:
 
-![](uiimages/LowerPanelFOV.jpg)
+![](LowerPanelFOV.jpg)
 
 The small up and down arrows can be used to show and hide the lower panel
 itself.
@@ -213,7 +215,7 @@ display, as well as a number of other view-specific settings.
 * Click **View > Show Layer Manager**, or
 * Click the Layer Manager icon.
 
-![](uiimages/ui_win_Layer-Manager-Toggle.png)
+![](ui_win_Layer-Manager-Toggle.png)
 
 **To Add a Layer**
 
@@ -239,7 +241,7 @@ Each view has its own node within the Layer Manager.
 * The **Dome** node exposes options for using WorldWide Telescope with a
   planetarium dome.
 
-![](uiimages/ui_win_Layer-Manager.png)
+![](ui_win_Layer-Manager.png)
 
 This completes the overview of the screen layout. The following sections go
 into much more detail on each individual topic.
