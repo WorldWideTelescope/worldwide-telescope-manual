@@ -1,6 +1,8 @@
----
-description: The Telescope menu of the AAS WorldWide Telescope program.
----
++++
+title = "The Telescope Menu"
+description = "The Telescope menu of the AAS WorldWide Telescope program."
+weight = 800
++++
 
 It is possible to control and track a physical telescope connected directly to
 your computer with a USB cable. With everything working correctly it is
@@ -29,18 +31,18 @@ software:
    to the far right of the panel, with the words **Not Installed** underneath
    it.
 
-   ![](uiimages/ASCOMNotInstalled.jpg)
+   ![](ASCOMNotInstalled.jpg)
 2. Click on the ASCOM logo to follow a link to the **ASCOM Standards for
    Astronomy** page, and download the ASCOM Platform:
 
-    ![](uiimages/ASCOMDownload.jpg)
+    ![](ASCOMDownload.jpg)
 3. Go through the download and installation procedures. This may take a few
    minutes.
 4. Confirm that the software has been installed by ensuring the word
    **Installed** now appears below the ASCOM logo in WorldWide Telescope.
    Close and restart WorldWide Telescope if necessary:
 
-   ![](uiimages/ASCOMInstalled.jpg)
+   ![](ASCOMInstalled.jpg)
 
 To ensure that the ASCOM software is working correctly with WorldWide
 Telescope, test it in simulation mode:
@@ -48,7 +50,7 @@ Telescope, test it in simulation mode:
 1. Click the **Choose** button on the telescope panel, then scroll down the
    list and select **Simulator**:
 
-   ![](uiimages/ASCOMTelescopeChooser.jpg)
+   ![](ASCOMTelescopeChooser.jpg)
 
 2. Click **OK**.
 3. Now click **Connect** on the telescope panel. You should notice that many
@@ -57,13 +59,13 @@ Telescope, test it in simulation mode:
    the telescope panel. Change the **Equatorial System** entry in the
    **Advanced** section to **J2000**:
 
-   ![](uiimages/ASCOMSetup.jpg)
+   ![](ASCOMSetup.jpg)
 4. Click **OK** in the **Setup** dialog and you should notice that a new
    window has been opened, the **Scope Simulator**. This window mimics the
    remote control of a physical telescope:
 
-   ![](uiimages/ScopeSimulator.jpg)
-   ![](uiimages/ScopeSimulatorBlank.jpg)
+   ![](ScopeSimulator.jpg)
+   ![](ScopeSimulatorBlank.jpg)
 
    Open up the **Scope Simulator** and ensure that there are red numerical
    position values. If there are not, as seen in the image to the right, then
@@ -76,7 +78,7 @@ Telescope, test it in simulation mode:
 6. Click on **Slew** in the telescope panel. You should see the settings on
    the **Scope Simulator** change to the RA and Dec of Polaris:
 
-   ![](uiimages/ScopeSimulatorOnPolaris.jpg)
+   ![](ScopeSimulatorOnPolaris.jpg)
 
 7. Next select the controls of the **Scope Simulator** -- one or more of
    **N**, **S**, **E** or **W**. Note that holding down Shift will move the
@@ -88,7 +90,7 @@ Telescope, test it in simulation mode:
 9. Pressing **Traffic** on the **Scope Simulator** will display a window
    giving a log of the telescope movements:
 
-   ![](uiimages/ASCOMTraffic.jpg)
+   ![](ASCOMTraffic.jpg)
 10. This completes the simulation test.
 
 The next step is to set up the physical telescope and your computer in a
@@ -119,11 +121,11 @@ software. When it is correctly aligned:
 
 ## The Telescope Panel
 
-![](uiimages/TelescopePanel1.jpg)
+![](TelescopePanel1.jpg)
 
 
 ## Telescope Menu Entries<
 
 Clicking on the down arrow below **Telescope** opens up the menu entries.
 
-![](uiimages/TelescopeMenuEntries.jpg)
+![](TelescopeMenuEntries.jpg)
