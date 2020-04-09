@@ -1,6 +1,7 @@
----
-description: Creating and viewing guided “tours” in AAS WorldWide Telescope.
----
++++
+title = "Guided Tours"
+weight = 300
++++
 
 Guided Tours are annotated and animated slide-shows, created to demonstrate a
 feature of WorldWide Telescope (such as the **Welcome** tour), galaxies (such
@@ -42,12 +43,12 @@ default is an image of a folder.
 
 To play a tour, click the thumbnail:
 
-![](uiimages/Tours_Playing.jpg)
+![](Tours_Playing.jpg)
 
 Alternatively, hover the mouse over the thumbnail so that the tour properties
 appear, and then press the play arrow:
 
-![](uiimages/Tours_Properties.jpg)
+![](Tours_Properties.jpg)
 
 To pause a tour, click the Escape key. You are then free to explore at will.
 When a tour is playing the top and lower panes are hidden. To bring these
@@ -61,11 +62,11 @@ Note the thumbnails in the top panel show the tour stops (the large **M** that
 appears in the first image indicates that this is a master slide - refer to
 [Creating a Tour](#creating-a-tour) for more details).
 
-![](uiimages/Tours_Running.jpg)
+![](Tours_Running.jpg)
 
 To cancel a tour, click the **X** by the tour name in the menu bar:
 
-![](uiimages/Tours_closing.jpg)
+![](Tours_closing.jpg)
 
 To close a tour after it has completed, either click the **X** by the tour
 name, or the **Close Tour** button that appears in the final credits. In order
@@ -74,14 +75,14 @@ too many stars and reconsider your opinion, click the star to the left to
 reduce the number of stars. Click **Close Tour** and this rating will be
 included in the average rating presented to other users.
 
-![](uiimages/TourRating.jpg)
+![](TourRating.jpg)
 
 To navigate the folders of tours click on the thumbnails to open up folders
 and tours, and click on the text to step back. For example, clicking
 **Nebula** in the image below will close that folder and go back to display
 the contents of the higher level **Tours** folder:
 
-![](uiimages/Tours_Navigation.jpg)
+![](Tours_Navigation.jpg)
 
 ### Notes
 
@@ -118,7 +119,7 @@ resized or truncated), and add as many of the properties as you can now.
 However these properties can be edited later, and some of the details may well
 not be finalized until you have completed the content of the tour.
 
-![](uiimages/Tours_New_Properites.jpg)
+![](Tours_New_Properites.jpg)
 
 The information entered into this dialog is for informational purposes for the
 users that might run the tour.
@@ -137,7 +138,7 @@ applies to tours added to the default collection).
 Click **OK** to close the Tour Properties dialog and bring up the tour editing
 pane:
 
-![](uiimages/Tours_New_Edit.jpg)
+![](Tours_New_Edit.jpg)
 
 Adding slides to your tour could hardly be easier. Simply navigate to where
 you want to be and click **Add a Slide**. Note that when you do this a
@@ -186,7 +187,7 @@ narrower screens - checking it simply shades out the wider area.
   Click **Save** to add the text to the slide. Then use the resize and rotate
   handles as necessary.
 
-  ![](uiimages/Tours_New_Text.jpg)
+  ![](Tours_New_Text.jpg)
 
   To select white as a color, click on any of the white space around the color
   picker. The two colored boxes at the bottom of the color picker show the old
@@ -195,7 +196,7 @@ narrower screens - checking it simply shades out the wider area.
   stars are supported shapes. Once added to the screen, edit some of their
   properties using the right click menu shown below.
 
-  ![](uiimages/Tours_New_ShapesMenu.jpg)
+  ![](Tours_New_ShapesMenu.jpg)
 
   Use the **Bring to...** and **Send...** options to layer multiple images
   appropriately.
@@ -226,8 +227,8 @@ narrower screens - checking it simply shades out the wider area.
 Some editing options are not quite so visible. Right click on a slide to bring
 up a menu with a range of detailed options:
 
-![](uiimages/Tours_New_SlideMenu.jpg)
-![](uiimages/ui_win_Date-Time-Selection.png)
+![](Tours_New_SlideMenu.jpg)
+![](ui_win_Date-Time-Selection.png)
 
 **Merge Tour after slide...** will insert another tour to become part of the
 tour being edited.
@@ -268,7 +269,7 @@ By default each slide will appear for 10.0 seconds. To change this click on
 the pane just below each slide, and use the up and down arrows to change the
 number of seconds.
 
-![](uiimages/Tours_New_Secs.jpg)
+![](Tours_New_Secs.jpg)
 
 As an alternative to using the up and down arrows, mouse over the time itself,
 and edit the numbers by hand.
@@ -301,7 +302,7 @@ To add a title to a slide, click on the area below the thumbnail but inside
 the yellow bounding rectangle, and type up to 15 characters as a title, for
 example:
 
-![](uiimages/Tours_New_SlideTitle.jpg)
+![](Tours_New_SlideTitle.jpg)
 
 Note that a selected slide can be dragged and dropped to a new location in the
 displayed list of slides.
@@ -321,7 +322,7 @@ Click **Save** in the tour editing pane to save off the tour at any stage.
 Close the tour when it is completed by clicking the **X** by the name in the
 menu bar:
 
-![](uiimages/Tours_New_Closing.jpg)
+![](Tours_New_Closing.jpg)
 
 ### Sharing the Tour
 
@@ -357,17 +358,17 @@ The following images shows a typical menu system that might appear in a quiz.
 The blue text entries are all links to other slides. The white text entries
 are not linked to other slides.
 
-![](uiimages/InteractiveTourMenu.jpg)
+![](InteractiveTourMenu.jpg)
 The question (or menu) slide.
 
-![](uiimages/InteractiveTourWrong.jpg)
+![](InteractiveTourWrong.jpg)
 
 Three text entries in the question slide are linked to the "Wrong" answer
 slide: Mars, Mercury and Pluto.
 
 The "Try again" text will return the user to the question slide.
 
-![](uiimages/InteractiveTourCorrect.jpg)
+![](InteractiveTourCorrect.jpg)
 
 Only the correct text entry on the question slide is linked to the "Correct"
 answer slide: Venus.
@@ -379,7 +380,7 @@ required slides with the appropriate text on them. Next right click on each
 text entry in turn, and click on **Link to Slide**, this will bring up the
 following dialog:
 
-![](uiimages/InteractiveTourSelectLink.jpg)
+![](InteractiveTourSelectLink.jpg)
 
 Slides can be linked to another specific slide with the **Link to Slide
 (Select below)** option. This is the appropriate selection for all the menu
@@ -419,7 +420,7 @@ than normal tour:
 
 Clicking on the down arrow below **Guided Tours** opens up the menu entries.
 
-![](uiimages/GuidedTourMenuEntries.jpg)
+![](GuidedTourMenuEntries.jpg)
 
 **Tour Home**, **Tour Search Web Page**, and **Music and other Tour Resource**
   link to Microsoft Research WorldWide Telescope websites.
@@ -430,6 +431,6 @@ Repeat** then one of:
 - **One**: play the selected tour continuously
 - **All**: start with the selected tour, and cycle through the other tours in
   the top pane continuously.
-  ![](uiimages/GuidedTourMenuEntries2.jpg)
+  ![](GuidedTourMenuEntries2.jpg)
 
 **Undo** and **Redo** are enabled appropriately while editing a tour.

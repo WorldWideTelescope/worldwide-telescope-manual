@@ -1,4 +1,5 @@
 +++
+title = "WWT User Manual"
 +++
 
 The AAS WorldWide Telescope is a software environment that enables your
