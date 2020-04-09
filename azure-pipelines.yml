@@ -10,4 +10,4 @@ jobs:
   parameters:
     azureServiceConnectionName: 'aas@wwtadmindotnetfoundation'
     storageAccountName: 'wwtwebstatic'
-    pubPrefix: '$web/_docs/user-manual'
+    pubPrefix: '_docs/user-manual'
