@@ -1,6 +1,8 @@
----
-description: Data sharing through AAS WorldWide Telescope communities.
----
++++
+title = "Communities"
+description = "Data sharing through AAS WorldWide Telescope communities."
+weight = 400
++++
 
 Communities are public or private groups that can share data using WorldWide
 Telescope.
@@ -23,7 +25,7 @@ Joining a public community can be done both from the community menu, and from
 the community collection, by selecting **Join a Community**. This will link
 you to the WorldWide Telescope website:
 
-![](uiimages/CommunityWebPage.jpg)
+![](CommunityWebPage.jpg)
 
 Click the links on this website to join one or more communities. After you
 join a community, its logo displays in the top panel when you select
