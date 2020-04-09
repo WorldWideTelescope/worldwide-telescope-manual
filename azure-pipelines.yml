@@ -10,4 +10,8 @@ jobs:
   parameters:
     azureServiceConnectionName: 'aas@wwtadmindotnetfoundation'
     storageAccountName: 'wwtwebstatic'
+    cdnEndpointName: 'wwtwebdocs-prod'
+    cdnProfileName: 'wwt-cdn-01'
+    cdnPubPrefix: '/user-manual'
+    cdnResourceGroupName: 'wwt-web01'
     pubPrefix: '_docs/user-manual'
