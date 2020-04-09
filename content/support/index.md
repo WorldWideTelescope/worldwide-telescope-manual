@@ -1,6 +1,8 @@
----
-description: Help and support for the AAS WorldWide Telescope.
----
++++
+title = "Support"
+description = "Help and support for the AAS WorldWide Telescope."
+weight = 1200
++++
 
 WorldWide Telescope is under development at Microsoft Research. Feel free to
 contact the development team, or post comments on public forums.
@@ -26,4 +28,4 @@ To see plans and instructions for building a planetarium suitable for a small
 class of students, refer to
 [WorldWide Telescope Planetarium](http://www.worldwidetelescope.org/docs/WorldWideTelescopePlanetarium.html).
 
-![](planetariumimages/FinishedFour.jpg)
+<!-- ![](planetariumimages/FinishedFour.jpg) NOT FOUND -->
