@@ -1,6 +1,8 @@
----
-description: The Search panel of the AAS WorldWide Telescope user interface
----
++++
+title = "Search Panel"
+description = "The Search panel of the AAS WorldWide Telescope user interface"
+weight = 500
++++
 
 There are several methods of searching WorldWide Telescope data. Currently
 only default data is searched, not data that may have been added to your own
@@ -21,7 +23,7 @@ You must be connected to the internet in order for this feature to work.
 
 You can open the Search panel by clicking **Search** in the upper panel.
 
-![](uiimages/SearchPanel1.png)
+![](SearchPanel1.png)
 
 To search on a name, such as _Polaris_ or _M51_, enter it in the text box top
 left. As you type the characters the search will be automatic and display
@@ -49,7 +51,7 @@ the objects.
 
 Click the down arrow below **Search** to expand the menu.
 
-![](uiimages/SearchMenuEntries.png)
+![](SearchMenuEntries.png)
 
 * **SIMBAD Search...** enables you to search the SIMBAD database by name. If a
   matching item is found the view will change to the location provided in the
