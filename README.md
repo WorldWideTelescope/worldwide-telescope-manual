@@ -1,3 +1,5 @@
+[![Build Status](https://dev.azure.com/aasworldwidetelescope/WWT/_apis/build/status/WorldWideTelescope.worldwide-telescope-manual?branchName=master)](https://dev.azure.com/aasworldwidetelescope/WWT/_build/latest?definitionId=8&branchName=master)
+
 # WWT User Manual Documentation: Source Code
 
 This repository contains the source code for the [AAS WorldWide User Manual].
