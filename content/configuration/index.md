@@ -1,6 +1,8 @@
----
-description: How to configure AAS WorldWide Telescope in non-standard ways.
----
++++
+title = "Configuration"
+description = "How to configure AAS WorldWide Telescope in non-standard ways."
+weight = 1000
++++
 
 This section contains technical information on how to configure WorldWide
 Telescope to run in environments other than on a single desktop or laptop
@@ -45,7 +47,7 @@ A straightforward example of a multi-monitor cluster is to have a single
 master computer, and a matrix of slave computers each rendering a portion of
 the view.
 
-![](uiimages/Cluster1.jpg)
+<!-- ![](uiimages/Cluster1.jpg) NOT FOUND -->
 
 Hoag's Object - a rare ring galaxy - displayed on a 4 x 3 cluster. With a
 resolution on each monitor of 1920 x 1200 the full image is 27 Megapixels.
@@ -98,7 +100,7 @@ To setup a multi-monitor cluster, go through the following procedure:
    | **    Height="1200"** | The desired screen resolution height for the slave. |
    | **    Bezel="1.07"** | As the physical edge of the monitors must be taken into account, certain pixels will not be rendered (those that would theoretically appear behind the edges of the monitors). The Bezel factor is the ratio of the size of the monitor to the size of the screen. An estimate of 107 percent is used in this example.
    The minimum Bezel value is 1.0.
-   ![](uiimages/Cluster2.jpg) |
+   <!-- ![](uiimages/Cluster2.jpg) NOT FOUND --> |
    | **    ConfigFile=""** | The following three entries should be present, but with empty strings as parameters. |
    | **    BlendFile=""** |
    | **    DistortionGrid="">** |
@@ -179,12 +181,12 @@ in such a way that it appears correct on the dome (or geodesic dome). This
 warping is most noticeable in the rendering of lines (rather than spheres).
 The image below shows Saturn and the Milky Way warped for a 16:9 projector.
 
-![](uiimages/MirrorWarping.jpg)
+<!-- ![](uiimages/MirrorWarping.jpg) NOT FOUND -->
 
 Select **Full Dome** from the [View Menu Entries](#view-menu-entries) to
 initiate setup for a small planetarium.
 
-![](uiimages/FullDome.jpg)
+<!-- ![](uiimages/FullDome.jpg) NOT FOUND -->
 
 Before clicking on **Full Dome** to activate the warping, select **Dome
 Setup** to provide a few basic parameters.
@@ -196,7 +198,7 @@ unchecked.
 **Detach Main View to Second Monitor** will turn the current screen blank, and
   input control is transferred to the second view (dome or second monitor).
 
-![](uiimages/domesetup.jpg)
+![](domesetup.jpg)
 
 For **Dome Type** select from the drop down list:
 - **Fisheye**
@@ -268,7 +270,7 @@ each projector projecting onto an area of the dome — with special blending
 done to mask the edges. The following diagram shows two common six-projector
 projection layouts:
 
-![](uiimages/ProjectionSixA.jpg)
+<!-- ![](uiimages/ProjectionSixA.jpg) NOT FOUND -->
 
 There are two methods of projection that can be configured in WorldWide
 Telescope, the first using P_rojection Designer_ software, the second using an
