@@ -1,6 +1,8 @@
----
-description: The View menu of the AAS WorldWide Telescope program.
----
++++
+title = "View Menu"
+description = "The View menu of the AAS WorldWide Telescope program."
+weight = 600
++++
 
 The **View** pane and menu entries contain a range of settings that affect the
 current view.
@@ -11,9 +13,9 @@ current view.
 The entries in the **Observing Location** box apply only to the
 [Sky](explore.md#sky) view.
 
-![](uiimages/ui_win_Observing-Location.png)
+![](ui_win_Observing-Location.png)
 
-![](uiimages/ui_win_Observing-Location-Options.png)
+![](ui_win_Observing-Location-Options.png)
 
 The **Observing Location** pane is used to set the viewpoint on Earth. You can
 either select a **Data Set** and **Region** to obtain the viewpoint from a
@@ -26,7 +28,7 @@ the horizon line, uncheck the **View from this location** checkbox.
 
 View from Quito, Ecuador:
 
-![](uiimages/ui_Quito-View.png)
+![](ui_Quito-View.png)
 
 
 ## Viewing From a New Location
@@ -47,8 +49,9 @@ location. To view the sky from a new location in local time:
 The entries in the **Observing Time** box apply to the [Sky](explore.md#sky)
 and [Solar System](explore.md#solar-system) views.
 
-![](uiimages/ui_win_Observing-Time.png)
-![](uiimages/ui_win_Date-Time-Selection.png)
+![](ui_win_Observing-Time.png)
+
+<!-- ![](uiimages/ui_win_Date-Time-Selection.png) NOT FOUND -->
 
 Use the **Observing Time** pane to change the time of the current view, or to
 greatly accelerate or decelerate the simulated time. The movement applies to
@@ -68,7 +71,7 @@ solar eclipses on the Earth (see the
 
 Click the down arrow below **View** to open the view menu entries.
 
-![](uiimages/ui_win_View-Menu-Entries.png)
+![](ui_win_View-Menu-Entries.png)
 
 * **Reset Camera** sets WorldWide Telescope to the current default view.
 * **Show On-Screen Controls** toggles the on-screen UI for zooming, panning,
@@ -80,7 +83,7 @@ Click the down arrow below **View** to open the view menu entries.
   planet. To tilt the surface press **CTRL + click** and drag vertically.
 * **Startup Look At** lets you choose the default view to use at start up.
 
-  ![](uiimages/ui_win_Startup-Look-At.jpg)
+  ![](ui_win_Startup-Look-At.jpg)
 * **Copy Current View Image** takes a snapshot of the current view (without UI
   elements) and copies it to the clipboard. You can then paste the image into
   another application such as an image editor or email.
@@ -100,27 +103,27 @@ Click the down arrow below **View** to open the view menu entries.
   portion to export is highlighted by a dashed yellow box. This setting is
   only applicable to the **Earth** and **Planet** views.
 
-  ![](uiimages/ui_win_Export-STL-for-3D-Printing.png)
+  ![](ui_win_Export-STL-for-3D-Printing.png)
 * **Screen Broadcast...** broadcasts the screen contents from local
   applications to show up on the projected display as a window. Note that this
   feature is only functional in a multi-channel environment.
 
-  ![](uiimages/ui_win_Screen-Broadcast.png)
+  ![](ui_win_Screen-Broadcast.png)
 * **Image Stack** displays a set of thumbnails on the right side of the
   screen, showing the current imagery in use.
 
-  ![](uiimages/ui_win_Image-Stack.png)
+  ![](ui_win_Image-Stack.png)
 * **Stereo** lets you choose options for 3D viewing. **Anaglyph** requires the
   use of red and cyan, or blue and yellow, 3D glasses. The **Side by Side**
   options are used with twin projectors.
 
-  ![](uiimages/ui_win_Stereo.png)
+  ![](ui_win_Stereo.png)
 * **Full Dome** sets WorldWide Telescope to display in
   [full dome](http://en.wikipedia.org/wiki/Talk%3AFulldome) mode, suitable for
   immersive dome-based video projection environments such as those used in
   planetariums.
 
-  ![](uiimages/ui_win_Full-Dome.png)
+  ![](ui_win_Full-Dome.png)
 * **Toggle Full Screen Mode (F11)** toggles full-screen display mode. In
   full-screen mode the main view takes up the entire screen while menus and
   panels are hidden. You can also use the F11 key to toggle full-screen mode.
@@ -128,11 +131,11 @@ Click the down arrow below **View** to open the view menu entries.
   display. This can have a smoothing effect on the display. The default
   setting is **Four Samples**.
 
-  ![](uiimages/ui_win_Multi-Sample-Antialiasing.png)
+  ![](ui_win_Multi-Sample-Antialiasing.png)
 * **Lock Vertical Sync** synchronizes the screen refresh rate with the frame
   rate to prevent screen tearing.
 * **Target Frame Rate** sets the target frame rate for the main display.
   Reduce this setting if the display does not pan, zoom or move smoothly on
   your system. The default setting is **60 FPS**.
 
-  ![](uiimages/ui_win_Frame-Rate.png)
+  ![](ui_win_Frame-Rate.png)
