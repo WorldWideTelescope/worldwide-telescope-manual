@@ -3,6 +3,7 @@ resources:
     - repository: wwtguide
       type: github
       name: WorldWideTelescope/zola-wwtguide
+      endpoint: wwtelescope
 
 jobs:
 - template: azure-build-and-publish.yml@wwtguide
