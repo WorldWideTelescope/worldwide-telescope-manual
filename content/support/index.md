@@ -4,28 +4,17 @@ description = "Help and support for the AAS WorldWide Telescope."
 weight = 1200
 +++
 
-WorldWide Telescope is under development at Microsoft Research. Feel free to
-contact the development team, or post comments on public forums.
+The best place to get help and support for WWT is the
+[WWT user forum][forum]. We aspire for the WWT community to
+be a friendly and supportive place, so please don’t hesitate to reach out!
 
-To privately send a specific bug, issue, question or comment direct to the
-WorldWide Telescope team at Microsoft, go to
-[WorldWide Telescope Support](/Support/IssuesAndBugs).
+[forum]: https://wwt-forum.org/
 
-To publicly post a comment regarding the WorldWide Telescope, consider adding
-a comment to an appropriate entry in the
-[WorldWide Telescope support forum](http://forums.worldwidetelescope.org/).
+Bugs in the system can be filed as issues in
+[the WWT organization on GitHub](https://github.com/WorldWideTelescope/). If
+you’re unfamiliar with the WWT technical infrastructure, however, it can be
+hard to know where exactly to file your issue. If in doubt, ask on
+[the forum][forum] first.
 
-
-## See Also
-
-For advanced users wishing to customize the WorldWide Telescope Web Control,
-refer to the
-[WorldWide Telescope Web Control Script Reference](http://www.worldwidetelescope.org/docs/WorldWideTelescopeWebControlScriptReference.html),
-or to work with the data formats and files refer to the
-[WorldWide Telescope Data Files Reference](http://www.worldwidetelescope.org/docs/WorldWideTelescopeDataFilesReference.html).
-
-To see plans and instructions for building a planetarium suitable for a small
-class of students, refer to
-[WorldWide Telescope Planetarium](http://www.worldwidetelescope.org/docs/WorldWideTelescopePlanetarium.html).
-
-<!-- ![](planetariumimages/FinishedFour.jpg) NOT FOUND -->
+Finally, if these public options don’t meet your needs, you can also email
+<wwt@aas.org>.
