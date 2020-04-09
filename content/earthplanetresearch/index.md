@@ -1,6 +1,8 @@
----
-description: Earth and planetary research with AAS WorldWide Telescope.
----
++++
+title = "Earth and Planetary Research"
+description = "Earth and planetary research with AAS WorldWide Telescope."
+weight = 900
++++
 
 WorldWide Telescope can be used by Earth scientists to study events on our own
 planet in some detail. The main feature for this purpose is the **Layer
@@ -41,7 +43,7 @@ Following the selection of the appropriate file, a series of Data
 Visualization dialogs will appear that are used to configure the data for
 WorldWide Telescope:
 
-![](uiimages/EarthResearch_spreadsheetproperties.jpg)
+![](EarthResearch_spreadsheetproperties.jpg)
 
 When this dialog appears, first give the data layer a friendly name, and
 select from the drop down list of coordinate types (often the default of
