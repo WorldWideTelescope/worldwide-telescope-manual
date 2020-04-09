@@ -1,12 +1,14 @@
----
-description: The Settings menu of the AAS WorldWide Telescope.
----
++++
+title = "The Settings Menu"
+description = "The Settings menu of the AAS WorldWide Telescope."
+weight = 700
++++
 
 Using the **Settings** panel and menu, you can control settings that affect
 the current view, performance, and operation. Note that these settings differ
 between the Web Client and the Windows Client.
 
-![](uiimages/ui_win_Settings-Panel.png)
+![](ui_win_Settings-Panel.png)
 
 
 ## Constellation Lines
@@ -14,7 +16,7 @@ between the Web Client and the Windows Client.
 The **Constellation Lines** settings apply only to the [Sky](explore.md#sky)
 view.
 
-![](uiimages/ui_win_Constellation-Lines.png)
+![](ui_win_Constellation-Lines.png)
 
 Use the **Constellation Lines** pane to create your own library of
 constellation figures. These are the lines that by default are shown in red,
@@ -48,7 +50,7 @@ The **Experience** settings apply to all of the views, and contain settings
 that affect mouse operation, panning and zooming, and the appearance of the
 user interface.
 
-![](uiimages/ui_win_Settings-Experience.png)
+![](ui_win_Settings-Experience.png)
 
 * **Zoom Speed** changes the rate at which the view is zoomed when using the
   mouse wheel.
@@ -74,8 +76,8 @@ user interface.
 Use the **Network and Cache** settings to control internet connection
 settings. These settings apply to all views.
 
-![](uiimages/ui_Network-Cache.png)
-![](uiimages/ui_Manage-Data-Cache.png)
+![](ui_Network-Cache.png)
+![](ui_Manage-Data-Cache.png)
 
 A proxy server is not used by default, and the default port used to connect to
 the internet is port 80. Change these settings only if necessary.
@@ -92,7 +94,7 @@ data is downloaded, click **Purge** to delete the data in the cache.
 
 Click the down arrow below **Settings** to open up the menu entries.
 
-![](uiimages/ui_win_Settings-Menu-Items.png)
+![](ui_win_Settings-Menu-Items.png)
 
 * **Check for Updates...** detects whether you are running the latest version
   of WorldWide Telescope.
@@ -102,7 +104,7 @@ Click the down arrow below **Settings** to open up the menu entries.
 * **Advanced** brings up a sub-menu with options for controlling the download
   queue, displaying performance data, and more.
 
-   ![](uiimages/ui_win_Advanced-Settings-Menu.png)
+   ![](ui_win_Advanced-Settings-Menu.png)
 
   * **Show Download Queue** shows the current image tiles being downloaded.
     The queue can be stopped, started again, flushed (all items are removed
@@ -139,5 +141,5 @@ Click the down arrow below **Settings** to open up the menu entries.
   cache. This is handy for classes and groups. Data is downloaded only once to
   the local cache, which participants can then access. Each user will need to
   enter the URL one time. The URL is used until the setting is cleared.
-  ![](uiimages/shareddatacache.jpg) For more details refer to
+  ![](shareddatacache.jpg) For more details refer to
   [Regional Data Cache](configuration.md#regional-data-cache).

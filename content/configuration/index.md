@@ -1,7 +1,7 @@
 +++
 title = "Configuration"
 description = "How to configure AAS WorldWide Telescope in non-standard ways."
-weight = 1000
+weight = 1100
 +++
 
 This section contains technical information on how to configure WorldWide

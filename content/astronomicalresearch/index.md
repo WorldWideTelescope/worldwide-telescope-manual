@@ -1,7 +1,7 @@
 +++
 title = "Astronomical Research"
 description = "Using AAS WorldWide Telescope for astronomical research."
-weight = 800
+weight = 900
 +++
 
 There is more information available within WorldWide Telescope that a newcomer

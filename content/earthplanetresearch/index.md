@@ -1,7 +1,7 @@
 +++
 title = "Earth and Planetary Research"
 description = "Earth and planetary research with AAS WorldWide Telescope."
-weight = 900
+weight = 1000
 +++
 
 WorldWide Telescope can be used by Earth scientists to study events on our own
