@@ -7,3 +7,7 @@ resources:
 
 jobs:
 - template: azure-build-and-publish.yml@wwtguide
+  parameters:
+    azureServiceConnectionName: 'aas@wwtadmindotnetfoundation'
+    storageAccountName: 'wwtwebstatic'
+    pubPrefix: '$web/_docs/user-manual'
