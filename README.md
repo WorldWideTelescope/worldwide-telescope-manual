@@ -1,31 +1,60 @@
 [![Build Status](https://dev.azure.com/aasworldwidetelescope/WWT/_apis/build/status/WorldWideTelescope.worldwide-telescope-manual?branchName=master)](https://dev.azure.com/aasworldwidetelescope/WWT/_build/latest?definitionId=8&branchName=master)
 
-# WWT User Manual Documentation: Source Code
+# WWT User Manual: Source Code
 
-This repository contains the source code for the [AAS WorldWide User Manual].
-The `master` branch of this repo is rendered by [GitBook] to appear here:
+This repository contains the source code for the [AAS WorldWide Telescope User Manual].
+The `master` branch of this repo gets published here:
 
-### https://worldwidetelescope.gitbook.io/user-manual/
+### https://docs.worldwidetelescope.org/user-manual/
 
 If you’re just interested in the documentation itself, you should go to that
 website. If you’re interested in *contributing* to this documentation, you’ve
-come to the right place! If you’re new to the project, please see the
+come to the right place!
+
+
+## Quick Start for the Initiated
+
+The manual is a static site written in [CommonMark Markdown] and processed
+with [Zola]. Zola is distributed as a single executable so it is ridiculously
+[easy to install][install-zola].
+
+This repository is themed by referencing [zola-wwtguide] as a submodule, so
+upon first checkout you’ll have to run:
+
+```
+git submodule update --init
+```
+
+Once everything is set up, all you have to do is run
+
+```
+zola serve
+```
+
+to build the site and serve it locally for testing. The command `zola check`
+will check the build and verify that outgoing links are valid. Zola has
+[lots of documentation][zola-docs].
+
+[CommonMark Markdown]: https://commonmark.org/
+[Zola]: https://getzola.org/
+[install-zola]: https://www.getzola.org/documentation/getting-started/installation/
+[zola-wwtguide]: https://github.com/WorldWideTelescope/zola-wwtguide
+[zola-docs]: https://www.getzola.org/documentation/getting-started/overview/
+
+Merges to `master` will be published automatically using WWT’s continuous
+deployment infrastructure.
+
+
+## Contributing
+
+Contributions are welcome! If you’re new to the project, please see the
 [WWT Contributors’ Guide] and the [WWT Code of Conduct]. We operate with a
 standard [fork-and-pull] model.
 
-[AAS WorldWide Telescope User Manual]: https://worldwidetelescope.gitbook.io/user-manual/
+[AAS WorldWide Telescope User Manual]: https://docs.worldwidetelescope.org/user-manual/
 [WWT Contributors’ Guide]: https://worldwidetelescope.github.io/contributing/
 [WWT Code of Conduct]: https://worldwidetelescope.github.io/code-of-conduct/
 [fork-and-pull]: https://help.github.com/en/articles/about-collaborative-development-models
-
-The files in this repository follow the structure described in the
-[WWT GitBook Markdown documentation specification]. The content is
-fundamentally in [Markdown] format, but there are special patterns and extra
-features used by [GitBook].
-
-[GitBook]: https://docs.gitbook.com/
-[WWT GitBook Markdown documentation specification]: https://worldwidetelescope.gitbook.io/miscellaneous/documents/gitbook-spec
-[Markdown]: https://commonmark.org/
 
 
 ## Acknowledgments
