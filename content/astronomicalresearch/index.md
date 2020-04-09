@@ -1,6 +1,8 @@
----
-description: Using AAS WorldWide Telescope for astronomical research.
----
++++
+title = "Astronomical Research"
+description = "Using AAS WorldWide Telescope for astronomical research."
+weight = 800
++++
 
 There is more information available within WorldWide Telescope that a newcomer
 can easily grasp, and there are terabytes of astronomical information
@@ -34,7 +36,7 @@ To edit the metadata for any one of the images, right click the thumbnail for
 the image, and select **Edit**. This will bring up the **Edit Object
 Information** dialog:
 
-![](uiimages/EditObjectInformation.jpg)
+![](EditObjectInformation.jpg)
 
 Some of the metadata information is populated, including the **Constellation**
 and **RA** and **Dec** co-ordinates, when the image is added to the
@@ -81,7 +83,7 @@ study on top of the survey is the default operation.
 When both a foreground and background image are in view, the **Image
 Crossfade** slider appears, enabling you to visually compare the two images:
 
-![](uiimages/ImageCrossfade.jpg)
+![](../explore/ImageCrossfade.jpg)
 
 Another method of comparing images is available if there are several
 thumbnails (studies) of the same object. For example, select **Explore >
@@ -89,8 +91,8 @@ Collections > Chandra Studies** and then scroll to **Kepler's Supernova**.
 There are a number of thumbnails representing different studies of this
 feature, including the visible wavelength and high energy x-rays. To compare
 the studies without any change in camera position, click on the picture icons
-in the top right hand corner of the thumbnails: ![](uiimages/Kepler.jpg)
-![](uiimages/PictureIcon.jpg) The picture icon.
+in the top right hand corner of the thumbnails: ![](Kepler.jpg)
+![](PictureIcon.jpg) The picture icon.
 
 To change the default operation of a study as foreground and survey as
 background there are a number of options. All default surveys appear as
@@ -138,7 +140,7 @@ object.
 Note also that you can pan by dragging the **Finder Scope** to the edges of
 the field of view.
 
-![](uiimages/FinderScope.jpg)
+![](../screenlayout/FinderScope.jpg)
 
 An object in space may have multiple names: **Ksora** and **HIP6686** in the
 example shown.
@@ -156,7 +158,7 @@ Refer also to the note:
 Both the **X** in the top right corner, and the **Close** button, close the
 **Finder Scope**.
 
-![](uiimages/FinderScopeExpandedMenu.jpg)
+![](FinderScopeExpandedMenu.jpg)
 
 Click **Research** to bring up a menu of options to research websites for data
 or more images of the object.
@@ -175,7 +177,7 @@ for specific details of the format of the URL.
 you are working on.
 
 - **SAMP** is an astronomy protocol for sharing data.
-  ![](uiimages/FinderScopeInformation.jpg)
+  ![](FinderScopeInformation.jpg)
 - **SIMBAD**: the Set of Identifications, Measurements, and Bibliography for
   Astronomical Data.
 - **SEDS**: the Students for the Exploration and Development of Space.
@@ -183,15 +185,15 @@ you are working on.
 - **ADS**: the Smithsonian/NASA Astrophysics Data System.
 - **NED**: the NASA/IPAC Extragalactic Database.
 - **DSS**: Digitized Sky Survey
-  ![](uiimages/FinderScopeImagery.jpg)
+  ![](FinderScopeImagery.jpg)
 - **SDSS**: Sloan Digitized Sky Survey
 - [**FITS**](#fits-images): Flexible Image Transport System image, commonly
   used in astronomy because of its ability to store human-readable metadata.
 - Virtual Observatory Searches
-  ![](uiimages/FinderScopeVO.jpg)
+  ![](FinderScopeVO.jpg)
   Refer to the [Virtual Observatory Tables](#virtual-observatory-tables) example below.
 - SAMP options
-  ![](uiimages/FinderScopeSampMenu.jpg)
+  ![](FinderScopeSampMenu.jpg)
   Send the image or table data to **Broadcast** to be picked up by all other
   [SAMP](http://www.ivoa.net/Documents/WD/App/SAMP-20080625.html) compliant
   programs you are running.
@@ -212,11 +214,11 @@ selected **Plot Type** (white circles by default) -- a lot in the case of M51!
 Now use the **Finder Scope** on the individual plots to investigate them
 further, many will be unidentified electromagnetic wave sources.
 
-![](uiimages/NEDSearchVOTable.jpg)
+![](NEDSearchVOTable.jpg)
 
-![](uiimages/NEDSearchM51.jpg)
+![](NEDSearchM51.jpg)
 
-![](uiimages/M51PlotName.jpg)
+![](M51PlotName.jpg)
 
 ### VO Cone Search
 
@@ -224,12 +226,12 @@ A Virtual Observatory (VO) cone search is a search for data on objects in
 space within a cone - specified by a direction into space and a radius. The
 diagram below shows a cone search with a radius of approximately 8.5 degrees.
 
-![](uiimages/ConeSearch.jpg)
+<!-- ![](uiimages/ConeSearch.jpg) NOT FOUND -->
 
 The cone search can be refined by specifying that only certain types of
 objects ("white dwarfs", "knots", "supernovae" etc.) should be located.
 
-![](uiimages/ConeSearchPulsar.jpg)
+![](ConeSearchPulsar.jpg)
 
 First pan to the area of space you wish to search, then zoom in to reduce the
 radius to an appropriate amount.
@@ -259,11 +261,11 @@ options become available. To load a FITS image simply use the **Explore > Open
 > Image...** option, and note that the **Scale** icon appears in the lower
 panel alongside the **Image Crossfade** slider:
 
-![](uiimages/FITSScale.jpg)
+![](FITSScale.jpg)
 
 Click on the **Scale** icon to display a light intensity histogram.
 
-![](uiimages/FitsHistogram.jpg)
+![](FitsHistogram.jpg)
 
 Slide the green and red bars to select the starting and ending points for the
 display, then select from **Linear**, **Log**, **Power**, **Square Root** to
@@ -345,7 +347,7 @@ These plates have produced very large digital images (14000x14000 or 23040x
 23040 pixels), and it is a compressed version of these images that WorldWide
 Telescope accesses.
 
-![](uiimages/survey_sky.jpg)
+![](survey_sky.jpg)
 
 #### Hipparcos Catalog
 
@@ -358,7 +360,7 @@ auxiliary star mapper pinpointed many more stars with lesser but still
 considerable accuracy at 0.03 arc seconds. Known as the
 [Tycho Catalog](#tycho-Synthetic- optical) this identified 1,058,332 stars.
 
-![](uiimages/survey_hipparcos.jpg)
+![](survey_hipparcos.jpg)
 
 #### VLSS: VLA Low Frequency Sky Survey (Radio)
 
@@ -372,7 +374,7 @@ remnants. Very distant radio galaxies may reveal information on the timeline
 of cosmic events, such as how soon black holes were formed in the history of
 the Universe.
 
-![](uiimages/survey_vlss.jpg)
+![](survey_vlss.jpg)
 
 #### WMAP ILC 5-Year Cosmic Microwave Background
 
@@ -386,7 +388,7 @@ results of the survey include support for the theory that most of the Universe
 is made up of dark energy (73%), with the rest mostly dark matter (22%) and
 only a small portion (5%) as atomic.
 
-![](uiimages/survey_wmap.jpg)
+![](survey_wmap.jpg)
 
 #### SFD Dust Map
 
@@ -401,7 +403,7 @@ distant stars, galaxies, supernovae, or any other light-emitting object, they
 must correct the color and amount of light they measure for the amount of dust
 the light has passed through.
 
-![](uiimages/survey_dustmap.jpg)
+![](survey_dustmap.jpg)
 
 #### IRIS: Improved Imaging of IRAS Survey (Infrared)
 
@@ -417,7 +419,7 @@ emissions at high galactic latitudes show large variations of dust properties
 depending on the grain sizes of the dust. Large dust clouds are the
 birthplaces of stars and planets.
 
-![](uiimages/survey_iris.jpg)
+![](survey_iris.jpg)
 
 #### 2MASS Two Micron All Sky Survey (Synthetic)
 
@@ -431,7 +433,7 @@ Inter-American Observatory, Chile. The northern 2MASS facility began routine
 operations in 1997, and the southern facility in 1998. The primary use of
 these maps is likely to be as a new estimator of galactic extinction.
 
-![](uiimages/survey_2mass.jpg)
+![](survey_2mass.jpg)
 
 #### Hydrogen Alpha Full Sky Map
 
@@ -444,7 +446,7 @@ band pass from 0.5 Angstrom to 1 Angstrom deep in the red end of the visible
 light spectrum. The composite map can be used to provide limits on thermal
 emissions from ionized gas known to contaminate microwave-background data.
 
-![](uiimages/survey_hydrogen.jpg)
+![](survey_hydrogen.jpg)
 
 #### SDSS: Sloan Digital Sky Survey
 
@@ -462,7 +464,7 @@ containing more than 930,000 galaxies and 120,000 quasars.
 The survey has not yet covered the constellation Cygnus, so the image shows
 the constellation Leo:
 
-![](uiimages/survey_sloan.jpg)
+![](survey_sloan.jpg)
 
 #### Tycho (Synthetic, Optical)
 
@@ -476,7 +478,7 @@ stars in the catalog to 2,539,913 of the brightest stars in the Milky Way, of
 which about 5000 are visible to the naked eye. Components of double stars with
 separations down to 0.8 arc seconds are included.
 
-![](uiimages/survey_tycho.jpg)
+![](survey_tycho.jpg)
 
 #### USNOB: US Naval Observatory B1.0 (Synthetic, Optical)
 
@@ -493,7 +495,7 @@ arc second astrometric accuracy at J2000, 0.3 magnitude photometric accuracy
 in up to five colors, and 85% accuracy for distinguishing stars from
 non-stellar objects. 
 
-![](uiimages/survey_USNaval.jpg)
+![](survey_USNaval.jpg)
 
 #### GALEX (Ultraviolet)
 
@@ -510,7 +512,7 @@ wavelengths. Compared with low-mass stars like our sun, which live for
 billions of years, these massive stars never reach old age, having a lifespan
 as short as a few million years.
 
-![](uiimages/survey_galex.jpg)
+![](survey_galex.jpg)
 
 #### RASS: ROSAT All Sky Survey (X-Ray)
 
@@ -528,7 +530,7 @@ and the bright source catalog has 18,811 - the distinction being that to
 qualify for a bright source listing the source must emit 0.05 counts/sec or
 greater. Counts per second (or CPS) is a measure of x-ray activity.
 
-![](uiimages/survey_rass.jpg)
+![](survey_rass.jpg)
 
 #### Fermi (Gamma)
 
@@ -541,13 +543,13 @@ So far the Fermi telescope has revealed a new class of pulsars, probed
 gamma-ray bursts and watched flaring jets in galaxies billions of light-years
 away.
 
-![](uiimages/survey_femmi.jpg)
+![](survey_femmi.jpg)
 
 #### Black Sky Background
 
 Simply sets the entire background to black.
 
-![](uiimages/survey_blacksky.jpg)
+![](survey_blacksky.jpg)
 
 ### Browse
 
@@ -574,7 +576,7 @@ the thumbnails in the lower panel and select **Properties** from the menu.
 This will display the same information that appears in the
 [The Finder Scope](#the-finder-scope), for example:
 
-![](uiimages/ContextProperties.jpg)
+![](ContextProperties.jpg)
 
 In this example M86 has appeared in the lower panel as a result of the context
 search. Selecting **Properties** from the right-click menu displays the
@@ -591,36 +593,36 @@ the thumbnails as they appear in the top panel to bring the objects into view.
 
 | Group | Title | Description | Example |
 | :-- |
-| **Solar System** | | The Sun, or any planet or moon of our own Solar System. | [![](uiimages/SolarSystemSaturn.jpg)](http://www.worldwidetelescope.org/wwtweb/goto.aspx?object=Saturn&ra=11.1310226934708&dec=7.92703939594174&zoom=0.1) |
-| **Stellar** | **Star** | A ball of gas held together by its own gravity and emitting its own radiation. | [![](uiimages/Star.jpg)](http://www.worldwidetelescope.org/wwtweb/goto.aspx?object=Bellatrix&ra=5.41861111133333&dec=6.349722222&zoom=1.40625) |
-| | **Supernova** | A star (at least 8 times more massive than the Sun) that does not have enough fuel for the fusion process in its core will explode due to gravitational collapse. The explosion is called a supernova. The remaining material is known as a supernova remnant. | [![](uiimages/Supernova.jpg)](http://www.worldwidetelescope.org/wwtweb/goto.aspx?object=Supernova%20Dust%20Factory%20in%20M74&ra=1.61166666666667&dec=15.7405555555556&zoom=1.415) *Supernova Dust Factory in M74* |
-| | **Black Hole** | A star (at least 10-15 times more massive than the Sun) that became a supernova and then further collapsed in on itself. The infinite density of the supernova's remnants causes the path of light to wrap around it. | [![](uiimages/BlackHole1.jpg)](http://www.worldwidetelescope.org/wwtweb/goto.aspx?object=Black%20Hole-Powered%20Jet%20of%20Electrons%20and%20Sub-Atomic%20Particles%20Streams%20From%20Center%20of%20Galaxy%20M87&ra=12.5136111111111&dec=12.3927777777778&zoom=0.595) *Black Hole-Powered Jet of Electrons and Sub-Atomic Particles Streams From Center of Galaxy M87* |
-| | **Neutron Star** | The ultra-dense collapsed core of a star that has undergone a supernova. | [![](uiimages/NeutronStar.jpg)](http://www.worldwidetelescope.org/wwtweb/goto.aspx?object=N132D:%20An%20Oxygen%20Factory%20in%20a%20Nearby%20Galaxy&ra=5.41722222222222&dec=-69.6419444444444&zoom=0.568333333333333) *NASA Great Space Observatories Glimpse Faint Afterglow of Nearby Stellar Explosion* |
-| | **Double Star** | Two stars that orbit around a common center of mass. | [![](uiimages/DoubleStars.jpg)](http://www.worldwidetelescope.org/wwtweb/goto.aspx?object=NGC33&ra=0.182388888866665&dec=3.675833333&zoom=1.40625) |
-| | **Multiple Stars** | More than two stars that orbit around a common center of mass. | [![](uiimages/MultipleStars.jpg)](http://www.worldwidetelescope.org/wwtweb/goto.aspx?object=NGC5877&ra=15.21475&dec=-4.927222222&zoom=1.40625) |
-| **Stellar Grouping** | **Constellation** | A grouping of stars occupying one of the 88 areas in which the sky is divided. Note that the search filter will locate only those items that have a _Constellation_ classification set on them, which does not include all the constellations themselves, but studies relating to a constellation. | [![](uiimages/ConstellationYoungAndOld.jpg)](http://www.worldwidetelescope.org/wwtweb/goto.aspx?object=Young%20and%20Old%20Stars%20Found%20in%20Andromeda%27s%20Halo&ra=0.768611111111111&dec=40.71&zoom=2.82833333333333) *Young and Old Stars Found in Andromeda's Halo* |
-| | **Asterism** | A group of stars that comprise a portion of a larger constellation whether physically related to it or not. For example, the Big Dipper is part of the Great Bear constellation, and the Belt of Orion is part of the Orion constellation. | [![](uiimages/Asterism.jpg)](http://www.worldwidetelescope.org/wwtweb/goto.aspx?object=NGC7526&ra=23.23397222&dec=-9.221666667&zoom=1.40625) |
-| | **Open Cluster** | A physically related groups of stars formed from the same giant molecular cloud and held together by mutual gravitational attraction. | [![](uiimages/OpenCluster.jpg)](http://www.worldwidetelescope.org/wwtweb/goto.aspx?object=M48&ra=8.23&dec=-5.8&zoom=1.40625) |
-| | **Globular Cluster** | A spherical collection of stars that share a common origin and orbit a galaxy as a satellite. Globular clusters are very tightly gravitationally bound, which gives them their spherical shape. They are also extremely dense towards their core. | [![](uiimages/GlobularCluster.jpg)](http://www.worldwidetelescope.org/wwtweb/goto.aspx?object=NGC5897&ra=15.2901111133333&dec=-21.01027778&zoom=2.87297201088754) |
-| | **Nebulous Cluster** | A diffuse mass of interstellar dust and gas that orbits a galaxy as a satellite. | [![](uiimages/NebulousCluster.jpg)](http://www.worldwidetelescope.org/wwtweb/goto.aspx?object=NGC7023&ra=21.02652778&dec=68.16972222&zoom=1.40625) |
+| **Solar System** | | The Sun, or any planet or moon of our own Solar System. | [![](SolarSystemSaturn.jpg)](http://www.worldwidetelescope.org/wwtweb/goto.aspx?object=Saturn&ra=11.1310226934708&dec=7.92703939594174&zoom=0.1) |
+| **Stellar** | **Star** | A ball of gas held together by its own gravity and emitting its own radiation. | [![](Star.jpg)](http://www.worldwidetelescope.org/wwtweb/goto.aspx?object=Bellatrix&ra=5.41861111133333&dec=6.349722222&zoom=1.40625) |
+| | **Supernova** | A star (at least 8 times more massive than the Sun) that does not have enough fuel for the fusion process in its core will explode due to gravitational collapse. The explosion is called a supernova. The remaining material is known as a supernova remnant. | [![](Supernova.jpg)](http://www.worldwidetelescope.org/wwtweb/goto.aspx?object=Supernova%20Dust%20Factory%20in%20M74&ra=1.61166666666667&dec=15.7405555555556&zoom=1.415) *Supernova Dust Factory in M74* |
+| | **Black Hole** | A star (at least 10-15 times more massive than the Sun) that became a supernova and then further collapsed in on itself. The infinite density of the supernova's remnants causes the path of light to wrap around it. | [![](BlackHole1.jpg)](http://www.worldwidetelescope.org/wwtweb/goto.aspx?object=Black%20Hole-Powered%20Jet%20of%20Electrons%20and%20Sub-Atomic%20Particles%20Streams%20From%20Center%20of%20Galaxy%20M87&ra=12.5136111111111&dec=12.3927777777778&zoom=0.595) *Black Hole-Powered Jet of Electrons and Sub-Atomic Particles Streams From Center of Galaxy M87* |
+| | **Neutron Star** | The ultra-dense collapsed core of a star that has undergone a supernova. | [![](NeutronStar.jpg)](http://www.worldwidetelescope.org/wwtweb/goto.aspx?object=N132D:%20An%20Oxygen%20Factory%20in%20a%20Nearby%20Galaxy&ra=5.41722222222222&dec=-69.6419444444444&zoom=0.568333333333333) *NASA Great Space Observatories Glimpse Faint Afterglow of Nearby Stellar Explosion* |
+| | **Double Star** | Two stars that orbit around a common center of mass. | [![](DoubleStars.jpg)](http://www.worldwidetelescope.org/wwtweb/goto.aspx?object=NGC33&ra=0.182388888866665&dec=3.675833333&zoom=1.40625) |
+| | **Multiple Stars** | More than two stars that orbit around a common center of mass. | [![](MultipleStars.jpg)](http://www.worldwidetelescope.org/wwtweb/goto.aspx?object=NGC5877&ra=15.21475&dec=-4.927222222&zoom=1.40625) |
+| **Stellar Grouping** | **Constellation** | A grouping of stars occupying one of the 88 areas in which the sky is divided. Note that the search filter will locate only those items that have a _Constellation_ classification set on them, which does not include all the constellations themselves, but studies relating to a constellation. | [![](ConstellationYoungAndOld.jpg)](http://www.worldwidetelescope.org/wwtweb/goto.aspx?object=Young%20and%20Old%20Stars%20Found%20in%20Andromeda%27s%20Halo&ra=0.768611111111111&dec=40.71&zoom=2.82833333333333) *Young and Old Stars Found in Andromeda's Halo* |
+| | **Asterism** | A group of stars that comprise a portion of a larger constellation whether physically related to it or not. For example, the Big Dipper is part of the Great Bear constellation, and the Belt of Orion is part of the Orion constellation. | [![](Asterism.jpg)](http://www.worldwidetelescope.org/wwtweb/goto.aspx?object=NGC7526&ra=23.23397222&dec=-9.221666667&zoom=1.40625) |
+| | **Open Cluster** | A physically related groups of stars formed from the same giant molecular cloud and held together by mutual gravitational attraction. | [![](OpenCluster.jpg)](http://www.worldwidetelescope.org/wwtweb/goto.aspx?object=M48&ra=8.23&dec=-5.8&zoom=1.40625) |
+| | **Globular Cluster** | A spherical collection of stars that share a common origin and orbit a galaxy as a satellite. Globular clusters are very tightly gravitationally bound, which gives them their spherical shape. They are also extremely dense towards their core. | [![](GlobularCluster.jpg)](http://www.worldwidetelescope.org/wwtweb/goto.aspx?object=NGC5897&ra=15.2901111133333&dec=-21.01027778&zoom=2.87297201088754) |
+| | **Nebulous Cluster** | A diffuse mass of interstellar dust and gas that orbits a galaxy as a satellite. | [![](NebulousCluster.jpg)](http://www.worldwidetelescope.org/wwtweb/goto.aspx?object=NGC7023&ra=21.02652778&dec=68.16972222&zoom=1.40625) |
 | | **Dark Nebula** | An interstellar cloud of dust so dense that it obscures or absorbs light coming from stars or nebula behind it. | No current examples |
-| | **Giant Molecular Cloud** | A type of interstellar cloud whose density and size permits the formation of molecules, stars, and planets. | [![](uiimages/GiantMolecularCloud.jpg)](http://www.worldwidetelescope.org/wwtweb/goto.aspx?object=A%20Natal%20Microcosm&ra=22.3191666666667&dec=63.2958333333333&zoom=7.65166666666667) |
-| | **Interstellar Dust** | Irregularly shaped, stellar material, just a fraction of a micron across, composed of silicates, carbon, ice, and/or iron compounds. This material scatters light in our line of sight and obscures or obstructs our view of stellar objects. | [![](uiimages/NearbyDustClouds.jpg)](http://www.worldwidetelescope.org/wwtweb/goto.aspx?object=Nearby%20Dust%20Clouds%20in%20the%20Milky%20Way&ra=0.884444444444444&dec=56.6447222222222&zoom=3.945) *Nearby Dust Clouds in the Milky Way* |
-| **Nebula** | **Nebula** | A diffuse mass of interstellar dust and gas. These areas result from supernova explosions and are the birthplaces of new stars. | [![](uiimages/Nebula.jpg)](http://www.worldwidetelescope.org/wwtweb/goto.aspx?object=Crab%20Nebula&ra=5.57527777777778&dec=22.0172222222222&zoom=1.40625) |
-| | **Planetary Nebula** | A shell of gas ejected from stars, such as our Sun, at the end of their lifetimes. This gas continues to expand from the remaining white dwarf. | [![](uiimages/PlanetaryNebula.jpg)](http://www.worldwidetelescope.org/wwtweb/goto.aspx?object=NGC1514&ra=4.15469444466667&dec=30.77611111&zoom=1.40625) |
-| | **Supernova Remnant** | The remains of the explosion of a massive star such as a red supergiant. | [![](uiimages/SupernovaRemnant.jpg)](http://www.worldwidetelescope.org/wwtweb/goto.aspx?object=Supernova%20Remnant%20Cassiopeia%20A%20-%20March%202004&ra=23.3911111111111&dec=58.8169444444444&zoom=2) |
-| | **Emission Nebula** | A nebula that shines by emitting light on a hydrogen cloud. | [![](uiimages/FlamingStarNebula.jpg)](http://www.worldwidetelescope.org/wwtweb/goto.aspx?object=Flaming%20Star%20Nebula&ra=5.25861111111111&dec=34.0908333333333&zoom=16) |
-| | **Reflection Nebula** | A nebula that shines by reflecting light from nearby stars. | [![](uiimages/ReflectionNebula.jpg)](http://www.worldwidetelescope.org/wwtweb/goto.aspx?object=NGC1432&ra=3.76375&dec=24.36833333&zoom=1.40625) |
-| **Galactic** | **Cluster of Galaxies** | A group of galaxies that are gravitationally bound together. | [![](uiimages/ClusterOfGalaxies.jpg)](http://www.worldwidetelescope.org/wwtweb/goto.aspx?object=Abell%201689:%20A%20Galaxy%20Cluster%20Makes%20Its%20Mark&ra=13.1916666666667&dec=-1.33833333333333&zoom=2) |
+| | **Giant Molecular Cloud** | A type of interstellar cloud whose density and size permits the formation of molecules, stars, and planets. | [![](GiantMolecularCloud.jpg)](http://www.worldwidetelescope.org/wwtweb/goto.aspx?object=A%20Natal%20Microcosm&ra=22.3191666666667&dec=63.2958333333333&zoom=7.65166666666667) |
+| | **Interstellar Dust** | Irregularly shaped, stellar material, just a fraction of a micron across, composed of silicates, carbon, ice, and/or iron compounds. This material scatters light in our line of sight and obscures or obstructs our view of stellar objects. | [![](NearbyDustClouds.jpg)](http://www.worldwidetelescope.org/wwtweb/goto.aspx?object=Nearby%20Dust%20Clouds%20in%20the%20Milky%20Way&ra=0.884444444444444&dec=56.6447222222222&zoom=3.945) *Nearby Dust Clouds in the Milky Way* |
+| **Nebula** | **Nebula** | A diffuse mass of interstellar dust and gas. These areas result from supernova explosions and are the birthplaces of new stars. | [![](Nebula.jpg)](http://www.worldwidetelescope.org/wwtweb/goto.aspx?object=Crab%20Nebula&ra=5.57527777777778&dec=22.0172222222222&zoom=1.40625) |
+| | **Planetary Nebula** | A shell of gas ejected from stars, such as our Sun, at the end of their lifetimes. This gas continues to expand from the remaining white dwarf. | [![](PlanetaryNebula.jpg)](http://www.worldwidetelescope.org/wwtweb/goto.aspx?object=NGC1514&ra=4.15469444466667&dec=30.77611111&zoom=1.40625) |
+| | **Supernova Remnant** | The remains of the explosion of a massive star such as a red supergiant. | [![](SupernovaRemnant.jpg)](http://www.worldwidetelescope.org/wwtweb/goto.aspx?object=Supernova%20Remnant%20Cassiopeia%20A%20-%20March%202004&ra=23.3911111111111&dec=58.8169444444444&zoom=2) |
+| | **Emission Nebula** | A nebula that shines by emitting light on a hydrogen cloud. | [![](FlamingStarNebula.jpg)](http://www.worldwidetelescope.org/wwtweb/goto.aspx?object=Flaming%20Star%20Nebula&ra=5.25861111111111&dec=34.0908333333333&zoom=16) |
+| | **Reflection Nebula** | A nebula that shines by reflecting light from nearby stars. | [![](ReflectionNebula.jpg)](http://www.worldwidetelescope.org/wwtweb/goto.aspx?object=NGC1432&ra=3.76375&dec=24.36833333&zoom=1.40625) |
+| **Galactic** | **Cluster of Galaxies** | A group of galaxies that are gravitationally bound together. | [![](ClusterOfGalaxies.jpg)](http://www.worldwidetelescope.org/wwtweb/goto.aspx?object=Abell%201689:%20A%20Galaxy%20Cluster%20Makes%20Its%20Mark&ra=13.1916666666667&dec=-1.33833333333333&zoom=2) |
 | | **Quasar** | An extremely bright object at the edge of our universe that emits massive amounts of radiation, including radio waves and x-rays. | No current examples |
-| | **Galaxy** | A cluster of stars, dust, and gas held together by gravity. | [![](uiimages/Galaxy.jpg)](http://www.worldwidetelescope.org/wwtweb/goto.aspx?object=NGC6050&ra=16.0898333333333&dec=17.75722222&zoom=1.40625) |
-| | **Spiral Galaxy** | A galaxy in which most of the stars are arranged in a disk and have spiral structures ("arms") that extend from the central bulge of stars. | [![](uiimages/SpiralGalaxy.jpg)](http://www.worldwidetelescope.org/wwtweb/goto.aspx?object=Sombrero%20Galaxy&ra=12.6663888888889&dec=-11.6219444444444&zoom=2) |
-| | **Irregular Galaxy** | A galaxy that does not fall into one of the three main Hubble sequence galaxy classes. | [![](uiimages/IrregularGalaxyM82.jpg)](http://www.worldwidetelescope.org/wwtweb/goto.aspx?object=Messier%2082&ra=9.93027777777778&dec=69.6858333333333&zoom=2.37833333333333) |
-| | **Elliptical Galaxy** | A galaxy that does not have a disk but rather a smooth, featureless profile. They range in shape from nearly spherical to highly flattened. | [![](uiimages/EllipticalGalaxy.jpg)](http://www.worldwidetelescope.org/wwtweb/goto.aspx?object=M49&ra=12.4966666666667&dec=8&zoom=1.40625) |
-| | **Knot** | An area within a galaxy containing a greater concentration of material (such as gas, dust, or stars) than adjacent areas. Knots appear in images as bright areas within a galaxy. | [![](uiimages/Knot.jpg)](http://www.worldwidetelescope.org/wwtweb/goto.aspx?object=IC3708&ra=12.73127778&dec=13.12083333&zoom=1.40625) |
-| **Other** | **Unidentified** | Deep sky objects that have not been identified or cataloged. | [![](uiimages/Unidentified.jpg)](http://www.worldwidetelescope.org/wwtweb/goto.aspx?object=NGC4937&ra=13.08097222&dec=-47.21916667&zoom=1.40625) |
-| | **Plate Defect** | Plate defects are images containing photographic errors, such as the reflection of the telescope, color aberrations, dust, and so on. The telescope is usually reflected in an image when a single, very bright object is photographed. | [![](uiimages/ClassificationOtherL1014.jpg)](http://www.worldwidetelescope.org/wwtweb/goto.aspx?object=L1014&ra=21.4019444444444&dec=49.9855555555556&zoom=1.88833333333333) |
-| | **Other NGC** | The New General Catalogue is one of the most commonly-used catalogs in amateur astronomy and contains nearly 8,000 objects. | [![](uiimages/OtherNGC.jpg)](http://www.worldwidetelescope.org/wwtweb/goto.aspx?object=IC1165A&ra=16.03552778&dec=15.69638889&zoom=1.40625) |
+| | **Galaxy** | A cluster of stars, dust, and gas held together by gravity. | [![](Galaxy.jpg)](http://www.worldwidetelescope.org/wwtweb/goto.aspx?object=NGC6050&ra=16.0898333333333&dec=17.75722222&zoom=1.40625) |
+| | **Spiral Galaxy** | A galaxy in which most of the stars are arranged in a disk and have spiral structures ("arms") that extend from the central bulge of stars. | [![](SpiralGalaxy.jpg)](http://www.worldwidetelescope.org/wwtweb/goto.aspx?object=Sombrero%20Galaxy&ra=12.6663888888889&dec=-11.6219444444444&zoom=2) |
+| | **Irregular Galaxy** | A galaxy that does not fall into one of the three main Hubble sequence galaxy classes. | [![](IrregularGalaxyM82.jpg)](http://www.worldwidetelescope.org/wwtweb/goto.aspx?object=Messier%2082&ra=9.93027777777778&dec=69.6858333333333&zoom=2.37833333333333) |
+| | **Elliptical Galaxy** | A galaxy that does not have a disk but rather a smooth, featureless profile. They range in shape from nearly spherical to highly flattened. | [![](EllipticalGalaxy.jpg)](http://www.worldwidetelescope.org/wwtweb/goto.aspx?object=M49&ra=12.4966666666667&dec=8&zoom=1.40625) |
+| | **Knot** | An area within a galaxy containing a greater concentration of material (such as gas, dust, or stars) than adjacent areas. Knots appear in images as bright areas within a galaxy. | [![](Knot.jpg)](http://www.worldwidetelescope.org/wwtweb/goto.aspx?object=IC3708&ra=12.73127778&dec=13.12083333&zoom=1.40625) |
+| **Other** | **Unidentified** | Deep sky objects that have not been identified or cataloged. | [![](Unidentified.jpg)](http://www.worldwidetelescope.org/wwtweb/goto.aspx?object=NGC4937&ra=13.08097222&dec=-47.21916667&zoom=1.40625) |
+| | **Plate Defect** | Plate defects are images containing photographic errors, such as the reflection of the telescope, color aberrations, dust, and so on. The telescope is usually reflected in an image when a single, very bright object is photographed. | [![](ClassificationOtherL1014.jpg)](http://www.worldwidetelescope.org/wwtweb/goto.aspx?object=L1014&ra=21.4019444444444&dec=49.9855555555556&zoom=1.88833333333333) |
+| | **Other NGC** | The New General Catalogue is one of the most commonly-used catalogs in amateur astronomy and contains nearly 8,000 objects. | [![](OtherNGC.jpg)](http://www.worldwidetelescope.org/wwtweb/goto.aspx?object=IC1165A&ra=16.03552778&dec=15.69638889&zoom=1.40625) |
 
 
 ## Stellar Brightness
@@ -649,7 +651,7 @@ the brightness of any object in the Solar System). The following image shows
 the brightness of a number of stars around Canopus (the second brightest
 distant star in our night sky):
 
-![](uiimages/Brightness.jpg)
+![](Brightness.jpg)
 
 | Star | Magnitude |
 | :-- |
