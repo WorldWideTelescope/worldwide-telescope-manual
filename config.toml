@@ -1,4 +1,4 @@
-base_url = "//docs.worldwidetelescope.org/user-manual"
+base_url = "//docs.worldwidetelescope.org/user-manual/1"
 title = "The AAS WorldWide Telescope User Manual"
 description = "AAS WorldWide Telescope is a tool for showcasing astronomical data and knowledge."
 theme = "wwtguide"
