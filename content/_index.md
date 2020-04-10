@@ -1,6 +1,7 @@
 +++
 title = "WWT User Manual"
 sort_by = "weight"
+insert_anchor_links = "right"
 +++
 
 The AAS WorldWide Telescope is a software environment that enables your
