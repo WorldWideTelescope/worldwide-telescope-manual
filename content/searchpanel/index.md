@@ -21,7 +21,7 @@ You must be connected to the internet in order for this feature to work.
 
 ## The Search Panel
 
-You can open the Search panel by clicking **Search** in the upper panel.
+You can open the Search panel by clicking {{ui(p="Search")}} in the upper panel.
 
 ![](SearchPanel1.png)
 
@@ -34,14 +34,14 @@ location of the object you are searching for. The default units are hours. You
 can enter `23148`, `2h31m48s`, `2,31,48` or `02 31 48`; any one of these means
 2 hours 31 minutes 48 seconds. To enter degrees, enter a "d", for example `89d
 15m 51s`. These particular co-ordinates, if used for **RA** and **Dec**
-respectively, are the location of the star Polaris. Click **Go** to change the
-view to that location, then click **Search View** for a search of the current
+respectively, are the location of the star Polaris. Click {{ui(p="Go")}} to change the
+view to that location, then click {{ui(p="Search View")}} for a search of the current
 view to be carried out, with the results again displayed in thumbnail images.
 
-**Plot Results** On the Windows Client, checking the **Plot Results** checkbox
+{{ui(p="Plot Results")}} On the Windows Client, checking the {{ui(p="Plot Results")}} checkbox
 will make the search results appear both as thumbnails and circle annotations
 in the view. For example, entering 20 for **RA**, 18 for **Dec**, clicking
-**Go**, **Search View** and **Plot Results**, will reveal a constellation full
+{{ui(p="Go")}}, {{ui(p="Search View")}} and {{ui(p="Plot Results")}}, will reveal a constellation full
 of objects, as shown below. Use the
 [Finder Scope](astronomicalresearch.md#the-finder-scope) to further identify
 the objects.
@@ -49,16 +49,16 @@ the objects.
 
 ## Search Menu Entries
 
-Click the down arrow below **Search** to expand the menu.
+Click the down arrow below {{ui(p="Search")}} to expand the menu.
 
 ![](SearchMenuEntries.png)
 
-* **SIMBAD Search...** enables you to search the SIMBAD database by name. If a
+* {{ui(p="SIMBAD Search...")}} enables you to search the SIMBAD database by name. If a
   matching item is found the view will change to the location provided in the
   database.
-* **VO Cone Search/Registry Lookup...** provides a more complex dialog for
+* {{ui(p="VO Cone Search/Registry Lookup...")}} provides a more complex dialog for
   searching
   [Virtual Observatory](astronomicalresearch.md#virtual-observatory-tables)
   databases based on RA, Dec or registry titles.
-* **Find Earth Based Location...** lets you search for a specific location on
-  Earth. Note that this feature only applies to **Earth** view.
+* {{ui(p="Find Earth Based Location...")}} lets you search for a specific location on
+  Earth. Note that this feature only applies to {{ui(p="Earth")}} view.

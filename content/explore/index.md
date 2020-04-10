@@ -8,13 +8,13 @@ Exploring the universe is the most fun thing you can do with WorldWide
 Telescope! This section covers the views that you can choose from, and shows
 you how to navigate within each view.
 
-To select a view, use the **Look At** drop down list (at bottom left):
+To select a view, use the {{ui(p="Look At")}} drop down list (at bottom left):
 
 
 ## Earth
 
-Use **Earth** view to explore our own planet from a viewpoint in space. To
-enter **Earth** view, select **Earth** from the **Look At** menu (bottom
+Use {{ui(p="Earth")}} view to explore our own planet from a viewpoint in space. To
+enter {{ui(p="Earth")}} view, select {{ui(p="Earth")}} from the {{ui(p="Look At")}} menu (bottom
 left).
 
 **To Control the View**
@@ -24,16 +24,16 @@ left).
 * To tilt the field of view **CTRL + click** and drag vertically.
 * To rotate the field of view **CTRL + click** and drag horizontally.
 
-Use tilt along with the **Show Elevation Model** setting in the **Earth >
-Overlays** node in the Layer Manager to get a fly-over effect, and see
+Use tilt along with the {{ui(p="Show Elevation Model")}} setting in the {{ui(p="Earth >
+Overlays")}} node in the Layer Manager to get a fly-over effect, and see
 mountain ranges and river valleys in three dimensions.
 
-Use **View > Reset Camera** to restore the default view and settings.
+Use {{ui(p="View > Reset Camera")}} to restore the default view and settings.
 
-Use the **Imagery** menu to choose from the available imagery options,
+Use the {{ui(p="Imagery")}} menu to choose from the available imagery options,
 including aerial, streets, hybrid and nighttime views.
 
-This image of Hawaii is obtained from the **Virtual Earth Hybrid** imagery:
+This image of Hawaii is obtained from the {{ui(p="Virtual Earth Hybrid")}} imagery:
 
 ![](TheEarth.jpg)
 
@@ -45,25 +45,25 @@ simplest, yet it reveals information that the other views do not convey as
 well. In this tutorial we'll examine relative population density by comparing
 night and day images.
 
-1. In the **Look At** list select **Earth**.
-2. In the **Imagery** list scroll to the **Bing Maps Streets** view.
-3. In the **Settings** pane ensure that **Earth Cloud Layer Overlay** is not
+1. In the {{ui(p="Look At")}} list select {{ui(p="Earth")}}.
+2. In the {{ui(p="Imagery")}} list scroll to the {{ui(p="Bing Maps Streets")}} view.
+3. In the {{ui(p="Settings")}} pane ensure that {{ui(p="Earth Cloud Layer Overlay")}} is not
    selected.
 4. Rotate the Earth using the mouse until southwest Australia is in view, then
    zoom in to the following location: ![](ex_Earth-OzDay.png)
-5. Without changing the zoom or pan settings, change the **Imagery** to
-   **Earth at Night**. Notice that the same view angle is maintained even
-   though the imagery has changed. Try toggling the **Imagery** to **Bing Maps
-   Streets**, then back to **Earth at Night** again. Human population density
+5. Without changing the zoom or pan settings, change the {{ui(p="Imagery")}} to
+   {{ui(p="Earth at Night")}}. Notice that the same view angle is maintained even
+   though the imagery has changed. Try toggling the {{ui(p="Imagery")}} to {{ui(p="Bing Maps
+   Streets")}}, then back to {{ui(p="Earth at Night")}} again. Human population density
    is readily revealed with the glow of artificial light in the night view.
    The bright areas on the night map exactly matches the city of Perth named
-   on the **Bing Maps Streets** view. ![](ex_Earth-OzNight.png)
+   on the {{ui(p="Bing Maps Streets")}} view. ![](ex_Earth-OzNight.png)
 
 
 ## Planet
 
-Use **Planet** view to explore the other planets and some of the moons of the
-Solar System. To enter **Planet** view, select **Planet** from the **Look At**
+Use {{ui(p="Planet")}} view to explore the other planets and some of the moons of the
+Solar System. To enter {{ui(p="Planet")}} view, select {{ui(p="Planet")}} from the {{ui(p="Look At")}}
 menu (bottom left).
 
 **To Control the View**
@@ -73,13 +73,13 @@ menu (bottom left).
 * To tilt the field of view **CTRL + click** and drag vertically.
 * To rotate the field of view **CTRL + click** and drag horizontally.
 
-Use tilt along with the **Show Elevation Model** setting in the **Earth >
-Overlays** node in the Layer Manager to get a fly-over effect, and see
+Use tilt along with the {{ui(p="Show Elevation Model")}} setting in the {{ui(p="Earth >
+Overlays")}} node in the Layer Manager to get a fly-over effect, and see
 mountain ranges and river valleys in three dimensions.
 
-Use **View**, **Reset Camera** to restore the default view and settings.
+Use {{ui(p="View")}}, {{ui(p="Reset Camera")}} to restore the default view and settings.
 
-Some moons are available under the **Planet** imagery, including Io, one of
+Some moons are available under the {{ui(p="Planet")}} imagery, including Io, one of
 the best known of Jupiter's many moons:
 
 ![](Io.jpg)
@@ -90,8 +90,8 @@ Olympus Mons is the tallest mountain on Mars (and indeed the Solar System).
 At a colossal 17 miles high it is three times higher than Everest. The
 following tutorial locates the mountain:
 
-1. In the **Look At** list ensure that **Planet** has been selected.
-2. In the **Imagery** list click on **Mars**.
+1. In the {{ui(p="Look At")}} list ensure that {{ui(p="Planet")}} has been selected.
+2. In the {{ui(p="Imagery")}} list click on {{ui(p="Mars")}}.
 3. Pan and rotate the view in order to locate the mountain, noting that it is
    close to the Martian equator. The mountain can be located visually either
    from its top-down view, which is distinctive, or from its proximity to
@@ -128,11 +128,11 @@ the solar system planets and moons to locate their most notable features.
 
 **To View a Planet**
 
-1. Select **Planet** from the **Look At** menu.
-2. Click **Imagery** and select the planet you want to see.
+1. Select {{ui(p="Planet")}} from the {{ui(p="Look At")}} menu.
+2. Click {{ui(p="Imagery")}} and select the planet you want to see.
 
-Much more imagery data is available under **Explore > Collections >
-Planets/Moons**.
+Much more imagery data is available under {{ui(p="Explore > Collections >
+Planets/Moons")}}.
 
 1. Mercury
 
@@ -161,15 +161,15 @@ Planets/Moons**.
 
    Our solitary moon is old and heavily cratered, one of the best known
    craters is called Copernicus. It can be located visually using the
-   **Explore > Collections > Planets/Moons** data (noting the three craters in
+   {{ui(p="Explore > Collections > Planets/Moons")}} data (noting the three craters in
    a near line), or from its latitude and longitude:
    ![](CopernicusCrater.jpg)
 
 4. Mars
 
    Mars has two moons, Phobos and Deimos. Some image data is available, find
-   the thumbnails in the **Explore > Collections > Planets/Moons** data.
-   Currently they are not represented in the **Sky** or **SolarSystem** views.
+   the thumbnails in the {{ui(p="Explore > Collections > Planets/Moons")}} data.
+   Currently they are not represented in the {{ui(p="Sky")}} or {{ui(p="SolarSystem")}} views.
    Deimos is notable for its smooth surface: ![](Deimos.jpg)
 
 5. Jupiter
@@ -187,7 +187,7 @@ Planets/Moons**.
 
    Jupiter has four large moons, Io, Europa, Ganymede (the largest moon of the
    Solar System) and Callisto. Image data for all four exists in the
-   **Planet**, **Sky** and **SolarSystem** views.
+   {{ui(p="Planet")}}, {{ui(p="Sky")}} and {{ui(p="SolarSystem")}} views.
 
    Jupiter has many other satellites, totaling at least 63, though none of the
    others match the size of the four largest. Ganymede has ancient dark
@@ -220,8 +220,8 @@ Planets/Moons**.
    atmosphere is mostly hydrogen and helium.
 
    Uranus has at least 21 satellites. Partial imagery exists for the largest
-   five — Ariel, Umbriel, Titania, Oberon and Miranda — in the **Explore >
-   Collections > Planets/Moons** data. Miranda has some strange rocky surface
+   five — Ariel, Umbriel, Titania, Oberon and Miranda — in the {{ui(p="Explore >
+   Collections > Planets/Moons")}} data. Miranda has some strange rocky surface
    features called ovoids, that have near parallel ridges and canyons. One of
    these ovoids is clearly visible in the partial data:
    ![](MirandaOvoid.jpg)
@@ -258,14 +258,14 @@ Planets/Moons**.
 
 | Demo Name | Description | Link |
 | :--- | :--- | :--- |
-| **WWT Web Client Hi-Def Planet Explorer** | Provides a range of options for exploring the surfaces of our Moon and Mars. Thousands of surface features, including craters, mountains, valleys, seas, plains, ridges and depressions, are available to step through, sort, search and view. Make sure to select the correct planet or moon in the **Look At** and **Imagery** drop down lists, after starting the program. | [**Run**](http://www.worldwidetelescope.org/docs/Samples/wwtwebclientplanetexplorer.html) |
-| **WWT Web Client Distant Planet Explorer** | Provides a range of options for exploring the surfaces of Mercury, Venus, and the four main moons of Jupiter: IO, Ganymede, Europa and Callisto. Hundreds of surface features, are available to step through, sort, search and view. Make sure to select the correct planet or moon in the **Look At** and **Imagery** drop down lists, after starting the program. | [**Run**](http://www.worldwidetelescope.org/docs/Samples/wwtwebclientdistantplanetexplorer.html) |
+| {{ui(p="WWT Web Client Hi-Def Planet Explorer")}} | Provides a range of options for exploring the surfaces of our Moon and Mars. Thousands of surface features, including craters, mountains, valleys, seas, plains, ridges and depressions, are available to step through, sort, search and view. Make sure to select the correct planet or moon in the {{ui(p="Look At")}} and {{ui(p="Imagery")}} drop down lists, after starting the program. | [**Run**](http://www.worldwidetelescope.org/docs/Samples/wwtwebclientplanetexplorer.html) |
+| {{ui(p="WWT Web Client Distant Planet Explorer")}} | Provides a range of options for exploring the surfaces of Mercury, Venus, and the four main moons of Jupiter: IO, Ganymede, Europa and Callisto. Hundreds of surface features, are available to step through, sort, search and view. Make sure to select the correct planet or moon in the {{ui(p="Look At")}} and {{ui(p="Imagery")}} drop down lists, after starting the program. | [**Run**](http://www.worldwidetelescope.org/docs/Samples/wwtwebclientdistantplanetexplorer.html) |
 
 
 ## Sky
 
-Use **Sky** view to explore the celestial sphere, the vast expanse above and
-around us. To enter **Sky** view, select **Sky** from the **Look At** menu
+Use {{ui(p="Sky")}} view to explore the celestial sphere, the vast expanse above and
+around us. To enter {{ui(p="Sky")}} view, select {{ui(p="Sky")}} from the {{ui(p="Look At")}} menu
 (bottom left).
 
 **To Control the View**
@@ -280,9 +280,9 @@ It is a supernova remnant:
 
 ![](TheNightSky.jpg)
 
-By default the **Explore > Collections** options are shown in the top panel.
-You can use the **Collections** panel to explore image data in WorldWide
-Telescope. Thumbnails in the **Collections** panel behave like files and
+By default the {{ui(p="Explore > Collections")}} options are shown in the top panel.
+You can use the {{ui(p="Collections")}} panel to explore image data in WorldWide
+Telescope. Thumbnails in the {{ui(p="Collections")}} panel behave like files and
 folders; each thumbnail links either to another set of collections, or to a
 single piece of image data.
 
@@ -297,8 +297,8 @@ you have loaded with the [Sky Survey](astronomicalresearch.md#sky-surveys).
 
 ![](ImageCrossfade.jpg)
 
-Note that Collections data can be in various modes; most are in the **Sky**
-view. When selecting an object from a collection the **Look At** mode will be
+Note that Collections data can be in various modes; most are in the {{ui(p="Sky")}}
+view. When selecting an object from a collection the {{ui(p="Look At")}} mode will be
 switched to the appropriate view automatically.
 
 The context list in the lower panel is updated each time the view is changed.
@@ -322,14 +322,14 @@ that constellation — Draco in this example:
 ![](CelestialSphere.jpg)
 
 All of the [The View Menu](viewmenu.md) options apply to the Sky view, except
-the **3d Solar System** pane. In particular refer to the
+the {{ui(p="3d Solar System")}} pane. In particular refer to the
 [Observing Location](viewmenu.md#observing-location) pane to select a
 different viewpoint on Earth.
 
-Also check the **Constellation Lines** and **Experience** options in the
+Also check the {{ui(p="Constellation Lines")}} and {{ui(p="Experience")}} options in the
 [The Settings Menu](settingsmenu.md).
 
-Use **View > Reset Camera** to restore a default view and settings.
+Use {{ui(p="View > Reset Camera")}} to restore a default view and settings.
 
 ### Tutorial: Tracking a Conjunction
 
@@ -337,17 +337,17 @@ A conjunction occurs when two or more objects in the sky appear close to each
 other. The following tutorial tracks a conjunction between the crescent Moon,
 Jupiter and Venus that occurred on 1st December 2008.
 
-1. In the **Look At** list ensure that **Sky** is selected.
-2. In the **Imagery** list change the entry to **Black Sky Background**.
-3. In the **View** panel click **Setup** in the **Observing Location** panel,
-   and change the location to **Sydney, Australia**. Select **View from this
-   location**. If you're using the Web Client you can skip this step.
-4. In the **View** panel **Observing Time** panel set the date to 2008
+1. In the {{ui(p="Look At")}} list ensure that {{ui(p="Sky")}} is selected.
+2. In the {{ui(p="Imagery")}} list change the entry to {{ui(p="Black Sky Background")}}.
+3. In the {{ui(p="View")}} panel click {{ui(p="Setup")}} in the {{ui(p="Observing Location")}} panel,
+   and change the location to **Sydney, Australia**. Select {{ui(p="View from this
+   location")}}. If you're using the Web Client you can skip this step.
+4. In the {{ui(p="View")}} panel {{ui(p="Observing Time")}} panel set the date to 2008
    December 1st, and set the time to `0 0 0 local time` (midnight), or `8 0 0
    UTC`.
-5. Click **OK**.
-6. Select **Explore > Constellations** and scroll to locate and click on the
-   constellation **Sagittarius**.
+5. Click {{ui(p="OK")}}.
+6. Select {{ui(p="Explore > Constellations")}} and scroll to locate and click on the
+   constellation {{ui(p="Sagittarius")}}.
 7. Zoom in a bit on the Moon, which is right in the center of Sagittarius.
 8. The crescent Moon makes a smiley face with Venus and Jupiter. Note that to
    show both annotations the following image is a composite of two
@@ -363,10 +363,10 @@ universe, try the following tutorial, or select the examples in the
 In this tutorial you'll learn how to use the search features of WorldWide
 Telescope to locate our stellar neighbors.
 
-1. In the **Look At** list ensure that **Sky** is selected, and in the
-   **Imagery** list select the
+1. In the {{ui(p="Look At")}} list ensure that {{ui(p="Sky")}} is selected, and in the
+   {{ui(p="Imagery")}} list select the
    [**Hipparcos Catalog**](astronomicalresearch.md#hipparcos-catalog).
-2. In the **View** pane ensure **View from this location** is not selected.
+2. In the {{ui(p="View")}} pane ensure {{ui(p="View from this location")}} is not selected.
 3. Outside of the Solar System, the nearest known star to Earth is so dim it
    is impossible to see with the naked eye. The star, Proxima Centauri, is
    about 4.2 light years distant. It has two very bright neighbors known
@@ -424,7 +424,7 @@ Telescope to locate our stellar neighbors.
    light years distant from us. WorldWide Telescope does not yet have a single
    image of this galaxy, so we will visit instead the previous contender for
    the closest satellite galaxy, the Sagittarius Dwarf Elliptical Galaxy,
-   believed to be around 70,000 light years from here. Change the **Imagery**
+   believed to be around 70,000 light years from here. Change the {{ui(p="Imagery")}}
    selection from Hipparcos to the
    [**Digitized Sky Survey**](astronomicalresearch.md#digitized-sky-survey)
    and type "Sagittarius Dwarf" into the search text box.
@@ -490,7 +490,7 @@ Telescope to locate our stellar neighbors.
     degrees). Declination is almost always in degrees. The RA and Dec of
     Triangulum are RA: 1 hour 33 minutes 50 seconds, and Dec: 30 degrees 39
     minutes 36 seconds. Enter these simply as `1 33 50`, and `30 39 36` into
-    the RA and Dec boxes in the search panel. Click **Go** to navigate to the
+    the RA and Dec boxes in the search panel. Click {{ui(p="Go")}} to navigate to the
     location.
 
     ![](PinwheelRADec.jpg)
@@ -499,7 +499,7 @@ Telescope to locate our stellar neighbors.
 12. Triangulum may have a satellite galaxy called the Pisces Dwarf, but
     searching on this name will not currently reveal the galaxy. However we
     can locate it using its known right ascension and declination values, so
-    enter `1 03 55` for **RA** and `21 53 06` for **Dec**, and click **Go**.
+    enter `1 03 55` for {{ui(p="RA")}} and `21 53 06` for {{ui(p="Dec")}}, and click {{ui(p="Go")}}.
 
     ![](PiscesDwarf.jpg)
 
@@ -516,8 +516,8 @@ Telescope to locate our stellar neighbors.
     Universe. The Local Group is an outlying group within the Virgo
     Supercluster. The Virgo Cluster forms the heart of the supercluster, and
     contains up to 2000 galaxies. Locate the center of the Virgo Cluster be
-    entering **RA** `12 27 00` and **Dec** `12 43 00` into the search panel.
-    Click **Go** to see the last image in this tutorial — the bright objects
+    entering {{ui(p="RA")}} `12 27 00` and {{ui(p="Dec")}} `12 43 00` into the search panel.
+    Click {{ui(p="Go")}} to see the last image in this tutorial — the bright objects
     in the image are very bright galaxies.
 
     ![](VirgoCluster.jpg)
@@ -556,26 +556,26 @@ either the [Northern Hemisphere](#northern-hemisphere), or
 
 **To Set Location and Determine Optimal Viewing Time**
 
-1. Ensure that the **Look at** box has been set to **Sky**, and that the
-   **Imagery** is set to **Digitized Sky Survey**.
-2. In the **View** panel, set the **Observing Location** and **Observing
-   time** to match your viewing location (Windows Client only; the Web Client
+1. Ensure that the {{ui(p="Look at")}} box has been set to {{ui(p="Sky")}}, and that the
+   {{ui(p="Imagery")}} is set to **Digitized Sky Survey**.
+2. In the {{ui(p="View")}} panel, set the {{ui(p="Observing Location")}} and {{ui(p="Observing
+   time")}} to match your viewing location (Windows Client only; the Web Client
    will automatically use your present location).
-3. Check the **View from this location** checkbox.
-4. Click **Search** and enter **Sun**. Click on the thumbnail for the Sun to
+3. Check the {{ui(p="View from this location")}} checkbox.
+4. Click {{ui(p="Search")}} and enter **Sun**. Click on the thumbnail for the Sun to
    track it. Right click on the Sun to bring up and track the
    [The Finder Scope](astronomicalresearch.md#the-finder-scope).
-5. Click **View** to bring back the view panel, and fast forward the observing
+5. Click {{ui(p="View")}} to bring back the view panel, and fast forward the observing
    time (usually **x1000** works well) while tracking the Sun. Faint stars and
    galaxies are best seen once the Sun is at least 18 degrees below the
-   horizon. Pause the **Observing time** when the Sun's **Alt** is close to
+   horizon. Pause the {{ui(p="Observing time")}} when the Sun's {{ui(p="Alt")}} is close to
    `-18:00:00`. Use reverse time if you overshoot! Now write down the
-   **Observing Time** shown in the **View** panel.
+   {{ui(p="Observing Time")}} shown in the {{ui(p="View")}} panel.
 6. The sky now displayed by WorldWide Telescope is ready to be viewed. Keep
    your notebook handy to jot down the altitude and azimuth of any object that
    might be visible.
-7. Click on **Search** to bring up the search options again, type **Solar
-   System**, but this time click the checkbox **Plot Results**. Now pan and
+7. Click on {{ui(p="Search")}} to bring up the search options again, type {{ui(p="Solar
+   System")}}, but this time click the checkbox {{ui(p="Plot Results")}}. Now pan and
    zoom around the sky to see if any planets will be in view. The best time to
    observe a planet, neglecting weather conditions, is close to its transit
    time (when it is at its highest point in the sky).
@@ -657,8 +657,8 @@ calculated time, and scan the skies!
    Kentaurus.
 3. One of the best known formations in the southern skies is the Southern
    Cross. Use the search options to locate any one of its four stars: Acrux,
-   Becrux, Gacrux or Decrux. Alternatively select **Explore**, then
-   **Constellations**, then click on the **Crux** thumbnail.
+   Becrux, Gacrux or Decrux. Alternatively select {{ui(p="Explore")}}, then
+   {{ui(p="Constellations")}}, then click on the **Crux** thumbnail.
 
 The bright star mentioned above, Rigil Kentaurus, along with its
 nearly-as-bright neighbor Hadar, are visible at the bottom of this image.
@@ -679,9 +679,9 @@ calculated time, and scan the skies!
 In this tutorial WorldWide Telescope is used to demonstrate the purpose behind
 some of the most commonly used terms in astronomy.
 
-1. Set the **Look at** box to **Sky**,and the **Imagery** to **Digitized Sky
-   Survey**. Also ensure **View from this location** is not selected in the
-   **View** pane.
+1. Set the {{ui(p="Look at")}} box to {{ui(p="Sky")}},and the {{ui(p="Imagery")}} to **Digitized Sky
+   Survey**. Also ensure {{ui(p="View from this location")}} is not selected in the
+   {{ui(p="View")}} pane.
 2. Objects in the sky are located using _right ascension_ (RA) and
    _declination_ (Dec). Right ascension in space is equivalent to longitude on
    the Earth. Longitude is an east-west bearing from the Greenwich Meridian,
@@ -699,12 +699,12 @@ some of the most commonly used terms in astronomy.
    bearing. Objects above the celestial equator have a positive declination,
    objects below it a negative declination. The point where the Sun crosses
    the celestial equator is known as _The First Point of Aries_.
-3. In Layer Manager under **Sky > Overlays > Constellations**, uncheck the
-   boxes for **Constellation Figures** and **Constellation Boundaries**. Then,
-   under **Sky > Overlays > Grids**, check the boxes for **Equatorial Grid**
-   and **Ecliptic Grid**.
-4. Open the **Search** panel, enter `0` for **RA** and `0` for **Dec**, then
-   click **Go**.
+3. In Layer Manager under {{ui(p="Sky > Overlays > Constellations")}}, uncheck the
+   boxes for {{ui(p="Constellation Figures")}} and {{ui(p="Constellation Boundaries")}}. Then,
+   under {{ui(p="Sky > Overlays > Grids")}}, check the boxes for {{ui(p="Equatorial Grid")}}
+   and {{ui(p="Ecliptic Grid")}}.
+4. Open the {{ui(p="Search")}} panel, enter `0` for {{ui(p="RA")}} and `0` for {{ui(p="Dec")}}, then
+   click {{ui(p="Go")}}.
 
    ![](firstpointofaries.jpg)
 
@@ -730,7 +730,7 @@ some of the most commonly used terms in astronomy.
    distance, it is the angle up or down from the horizon. By convention
    positive azimuth is to the east, negative to the west, and positive
    altitude is up from the horizon. Unlike right ascension and declination,
-   azimuth and altitude change continuously. For example, open the **Search**
+   azimuth and altitude change continuously. For example, open the {{ui(p="Search")}}
    panel, then enter **Sirius** in the search text box. When the bright star
    Sirius appears, zoom away from it until the view is from Earth (that is,
    minimize the zoom completely). Right-click on Sirius in the sky to bring up
@@ -738,11 +738,11 @@ some of the most commonly used terms in astronomy.
 
    ![](azimuthaltitude.jpg)
 
-   Note that the seconds values for the Altitude (**Alt**) and Azimuth
-   (**Az**) of Sirius are changing, even when you look at the star in real
+   Note that the seconds values for the Altitude ({{ui(p="Alt")}}) and Azimuth
+   ({{ui(p="Az")}}) of Sirius are changing, even when you look at the star in real
    time.
 
-   In the **View > Observing Time** pane click the accelerated time button
+   In the {{ui(p="View > Observing Time")}} pane click the accelerated time button
    (the one with the "fast-forward" icon). The altitude and azimuth will now
    change quite quickly.
 
@@ -750,14 +750,14 @@ some of the most commonly used terms in astronomy.
    telescope from Earth to locate a particular star or planet. The values are
    different for every view point on Earth, hence the usefulness of right
    ascension and declination as a fixed coordinate system.
-7. The **Magnitude** entry on the **Finder Scope** refers to the _apparent
+7. The {{ui(p="Magnitude")}} entry on the {{ui(p="Finder Scope")}} refers to the _apparent
    magnitude_ of the brightness of Sirius. For a description of what this
    means refer to the
    [Stellar Brightness](astronmicalresearch.md#stellar-brightness) section, or
    work through the
    [Tutorial: Visiting the Neighbors](#tutorial-visiting-the-neighbors)
    tutorial.
-8. The **Distance** entry on the **Finder Scope** is the distance to the
+8. The {{ui(p="Distance")}} entry on the {{ui(p="Finder Scope")}} is the distance to the
    object in _light years_. A light year is an enormous distance. The speed of
    light in a vacuum is 186,282.397 miles per second (a _light second_), which
    works out to just under six trillion miles per year, approximately
@@ -765,26 +765,26 @@ some of the most commonly used terms in astronomy.
    about 500 light seconds from Earth, the next nearest star is 4.2 light
    years away, or over 24 trillion miles. Occasionally space telescopes pick
    up events that help us visualize how sizeable a light year is in relation
-   to the cosmos. For example, click **Explore**, then **Hubble Studies**,
-   then click **Supernova1987A** .This will bring up a range of seven
-   thumbnails. Click on the fifth, **Supernova1987A - 28th November 2003**.
-   Now click on the sixth thumbnail, **Supernova1987A - 12th December 2004**.
+   to the cosmos. For example, click {{ui(p="Explore")}}, then {{ui(p="Hubble Studies")}},
+   then click {{ui(p="Supernova1987A")}} .This will bring up a range of seven
+   thumbnails. Click on the fifth, {{ui(p="Supernova1987A - 28th November 2003")}}.
+   Now click on the sixth thumbnail, {{ui(p="Supernova1987A - 12th December 2004")}}.
 
    ![](Supernova2003.jpg) ![](Supernova2004.jpg)
 
    Though not taken exactly one year apart these two supernova images just
    might be showing one light year in the increased radius of the explosion.
 9. The light year is the most common unit of measurement in astronomy, but not
-   the only one. Open the **Search** panel, then enter **Neptune** into the
+   the only one. Open the {{ui(p="Search")}} panel, then enter **Neptune** into the
    search text box. Click the thumbnail to show the planet, then right-click
-   on the planet image itself to bring up the **Finder Scope**. For
-   **Distance**, note that it is set at 29 _au_ (astronomical units). One
+   on the planet image itself to bring up the {{ui(p="Finder Scope")}}. For
+   {{ui(p="Distance")}}, note that it is set at 29 _au_ (astronomical units). One
    astronomical unit is the mean distance from the Earth to the Sun. This unit
    of measurement is much smaller than a light year, and is useful within
    solar systems. The distance of 29 au to Neptune is the distance from Earth
    to Neptune at a specific point in time, the measurement will slowly vary as
    the planets orbit.
-10. The three values below **Distance** in the **Finder Scope** are _Rise_,
+10. The three values below {{ui(p="Distance")}} in the {{ui(p="Finder Scope")}} are _Rise_,
     _Transit_ and _Set_. Due to the Earth's rotation almost all visible
     celestial objects will appear to rise in the east and set in the west. By
     far the most important rise and set times are obviously those of the Sun.
@@ -797,27 +797,27 @@ some of the most commonly used terms in astronomy.
     object at its clearest, Earth observers will often try to time the
     observation to match the transit time. Rise, transit and set times are
     different for every viewing location on Earth.
-11. In the **View** panel select the **Observing Location** (New York in the
-    example below), and check **View from this location**. This will ensure we
+11. In the {{ui(p="View")}} panel select the {{ui(p="Observing Location")}} (New York in the
+    example below), and check {{ui(p="View from this location")}}. This will ensure we
     have a horizon line (rising and setting are obviously meaningless without
-    one). Next, in the **Search** panel text box, enter **Moon**. Click on the
+    one). Next, in the {{ui(p="Search")}} panel text box, enter **Moon**. Click on the
     thumbnail for a close-up view of the moon, then zoom out till the horizon
-    line is in view. Next, bring up the **View** panel again, and in the
-    **Observing Time** pane, accelerate the time to **x1000**. You will notice
+    line is in view. Next, bring up the {{ui(p="View")}} panel again, and in the
+    {{ui(p="Observing Time")}} pane, accelerate the time to **x1000**. You will notice
     the moon rise and set fairly rapidly. By carefully pausing or slowing the
     simulated time down, you should be able to match the rising and setting
-    times with those on the **Finder Scope.**
+    times with those on the {{ui(p="Finder Scope.")}}
 
     ![](Moonrise.jpg)  Moonrise in New York.
 
     Rise, transit and set times are given in local time, not UTC. Notice that
-    the **Observing Time** of 21:56:11 is just a minute after the **Rise**
-    time in the **Finder Scope**.
+    the {{ui(p="Observing Time")}} of 21:56:11 is just a minute after the {{ui(p="Rise")}}
+    time in the {{ui(p="Finder Scope")}}.
 12. Occasionally, instead of rise, transit and set times you will see the word
     _Circumpolar_. This means that the object will not go below the horizon,
     and so will not rise or set but will be in view all of the time. This
     happens when the object is near one of the celestial poles. For example,
-    go to **Observing Location**, and instead of selecting a city simply enter
+    go to {{ui(p="Observing Location")}}, and instead of selecting a city simply enter
     some extreme coordinates (for example Latitude 80 degrees, Longitude 0
     degrees as shown in the image below). Then search for and locate the Sun.
     Depending on the time of year and location, the Sun can become
@@ -850,18 +850,18 @@ some of the most commonly used terms in astronomy.
     [equatorial coordinate system](http://en.wikipedia.org/wiki/Equatorial_coordinate_system),
     uses right ascension, declination, and the J2000 epoch. You will find the
     J2000 coordinate system to be the most useful, but there are also other
-    coordinate systems. In the **Search** panel there are options for
-    **J2000**, **Azimuth and Altitude**, **Ecliptic** and **Galactic**
+    coordinate systems. In the {{ui(p="Search")}} panel there are options for
+    {{ui(p="J2000")}}, {{ui(p="Azimuth and Altitude")}}, {{ui(p="Ecliptic")}} and {{ui(p="Galactic")}}
     coordinate systems. The Ecliptic coordinate system uses the Sun's ecliptic
     circle as the celestial equator, rather than a projection of the Earth's
-    equator. Try changing the coordinate system from **J2000** to
-    **Galactic**. The galactic coordinate system is based on a line from the
+    equator. Try changing the coordinate system from {{ui(p="J2000")}} to
+    {{ui(p="Galactic")}}. The galactic coordinate system is based on a line from the
     Sun to the center of the Milky Way, with a celestial equator in line with
     the galactic plane. The Sun rotates about the center of the Milky Way at a
     speed of about 220 kilometers per second in an imperfect circle, and one
     rotation is called a **galactic year**. It takes around 230 million Earth
     years to complete one galactic year. Now enter zero for both lambda (λ)
-    and beta (β), then click **Go**. You should now be looking at the center
+    and beta (β), then click {{ui(p="Go")}}. You should now be looking at the center
     of the Milky Way.
 
     ![](CenterofMilkyWay.jpg)
@@ -885,7 +885,7 @@ Explore the images sent back by manned and unmanned space vehicles.
 * Click and drag to rotate the view.
 * To rotate the field of view **CTRL + click** and drag horizontally.
 
-Use **View > Reset Camera** to restore the default view and settings.
+Use {{ui(p="View > Reset Camera")}} to restore the default view and settings.
 
 The Apollo 12 landing site panorama provides some close up detail of the moon
 surface:
@@ -899,8 +899,8 @@ options. In most cases rotating the view will cover most of the content fairly
 quickly. The following tutorial simply goes through a number of the different
 panoramas, showing different presentation styles.
 
-1. Ensure that **Panorama** is selected in the **Look At** list.
-2. In the **Imagery** list select **Pathfinder: Many Rovers**. As only one
+1. Ensure that {{ui(p="Panorama")}} is selected in the {{ui(p="Look At")}} list.
+2. In the {{ui(p="Imagery")}} list select {{ui(p="Pathfinder: Many Rovers")}}. As only one
    Rover was present on this mission to Mars it is clear this is a composite
    of many individual images. If you scroll down you can see the airbags that
    were used to cushion the probe's landing. This was required because of the
@@ -911,14 +911,14 @@ panoramas, showing different presentation styles.
 3. Taking panoramic photographs is one of the objectives of unmanned missions.
    However, discerning detail from a camera at a low elevation and at a fixed
    point can be problematic. One method of addressing this is to increase the
-   contrast by coloring the image. In the **Imagery** list scroll down to
+   contrast by coloring the image. In the {{ui(p="Imagery")}} list scroll down to
    **Opportunity: Endurance South (false color)**. Compare this with the
    **Opportunity: Endurance South** panorama, which lacks added color, to
    understand why researchers color images. Notice how the false color image
    makes certain details much more visible!
 
    ![](Panorama_FalseColor.jpg)
-4. To see another method of highlighting landscape, scroll in the **Imagery**
+4. To see another method of highlighting landscape, scroll in the {{ui(p="Imagery")}}
    list to **Opportunity: Lyell**. Rotate the view until the large crater is
    in view, shown in the following image:
 
@@ -936,7 +936,7 @@ panoramas, showing different presentation styles.
    view as the panorama may only be partial.
 
    ![](Panorama_Cliff.jpg)
-7. Scroll in **Imagery** to the **Opportunity: Erebus** panorama. At first the
+7. Scroll in {{ui(p="Imagery")}} to the **Opportunity: Erebus** panorama. At first the
    panorama appears complete, but see if you can find the missing piece. Note
    the solar panels that cover the spacecraft:
 
@@ -945,21 +945,21 @@ panoramas, showing different presentation styles.
 
 ## Solar System
 
-Use **Solar System** view to explore the Solar System in three dimensions.
+Use {{ui(p="Solar System")}} view to explore the Solar System in three dimensions.
 Zoom in to view the surface details of many planets and moons. Three of the
 most visited objects in the virtual Universe, the Earth, the Moon and Saturn.
 
 **To Control the View**
 
 * Click and drag to rotate the planet.
-* Use the **Planet Size** slider to increase or decrease the size of the Sun
+* Use the {{ui(p="Planet Size")}} slider to increase or decrease the size of the Sun
   and planets.
   ![](3Dsolarsystem.jpg)
 * Use the mouse wheel to zoom in and out.
 * To tilt the field of view **CTRL + click** and drag vertically.
 * To rotate the field of view **CTRL + click** and drag horizontally.
 
-Use **View > Reset Camera** to restore the default view and settings.
+Use {{ui(p="View > Reset Camera")}} to restore the default view and settings.
 
 Basic navigation is much easier using the lower panel thumbnails as the
 starting point, as there are only one star, nine planets, and five moons to
@@ -972,7 +972,7 @@ and Saturn. For this particular image planet size is magnified to the maximum:
 
 ![](EarthMoonSun.jpg)
 
-Refer to the [3d Solar System](#3d-solar-system) settings in the **View**
+Refer to the [3d Solar System](#3d-solar-system) settings in the {{ui(p="View")}}
 pane. Of great interest is the [Observing Time](#ObservingTime) pane, which
 enables the planets to be set in motion (more rapidly than in real time) and
 orbits to be observed, and also, for expert users of WorldWide Telescope,
@@ -998,37 +998,37 @@ the following procedure:
    example, in the year 2041 April 30th, starting around 12.00 UTC (Universal
    time, or Greenwich Mean Time) there will be a total eclipse tracking across
    Africa and passing close to Lake Victoria.
-2. Select **SolarSystem** for the **Look At** list.
-3. Ensure that the **Planet Size** slider is set to **Actual**. The geometry
+2. Select {{ui(p="SolarSystem")}} for the {{ui(p="Look At")}} list.
+3. Ensure that the {{ui(p="Planet Size")}} slider is set to {{ui(p="Actual")}}. The geometry
    will be incorrect if this is not set correctly.
-4. Click on the **Earth** thumbnail that appears in the lower panel.
-5. In Layer Manager, check **Sky > 3d Solar System > Multi-res Solar System
-   Bodies**.
-6. In the **View** panel ensure that the **Lighting** item is checked.
-7. Also in the **View** panel change the **Observing Time** date information
-   to the correct date: **Year** 2041 **Month** 4 **Day** 30, as one example.
-8. Also in the **Observing Time** panel, select **UTC**, then set the time to
-   **Hrs** 12 **Min** 0 **Sec** 0. Click **Apply**. Close or unpin the **Date
-   Time Selection** panel.
+4. Click on the {{ui(p="Earth")}} thumbnail that appears in the lower panel.
+5. In Layer Manager, check {{ui(p="Sky > 3d Solar System > Multi-res Solar System
+   Bodies")}}.
+6. In the {{ui(p="View")}} panel ensure that the {{ui(p="Lighting")}} item is checked.
+7. Also in the {{ui(p="View")}} panel change the {{ui(p="Observing Time")}} date information
+   to the correct date: {{ui(p="Year")}} 2041 {{ui(p="Month")}} 4 {{ui(p="Day")}} 30, as one example.
+8. Also in the {{ui(p="Observing Time")}} panel, select “UTC”, then set the time to
+   {{ui(p="Hrs")}} 12 {{ui(p="Min")}} 0 {{ui(p="Sec")}} 0. Click {{ui(p="Apply")}}. Close or unpin the {{ui(p="Date
+   Time Selection")}} panel.
 9. Now rotate the Earth with the mouse until central Africa is in view. Zoom
    in a little to see the shadow of the Moon more clearly.
 10. Carefully use the fast forward button (setting it to **x100**) in the
-    **Observing Time** panel to view the shadow as it moves across the
+    {{ui(p="Observing Time")}} panel to view the shadow as it moves across the
     continent. It should look similar to the following image as it passes Lake
     Victoria (at a time of 12.52.05 UTC):
 
     ![](Eclipse.jpg)
 
-To see the same eclipse but in the **Sky** view use the following procedure:
+To see the same eclipse but in the {{ui(p="Sky")}} view use the following procedure:
 
-1. Select **Sky** in the **Look At** list.
-2. In the **View** panel, select **Observing Location > Setup** and select the
+1. Select {{ui(p="Sky")}} in the {{ui(p="Look At")}} list.
+2. In the {{ui(p="View")}} panel, select {{ui(p="Observing Location > Setup")}} and select the
    city **Kampala, Uganda**.
-3. In Layer Manager, under **Sky > Overlays > Grids**, check the **Ecliptic
-   Grid** setting.
-4. In the **View** panel select **Observing Time**, and set the date to 2041,
+3. In Layer Manager, under {{ui(p="Sky > Overlays > Grids")}}, check the {{ui(p="Ecliptic
+   Grid")}} setting.
+4. In the {{ui(p="View")}} panel select {{ui(p="Observing Time")}}, and set the date to 2041,
    April 30th. Set the time to 11.30 UTC.
-5. Select **Explore > Constellations** and click on **Aries**. It is in this
+5. Select {{ui(p="Explore > Constellations")}} and click on {{ui(p="Aries")}}. It is in this
    constellation that the eclipse occurs.
 6. Zoom in a little to view the Sun and Moon a bit more closely.
 7. Accelerate the time to **x100** to view the eclipse. You may have to pan
@@ -1060,7 +1060,7 @@ datasets, and place your own 3D models.
 
 This section describes how to add your own 3D models to WorldWide Telescope.
 
-1. Right-click on "Sandbox" in the layer manager and select **Add**.
+1. Right-click on "Sandbox" in the layer manager and select {{ui(p="Add")}}.
 
    ![](ex_Sandbox-add.png)
 
@@ -1069,12 +1069,12 @@ This section describes how to add your own 3D models to WorldWide Telescope.
    this example we loaded
    [magnolia.obj](http://people.sc.fsu.edu/~jburkardt/data/obj/magnolia.obj).
 
-3. Right-click the item in layer manager and select **Properties**. Here you
+3. Right-click the item in layer manager and select {{ui(p="Properties")}}. Here you
    can position the object within the sandbox space.
 
    ![](ex_3d-model-properties.png)
 
-   When the **Properties** dialog is active, click and drag the colored arrows
+   When the {{ui(p="Properties")}} dialog is active, click and drag the colored arrows
    to position the selected object:
 
    * Red: X axis
@@ -1133,15 +1133,15 @@ controller should be connected.
 
 ## Explore Menu Entries
 
-Clicking on the down arrow below **Explore** opens up the menu entries.
+Clicking on the down arrow below {{ui(p="Explore")}} opens up the menu entries.
 
 ![](ui_win_Explore-Menu.png)
 
-The **New** options start a new data collection of images, or initiate the [tour creation process](#CreatingaTour).
+The {{ui(p="New")}} options start a new data collection of images, or initiate the [tour creation process](#CreatingaTour).
 
 ![](ExploreMenuEntries2.jpg)
 
-The **Open** options enable the opening of a tour, a data collection, an image
+The {{ui(p="Open")}} options enable the opening of a tour, a data collection, an image
 (which will be placed in the sky if it includes AVM metadata, or simply
 centered if there is no such data) and, for astronomers only, a
 [Virtual Observatory Table](#VirtualObservatoryTables). Finally there is an
@@ -1149,7 +1149,7 @@ option to load ESRI Shape Files.
 
 ![](ui_win_Explore-Menu-Submenu-Open.png)
 
-Clicking **Show Finder** will bring up [The Finder Scope](#TheFinderScope).
+Clicking {{ui(p="Show Finder")}} will bring up [The Finder Scope](#TheFinderScope).
 
-Clicking **Getting Started** links to this User Guide, **WorldWide Telescope
-Home Page** links to the website.
+Clicking {{ui(p="Getting Started")}} links to this User Guide, {{ui(p="WorldWide Telescope
+Home Page")}} links to the website.

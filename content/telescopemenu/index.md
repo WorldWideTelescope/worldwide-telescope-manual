@@ -27,19 +27,19 @@ to the computer.
 The first step in controlling a physical telescope is to install the ASCOM
 software:
 
-1. Click on **Telescope** to open up the telescope panel. Note the ASCOM logo
-   to the far right of the panel, with the words **Not Installed** underneath
+1. Click on {{ui(p="Telescope")}} to open up the telescope panel. Note the ASCOM logo
+   to the far right of the panel, with the words {{ui(p="Not Installed")}} underneath
    it.
 
    ![](ASCOMNotInstalled.jpg)
-2. Click on the ASCOM logo to follow a link to the **ASCOM Standards for
-   Astronomy** page, and download the ASCOM Platform:
+2. Click on the ASCOM logo to follow a link to the {{ui(p="ASCOM Standards for
+   Astronomy")}} page, and download the ASCOM Platform:
 
     ![](ASCOMDownload.jpg)
 3. Go through the download and installation procedures. This may take a few
    minutes.
 4. Confirm that the software has been installed by ensuring the word
-   **Installed** now appears below the ASCOM logo in WorldWide Telescope.
+   {{ui(p="Installed")}} now appears below the ASCOM logo in WorldWide Telescope.
    Close and restart WorldWide Telescope if necessary:
 
    ![](ASCOMInstalled.jpg)
@@ -47,47 +47,47 @@ software:
 To ensure that the ASCOM software is working correctly with WorldWide
 Telescope, test it in simulation mode:
 
-1. Click the **Choose** button on the telescope panel, then scroll down the
-   list and select **Simulator**:
+1. Click the {{ui(p="Choose")}} button on the telescope panel, then scroll down the
+   list and select {{ui(p="Simulator")}}:
 
    ![](ASCOMTelescopeChooser.jpg)
 
-2. Click **OK**.
-3. Now click **Connect** on the telescope panel. You should notice that many
-   of the **Telescope Control** entries are now enabled. The actual buttons
-   that are enabled depends on the setup of the simulator. Click **Setup** on
-   the telescope panel. Change the **Equatorial System** entry in the
-   **Advanced** section to **J2000**:
+2. Click {{ui(p="OK")}}.
+3. Now click {{ui(p="Connect")}} on the telescope panel. You should notice that many
+   of the {{ui(p="Telescope Control")}} entries are now enabled. The actual buttons
+   that are enabled depends on the setup of the simulator. Click {{ui(p="Setup")}} on
+   the telescope panel. Change the {{ui(p="Equatorial System")}} entry in the
+   {{ui(p="Advanced")}} section to **J2000**:
 
    ![](ASCOMSetup.jpg)
-4. Click **OK** in the **Setup** dialog and you should notice that a new
-   window has been opened, the **Scope Simulator**. This window mimics the
+4. Click {{ui(p="OK")}} in the {{ui(p="Setup")}} dialog and you should notice that a new
+   window has been opened, the {{ui(p="Scope Simulator")}}. This window mimics the
    remote control of a physical telescope:
 
    ![](ScopeSimulator.jpg)
    ![](ScopeSimulatorBlank.jpg)
 
-   Open up the **Scope Simulator** and ensure that there are red numerical
+   Open up the {{ui(p="Scope Simulator")}} and ensure that there are red numerical
    position values. If there are not, as seen in the image to the right, then
    the simulator did not start correctly. If this happens, try closing
    WorldWide Telescope and then opening it again.
-5. Next click on **Search** to open up the search panel, then enter
-   **Polaris** into the search text box. When the thumbnails appear, double
-   click on **Polaris** (not **Polaris Australis**). This will instantly
+5. Next click on {{ui(p="Search")}} to open up the search panel, then enter
+   {{ui(p="Polaris")}} into the search text box. When the thumbnails appear, double
+   click on {{ui(p="Polaris")}} (not {{ui(p="Polaris Australis")}}). This will instantly
    change the WorldWide Telescope view to the star.
-6. Click on **Slew** in the telescope panel. You should see the settings on
-   the **Scope Simulator** change to the RA and Dec of Polaris:
+6. Click on {{ui(p="Slew")}} in the telescope panel. You should see the settings on
+   the {{ui(p="Scope Simulator")}} change to the RA and Dec of Polaris:
 
    ![](ScopeSimulatorOnPolaris.jpg)
 
-7. Next select the controls of the **Scope Simulator** -- one or more of
+7. Next select the controls of the {{ui(p="Scope Simulator")}} -- one or more of
    **N**, **S**, **E** or **W**. Note that holding down Shift will move the
    virtual scope slower, and Ctrl even slower. So make some key presses to
    move the simulated view. Note the change in RA and Dec.
-8. Click **Center** in the telescope panel to center the WorldWide Telescope
+8. Click {{ui(p="Center")}} in the telescope panel to center the WorldWide Telescope
    view on whatever the simulated telescope is viewing. You should see the
    view smoothly animate to the simulator's settings.
-9. Pressing **Traffic** on the **Scope Simulator** will display a window
+9. Pressing {{ui(p="Traffic")}} on the {{ui(p="Scope Simulator")}} will display a window
    giving a log of the telescope movements:
 
    ![](ASCOMTraffic.jpg)
@@ -102,20 +102,20 @@ software. When it is correctly aligned:
 1. Ensure the computer and telescope have an adequate power supply.
 2. Point the telescope at a well known star, **Polaris** for example.
 3. Attach the telescope to the computer with the USB cable.
-4. Select **Choose** in the telescope panel, and select the type that best
-   matches your telescope: **ASCOM Dome Control**, **Generic Hub** and so on.
-5. In **Setup** check off the items that best match the features of the
+4. Select {{ui(p="Choose")}} in the telescope panel, and select the type that best
+   matches your telescope: {{ui(p="ASCOM Dome Control")}}, {{ui(p="Generic Hub")}} and so on.
+5. In {{ui(p="Setup")}} check off the items that best match the features of the
    telescope.
-6. Select **Connect**, and this should enable the **Telescope Control** pane
+6. Select {{ui(p="Connect")}}, and this should enable the {{ui(p="Telescope Control")}} pane
    of the telescope panel.
-7. Click **Slew** to change the WorldWide Telescope view to match that of the
-   telescope. Use the **Finder Scope** to verify that the WorldWide Telescope
+7. Click {{ui(p="Slew")}} to change the WorldWide Telescope view to match that of the
+   telescope. Use the {{ui(p="Finder Scope")}} to verify that the WorldWide Telescope
    view is the same as the physical telescope, **Polaris** for example.
-8. If the telescope alignment is at any point uncertain, use the **Sync**
+8. If the telescope alignment is at any point uncertain, use the {{ui(p="Sync")}}
    option. This transmits the RA and Dec of WorldWide Telescope to the
    physical telescope.
 9. Use WorldWide Telescope to locate objects close to the original alignment,
-   then **Slew** the physical telescope to the new location to try to view it
+   then {{ui(p="Slew")}} the physical telescope to the new location to try to view it
    for real! Alternatively control the physical telescope and use WorldWide
    telescope to identify the objects you locate.
 
@@ -126,6 +126,6 @@ software. When it is correctly aligned:
 
 ## Telescope Menu Entries<
 
-Clicking on the down arrow below **Telescope** opens up the menu entries.
+Clicking on the down arrow below {{ui(p="Telescope")}} opens up the menu entries.
 
 ![](TelescopeMenuEntries.jpg)

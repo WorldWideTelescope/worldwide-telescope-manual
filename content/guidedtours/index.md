@@ -10,21 +10,21 @@ sky and Earth (such as the **Multiple Worlds** tour). Feel free at any time to
 pause a tour, explore on your own (with multiple information sources for
 objects at your fingertips), and rejoin the tour where you left off.
 
-Highly rated tours include **Tours > Galaxies > Universal Beauty** -- a tour
+Highly rated tours include {{ui(p="Tours > Galaxies > Universal Beauty")}} -- a tour
 of spectacular sights in the Universe set to music, created by High Skies. For
-a clear explanation of the search for Earth type planets, visit **Tours >
-Planets > Search for Extra Solar Planets**, created by the Harvard-Smithsonian
-Center for Astrophysics. Or select **Tours > Galaxies > Dust & Us** to join
+a clear explanation of the search for Earth type planets, visit {{ui(p="Tours >
+Planets > Search for Extra Solar Planets")}}, created by the Harvard-Smithsonian
+Center for Astrophysics. Or select {{ui(p="Tours > Galaxies > Dust & Us")}} to join
 Harvard Astronomer Alyssa Goodman on a journey showing how dust in the Milky
-Way Galaxy condenses into stars and planets. Select **Tours > Cosmology > Dark
-Matter at Abell 1689** to take a tour with University of Chicago Cosmologist
+Way Galaxy condenses into stars and planets. Select {{ui(p="Tours > Cosmology > Dark
+Matter at Abell 1689")}} to take a tour with University of Chicago Cosmologist
 Mike Gladders to see a gravitational lens bending the light from galaxies
 allowing you to see billions of years into the past. Looking to the future,
 our own Milky Way galaxy is expected to collide with the Andromeda galaxy in a
-few billion years time, which is explained in the **Tours > Galaxies > Impact
-with M31** tour, created by Francis Reddy of Astronomy Magazine. The apparent
-result of a galactic collision is shown in the **Tours > Galaxies > M82 Cigar
-Galaxy** tour by Robert Hurt of the Spitzer Space Telescope. Other tours cover
+few billion years time, which is explained in the {{ui(p="Tours > Galaxies > Impact
+with M31")}} tour, created by Francis Reddy of Astronomy Magazine. The apparent
+result of a galactic collision is shown in the {{ui(p="Tours > Galaxies > M82 Cigar
+Galaxy")}} tour by Robert Hurt of the Spitzer Space Telescope. Other tours cover
 nebula, eclipses, black holes, the Apollo programs, supernova and many other
 topics.
 
@@ -34,7 +34,7 @@ You can also create your own tours, and share them with friends and colleagues.
 ## Playing a Tour
 
 To display the range of tours supplied with WorldWide Telescope, click on
-**Guided Tours**. Thumbnails will appear in the top pane for many different
+{{ui(p="Guided Tours")}}. Thumbnails will appear in the top pane for many different
 types of tour. These are folders of tours. Click on one of the folder
 thumbnails to view the range of actual tours. If a thumbnail is a direct link
 to a tour, it will contain a large **T** in the top right hand corner. If a
@@ -69,10 +69,10 @@ To cancel a tour, click the **X** by the tour name in the menu bar:
 ![](Tours_closing.jpg)
 
 To close a tour after it has completed, either click the **X** by the tour
-name, or the **Close Tour** button that appears in the final credits. In order
+name, or the {{ui(p="Close Tour")}} button that appears in the final credits. In order
 to transmit your rating of the tour, click on one or more stars. If you enter
 too many stars and reconsider your opinion, click the star to the left to
-reduce the number of stars. Click **Close Tour** and this rating will be
+reduce the number of stars. Click {{ui(p="Close Tour")}} and this rating will be
 included in the average rating presented to other users.
 
 ![](TourRating.jpg)
@@ -80,17 +80,17 @@ included in the average rating presented to other users.
 To navigate the folders of tours click on the thumbnails to open up folders
 and tours, and click on the text to step back. For example, clicking
 **Nebula** in the image below will close that folder and go back to display
-the contents of the higher level **Tours** folder:
+the contents of the higher level {{ui(p="Tours")}} folder:
 
 ![](Tours_Navigation.jpg)
 
 ### Notes
 
-* There are other ways to start a tour. For example from the **Explore > Open
-  > Tour...** menu, from community data, and from other data collections that
+* There are other ways to start a tour. For example from the {{ui(p="Explore > Open
+  > Tour...")}} menu, from community data, and from other data collections that
   contain tours.
 * When a tour is selected, a copy of it is downloaded to your local computer,
-  and the entry **Save Tour As...** is added to the
+  and the entry {{ui(p="Save Tour As...")}} is added to the
   [Guided Tours Menu Entries](#guided-tours-menu-entries). This tour can then
   be played again without internet access, and edited (though be mindful of
   copyright and ownership issues).
@@ -111,9 +111,9 @@ complex argument or experience.
 
 ### Tour Properties Dialog
 
-To create a tour, click **Guided Tours > Create a New Tour...**, or **Explore
-> New > Slide-based Tour...,** which has the same effect. The first thing that
-you will see is the **Tour Properties** dialog. Give the new tour a title
+To create a tour, click {{ui(p="Guided Tours > Create a New Tour...")}}, or {{ui(p="Explore
+> New > Slide-based Tour...,")}} which has the same effect. The first thing that
+you will see is the {{ui(p="Tour Properties")}} dialog. Give the new tour a title
 (with a recommended limit of 35 characters, otherwise the title will be
 resized or truncated), and add as many of the properties as you can now.
 However these properties can be edited later, and some of the details may well
@@ -129,32 +129,32 @@ The author image should measure 70 pixels wide by 94 in height.
 The
 [WorldWide Telescope Data Files Reference](http://www.worldwidetelescope.org/docs/WorldWideTelescopeDataFilesReference.html)
 document contains a full list in the Taxonomy appendix for use with the
-**Classification Taxonomy** entry. Properly classifying guided tours will help
+{{ui(p="Classification Taxonomy")}} entry. Properly classifying guided tours will help
 users locate the tour when searching. (Note the search feature currently only
 applies to tours added to the default collection).
 
 ### Tour Editing Pane
 
-Click **OK** to close the Tour Properties dialog and bring up the tour editing
+Click {{ui(p="OK")}} to close the Tour Properties dialog and bring up the tour editing
 pane:
 
 ![](Tours_New_Edit.jpg)
 
 Adding slides to your tour could hardly be easier. Simply navigate to where
-you want to be and click **Add a Slide**. Note that when you do this a
+you want to be and click {{ui(p="Add a Slide")}}. Note that when you do this a
 thumbnail image of the current view is taken, and added to your tour. You can
-change the view using the **Look At** and **Imagery** lists between slides
+change the view using the {{ui(p="Look At")}} and {{ui(p="Imagery")}} lists between slides
 though if you do the tour will jump sharply from one image to the next and not
 scroll smoothly.
 
-The key editing elements are to the right of the image above. **Tour
-Properties** will bring up the original properties dialog, for editing.
-**Music**, **Voiceover**, **Text**, **Shapes** and **Picture** items can be
-added to the slide. The **Show Safe Area** checkbox can be used if you are
+The key editing elements are to the right of the image above. {{ui(p="Tour
+Properties")}} will bring up the original properties dialog, for editing.
+{{ui(p="Music")}}, {{ui(p="Voiceover")}}, {{ui(p="Text")}}, {{ui(p="Shapes")}} and {{ui(p="Picture")}} items can be
+added to the slide. The {{ui(p="Show Safe Area")}} checkbox can be used if you are
 using a wide screen, but plan on the tour being fully visible to users of
 narrower screens - checking it simply shades out the wider area.
 
-* **Music**: MP3 and WMA files are the supported formats for both music and
+* {{ui(p="Music")}}: MP3 and WMA files are the supported formats for both music and
   voice. Browse for a suitable piece. Note that there are not fade-in,
   fade-out or other sound effects available in WorldWide Telescope, so
   applying effects must be done independently in audio editing software. Only
@@ -170,7 +170,7 @@ narrower screens - checking it simply shades out the wider area.
   music file is embedded in the tour binary, so it is a good idea to fade out
   and truncate the music at exactly the right time, so as not to store
   unnecessary data.
-* **Voiceover**: Use a similar procedure as for music, recording and editing
+* {{ui(p="Voiceover")}}: Use a similar procedure as for music, recording and editing
   the audio using quality software. The Sound Recorder accessory provided with
   Windows can be used to create voiceovers if you have a microphone attached
   to your computer, but without any editing features it is of limited utility.
@@ -178,13 +178,13 @@ narrower screens - checking it simply shades out the wider area.
   applied to each individual slide, to get the timing right. Both music and
   voice can be rendered simultaneously, though adjust the volumes
   appropriately.
-* **Text**: Enter the text into the dialog, along with font and color
+* {{ui(p="Text")}}: Enter the text into the dialog, along with font and color
   information. Note that the text can be resized on the slide, so there is no
   need to get the point size perfect within this dialog. If a background color
   is required for the text, select one after clicking on the palette icon in
   the text dialog. Add line breaks by pressing ENTER where required.
 
-  Click **Save** to add the text to the slide. Then use the resize and rotate
+  Click {{ui(p="Save")}} to add the text to the slide. Then use the resize and rotate
   handles as necessary.
 
   ![](Tours_New_Text.jpg)
@@ -192,35 +192,35 @@ narrower screens - checking it simply shades out the wider area.
   To select white as a color, click on any of the white space around the color
   picker. The two colored boxes at the bottom of the color picker show the old
   and new colors respectively.
-* **Shapes**: Circles, rectangles, open rectangles, rings, lines, arrows and
+* {{ui(p="Shapes")}}: Circles, rectangles, open rectangles, rings, lines, arrows and
   stars are supported shapes. Once added to the screen, edit some of their
   properties using the right click menu shown below.
 
   ![](Tours_New_ShapesMenu.jpg)
 
-  Use the **Bring to...** and **Send...** options to layer multiple images
+  Use the {{ui(p="Bring to...")}} and {{ui(p="Send...")}} options to layer multiple images
   appropriately.
 
-  Selecting the **Color/Opacity** entry will bring up the color picker dialog
+  Selecting the {{ui(p="Color/Opacity")}} entry will bring up the color picker dialog
   shown above.
 
-  Selecting **Hyperlink** will add a URL to the tour. If the user clicks on
+  Selecting {{ui(p="Hyperlink")}} will add a URL to the tour. If the user clicks on
   the shape, the URL will be opened in the default browser in a separate
   window. Note that no indication that this is a link is provided
   automatically -- this indication should be provided by the tour author.
-* **Animate** enables the movement, recoloring and resizing of text, shapes or
+* {{ui(p="Animate")}} enables the movement, recoloring and resizing of text, shapes or
   pictures. To animate an object, first move it, size it and color it at the
-  location in the view you wish it to start. Then click **Animate**. Then drag
+  location in the view you wish it to start. Then click {{ui(p="Animate")}}. Then drag
   the object to the location you wish the animation to end, and recolor and
   resize the object if required. Then deselect the object. Animations are only
   enabled between a starting point and an ending point. Right-click the slide
-  you are working on, select **Preview Tour From Here...** and test the
+  you are working on, select {{ui(p="Preview Tour From Here...")}} and test the
   animations. Each animated object should smoothly move, recolor and resize
   over the time period assigned to the slide.
-* **Picture**: Jpeg, Tiff, Png and [FITS](#fits-images) still images can be
+* {{ui(p="Picture")}}: Jpeg, Tiff, Png and [FITS](#fits-images) still images can be
   added to the slide. Similar to text and shape entries, picture entries can
   be resized and rotated on the slide. The same right click menu available for
-  **Shapes** can be used with pictures.
+  {{ui(p="Shapes")}} can be used with pictures.
 
 ### Slide Editing Menu
 
@@ -230,38 +230,38 @@ up a menu with a range of detailed options:
 ![](Tours_New_SlideMenu.jpg)
 ![](ui_win_Date-Time-Selection.png)
 
-**Merge Tour after slide...** will insert another tour to become part of the
+{{ui(p="Merge Tour after slide...")}} will insert another tour to become part of the
 tour being edited.
 
 To set the start and end camera position for a slide, simply navigate to the
-required angle, then click **Set Start Camera Position**. Then navigate to the
-required ending angle, and click **Set End Camera Position**. When the slide
+required angle, then click {{ui(p="Set Start Camera Position")}}. Then navigate to the
+required ending angle, and click {{ui(p="Set End Camera Position")}}. When the slide
 is shown in the tour, the view will smoothly animate from the starting to
 ending positions.
 
-Use **Capture New Thumbnail** to replace the thumbnail image of a selected
+Use {{ui(p="Capture New Thumbnail")}} to replace the thumbnail image of a selected
 slide.
 
 To add a slide for a particular time -- say to capture an eclipse or a
 crescent moon or a certain alignment of a star or planet, for example -- go
 through the following procedure:
 
-1. Click **View** then open the **Date Time Selection** pane from the
-   **Observing Time** pane.
-2. Click the push-pin icon in the **Date Time Selection** pane to undock it.
-3. Use the arrows to select the required time. Click **Apply** as many times
-   as necessary to locate the exact time you want. Do not click **OK** so the
-   **Date Time Selection** pane remains open. So far you have not edited the
+1. Click {{ui(p="View")}} then open the {{ui(p="Date Time Selection")}} pane from the
+   {{ui(p="Observing Time")}} pane.
+2. Click the push-pin icon in the {{ui(p="Date Time Selection")}} pane to undock it.
+3. Use the arrows to select the required time. Click {{ui(p="Apply")}} as many times
+   as necessary to locate the exact time you want. Do not click {{ui(p="OK")}} so the
+   {{ui(p="Date Time Selection")}} pane remains open. So far you have not edited the
    tour, but just selected the right data and time.
 4. Click the tour title bar to return to editing the tour. Create the new
    slide if it does not already exist and ensure the slide that the date and
    time applies to is highlighted with a yellow outline. Right-click to bring
-   up the editing context menu, and ensure **Track Date/Time/Location** is
+   up the editing context menu, and ensure {{ui(p="Track Date/Time/Location")}} is
    selected.
 5. Right-click the slide again to bring up the menu again, and this time
-   select **Set Camera Start Position**.
-6. In the **Date Time Selection** pane (that should still be storing the
-   required date and time for the camera), click **OK**. This edits the tour
+   select {{ui(p="Set Camera Start Position")}}.
+6. In the {{ui(p="Date Time Selection")}} pane (that should still be storing the
+   required date and time for the camera), click {{ui(p="OK")}}. This edits the tour
    and applies the date and time to the slide.
 7. Preview your tour to ensure you have done this procedure correctly.
 
@@ -293,8 +293,8 @@ with a master slide with a display time of only a second or two, and attaching
 the music file to this one slide.
 
 To make a slide a master slide, right click to bring up the context menu, then
-select **Master Slide**. A bold **M** will appear on the thumbnail. To revert
-a slide to normal status, bring up the menu and click **Master Slide** again.
+select {{ui(p="Master Slide")}}. A bold **M** will appear on the thumbnail. To revert
+a slide to normal status, bring up the menu and click {{ui(p="Master Slide")}} again.
 
 ### Slide Title
 
@@ -309,16 +309,16 @@ displayed list of slides.
 
 ### Control Views and Settings
 
-To change current view settings for your slides, go into the **View** or
-**Settings** menus and make the appropriate changes for the selected slide
+To change current view settings for your slides, go into the {{ui(p="View")}} or
+{{ui(p="Settings")}} menus and make the appropriate changes for the selected slide
 (for example, to turn Constellation Figures or Boundary lines on or off). To
 go back to editing the tour, click on the name of the tour in the menu bar.
 
-**View** and **Settings** entries can be changed for each slide.
+{{ui(p="View")}} and {{ui(p="Settings")}} entries can be changed for each slide.
 
 ### Completing the Tour
 
-Click **Save** in the tour editing pane to save off the tour at any stage.
+Click {{ui(p="Save")}} in the tour editing pane to save off the tour at any stage.
 Close the tour when it is completed by clicking the **X** by the name in the
 menu bar:
 
@@ -377,22 +377,22 @@ The "This is Venus" text will more the user onto the next question.
 
 In order to create the menu system shown above, _first_ create all the
 required slides with the appropriate text on them. Next right click on each
-text entry in turn, and click on **Link to Slide**, this will bring up the
+text entry in turn, and click on {{ui(p="Link to Slide")}}, this will bring up the
 following dialog:
 
 ![](InteractiveTourSelectLink.jpg)
 
-Slides can be linked to another specific slide with the **Link to Slide
-(Select below)** option. This is the appropriate selection for all the menu
+Slides can be linked to another specific slide with the {{ui(p="Link to Slide
+(Select below)")}} option. This is the appropriate selection for all the menu
 entries — linking "Venus" to the correct slide, and the rest to the "Wrong"
 slide.
 
 The "Wrong" slide may be used many times, so its "Try again" text should be
-linked to **Return to Caller** — so the user will be returned to the question
+linked to {{ui(p="Return to Caller")}} — so the user will be returned to the question
 they got wrong.
 
 The correct answer slide will probably be linked to the next question with the
-normal **Link to Next Slide** option.
+normal {{ui(p="Link to Next Slide")}} option.
 
 Any of the overlays — text, shapes or pictures — can be turned into active
 links. There are a few things to consider when creating an interactive rather
@@ -411,26 +411,26 @@ than normal tour:
   the slides.
 * Links can be applied to entire slides, rather than to overlay entries. For
   example, instead of the "Wrong" slide having a "Try again" button the slide
-  could be linked with **Return to Caller**, in which case it would simply
+  could be linked with {{ui(p="Return to Caller")}}, in which case it would simply
   timeout and then return the user to the question slide. Or of course, both
   systems could be used.
 
 
 ## Guided Tours Menu Entries
 
-Clicking on the down arrow below **Guided Tours** opens up the menu entries.
+Clicking on the down arrow below {{ui(p="Guided Tours")}} opens up the menu entries.
 
 ![](GuidedTourMenuEntries.jpg)
 
-**Tour Home**, **Tour Search Web Page**, and **Music and other Tour Resource**
+{{ui(p="Tour Home")}}, {{ui(p="Tour Search Web Page")}}, and {{ui(p="Music and other Tour Resource")}}
   link to Microsoft Research WorldWide Telescope websites.
 
-To play tours in demo mode (that is, in a continuous loop) select **Auto
-Repeat** then one of:
+To play tours in demo mode (that is, in a continuous loop) select {{ui(p="Auto
+Repeat")}} then one of:
 
-- **One**: play the selected tour continuously
-- **All**: start with the selected tour, and cycle through the other tours in
+- {{ui(p="One")}}: play the selected tour continuously
+- {{ui(p="All")}}: start with the selected tour, and cycle through the other tours in
   the top pane continuously.
   ![](GuidedTourMenuEntries2.jpg)
 
-**Undo** and **Redo** are enabled appropriately while editing a tour.
+{{ui(p="Undo")}} and {{ui(p="Redo")}} are enabled appropriately while editing a tour.

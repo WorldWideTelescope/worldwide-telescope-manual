@@ -5,8 +5,8 @@ weight = 1000
 +++
 
 WorldWide Telescope can be used by Earth scientists to study events on our own
-planet in some detail. The main feature for this purpose is the **Layer
-Manager**, which enables layers of data to be rendered on the 3D model of the
+planet in some detail. The main feature for this purpose is the {{ui(p="Layer
+Manager")}}, which enables layers of data to be rendered on the 3D model of the
 Earth, where those layers are either static data such as boundaries (political
 boundaries, watersheds, tectonic plate boundaries, to name a few examples), or
 dynamic data reporting events on a time line (earthquakes, hurricanes,
@@ -29,9 +29,9 @@ Time series data is typically a list of events that occurred at a very
 specific time (such as earthquakes), or were initiated at a certain time and
 persist.
 
-To add a layer of time series data, click the **Add** button on the Layer
+To add a layer of time series data, click the {{ui(p="Add")}} button on the Layer
 Manager, or right-click on the node where the data should be added, and select
-**Add** from the menu; select the file of data to be added from the Open File
+{{ui(p="Add")}} from the menu; select the file of data to be added from the Open File
 dialog. The import of data from an Excel spreadsheet will be made easier if
 there are column headings in the spreadsheet that are helpful, as WorldWide
 Telescope uses these to make a best guess as to their purpose. It does not
@@ -55,6 +55,6 @@ in the spreadsheet to those requested by the Data Visualization tool.
 ### Setting Time Series Data Running
 
 To set the time series data running, select and highlight the layer in the
-**Layer Manager.** Then ensure the **Time Series** and (optionally) the **Auto
-Loop** checkboxes are selected. Then go to the [View Menu](#TheViewMenu) and
+{{ui(p="Layer Manager.")}} Then ensure the {{ui(p="Time Series")}} and (optionally) the {{ui(p="Auto
+Loop")}} checkboxes are selected. Then go to the [View Menu](#TheViewMenu) and
 accelerate time to see the visualization of the events.

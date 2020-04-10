@@ -18,50 +18,50 @@ You can create your own collections, either from existing images or perhaps
 from your own data. As long as the data that the new collection references is
 available on the internet, your new collections can be shared.
 
-To create a new collection, either select **Explore > New > Collection...**,
-or select **Collections > My Collections > Add New Item**, which has the same
-effect. Enter an appropriate name in the **Create New Collection** dialog box.
-Your new collection will be added under **My Collections** and the data will
+To create a new collection, either select {{ui(p="Explore > New > Collection...")}},
+or select {{ui(p="Collections > My Collections > Add New Item")}}, which has the same
+effect. Enter an appropriate name in the {{ui(p="Create New Collection")}} dialog box.
+Your new collection will be added under {{ui(p="My Collections")}} and the data will
 be saved off automatically when you add new images to it.
 
-To add images to this new collection use the **Research** option of the
-[Finder Scope](#the-finder-scope), which has an **Add to Collection** menu
-entry. If you select the **Add New Item** thumbnail when the new collection is
+To add images to this new collection use the {{ui(p="Research")}} option of the
+[Finder Scope](#the-finder-scope), which has an {{ui(p="Add to Collection")}} menu
+entry. If you select the {{ui(p="Add New Item")}} thumbnail when the new collection is
 displayed in the top panel this will add a new _folder_ to your collection,
 enabling a folder and image structure which might be helpful for a large or
 complex collection. Add as many folders and images as you like to the
 collection.
 
 To edit the metadata for any one of the images, right click the thumbnail for
-the image, and select **Edit**. This will bring up the **Edit Object
-Information** dialog:
+the image, and select {{ui(p="Edit")}}. This will bring up the {{ui(p="Edit Object
+Information")}} dialog:
 
 ![](EditObjectInformation.jpg)
 
-Some of the metadata information is populated, including the **Constellation**
+Some of the metadata information is populated, including the {{ui(p="Constellation")}}
 and **RA** and **Dec** co-ordinates, when the image is added to the
-collection. Clicking **FromView** will overwrite this with the co-ordinates of
+collection. Clicking {{ui(p="FromView")}} will overwrite this with the co-ordinates of
 the current view, so be careful of clicking this inadvertently.
 
-Add appropriate **Names** and **Classification**.
+Add appropriate {{ui(p="Names")}} and {{ui(p="Classification")}}.
 
-Your own collections are saved to the **My Documents/WWT Collections** folder.
+Your own collections are saved to the {{ui(p="My Documents/WWT Collections")}} folder.
 Each time you add an image to a collection the file is updated. If a
 collection is moved to another location, you can open if by browsing to it
-using the **Explore > Open** menu option.
+using the {{ui(p="Explore > Open")}} menu option.
 
 Note that by right-clicking on an image in one of your collections, the
-**Remove from Collection** menu option is available for you to delete images.
+{{ui(p="Remove from Collection")}} menu option is available for you to delete images.
 To delete or rename a collection, right-click the collection thumbnail. To
-move images around within a collection that contains folders, use the **Add to
-Collection** option to add the image to the right folder, then **Remove from
-Collection** to delete the image in the wrong folder.
+move images around within a collection that contains folders, use the {{ui(p="Add to
+Collection")}} option to add the image to the right folder, then {{ui(p="Remove from
+Collection")}} to delete the image in the wrong folder.
 
-To share your collection with other users, email the .wtml file in the **My
-Documents/WWT Collections** folder. The users that receive this email can
+To share your collection with other users, email the .wtml file in the {{ui(p="My
+Documents/WWT Collections")}} folder. The users that receive this email can
 either double click on the wtml file (if the file mime types have been set up
 appropriately) to open up WorldWide Telescope with this collection, or simply
-use **Explore > Open** to navigate to and open the collection.
+use {{ui(p="Explore > Open")}} to navigate to and open the collection.
 
 
 ## Comparing Foreground and Background Images
@@ -75,19 +75,19 @@ WorldWide Telescope has the concept of a _study_ - usually a single or
 composite image of one object in space, and a _survey_ - usually a
 comprehensive collection of data from a large area of the sky. Typically a
 study is loaded from a _Collection_ by clicking a thumbnail in the top panel,
-and a survey is selected from the **Imagery** list. In this context the study
+and a survey is selected from the {{ui(p="Imagery")}} list. In this context the study
 is the _foreground_ image and the survey the _background image_. There are
 options to reverse this, or to compare two studies or two surveys, but the
 study on top of the survey is the default operation.
 
-When both a foreground and background image are in view, the **Image
-Crossfade** slider appears, enabling you to visually compare the two images:
+When both a foreground and background image are in view, the {{ui(p="Image
+Crossfade")}} slider appears, enabling you to visually compare the two images:
 
 ![](../explore/ImageCrossfade.jpg)
 
 Another method of comparing images is available if there are several
-thumbnails (studies) of the same object. For example, select **Explore >
-Collections > Chandra Studies** and then scroll to **Kepler's Supernova**.
+thumbnails (studies) of the same object. For example, select {{ui(p="Explore >
+Collections > Chandra Studies")}} and then scroll to {{ui(p="Kepler's Supernova")}}.
 There are a number of thumbnails representing different studies of this
 feature, including the visible wavelength and high energy x-rays. To compare
 the studies without any change in camera position, click on the picture icons
@@ -96,14 +96,14 @@ in the top right hand corner of the thumbnails: ![](Kepler.jpg)
 
 To change the default operation of a study as foreground and survey as
 background there are a number of options. All default surveys appear as
-thumbnails in the **Collections > All-Sky Surveys** folder. Simply clicking on
+thumbnails in the {{ui(p="Collections > All-Sky Surveys")}} folder. Simply clicking on
 the thumbnail will load the survey as background. However if you right-click
 on the picture icon, there is the option to load the survey as foreground or
-background. Load one as foreground and one as background and the **Image
-Crossfade** slider will be enabled to compare the two. Similarly two studies
+background. Load one as foreground and one as background and the {{ui(p="Image
+Crossfade")}} slider will be enabled to compare the two. Similarly two studies
 can be compared this way.
 
-There are options in the [**Finder Scope**](#the-finder-scope) to set images
+There are options in the [{{ui(p="Finder Scope")}}](#the-finder-scope) to set images
 as foreground or background, and then there is the greater flexibility (and
 complexity) provided by the SDK (refer to the
 [WorldWide Telescope Data Files Reference](http://www.worldwidetelescope.org/docs/WorldWideTelescopeDataFilesReference.html)
@@ -117,14 +117,14 @@ location of an object may appear to vary.
 
 ## The Finder Scope
 
-The **Finder Scope** is a pane designed to help you fix on and research a
+The {{ui(p="Finder Scope")}} is a pane designed to help you fix on and research a
 particular object. It can be opened by right-clicking on the view, or from the
-**Explore** menu.
+{{ui(p="Explore")}} menu.
 
 Certain celestial objects, when pointed to, display a circle and a name. This
 indicates that the object is in one of the databases that WorldWide Telescope
-links to. Right-click the object to display the **Finder Scope.** With the
-**Finder Scope**, you can refine your search in the field of view, or research
+links to. Right-click the object to display the {{ui(p="Finder Scope.")}} With the
+{{ui(p="Finder Scope")}}, you can refine your search in the field of view, or research
 your selected object from online references.
 
 You can also view the object's image from the [DSS](#digitized-sky-survey) or
@@ -133,11 +133,11 @@ You can also view the object's image from the [DSS](#digitized-sky-survey) or
 search for objects near the selected object.
 
 If you find an object you wish to research further, try not to move the
-**Finder Scope** as the RA and Dec will change, so if you then click
-**Research** for example, this will use the new values and not those of the
+{{ui(p="Finder Scope")}} as the RA and Dec will change, so if you then click
+{{ui(p="Research")}} for example, this will use the new values and not those of the
 object.
 
-Note also that you can pan by dragging the **Finder Scope** to the edges of
+Note also that you can pan by dragging the {{ui(p="Finder Scope")}} to the edges of
 the field of view.
 
 ![](../screenlayout/FinderScope.jpg)
@@ -145,7 +145,7 @@ the field of view.
 An object in space may have multiple names: **Ksora** and **HIP6686** in the
 example shown.
 
-Click **Show object** to return to the view of the object if for any reason
+Click {{ui(p="Show object")}} to return to the view of the object if for any reason
 the view no longer shows it.
 
 The properties of the object (**RA**, **Dec**, **Alt** and so on), are
@@ -155,25 +155,25 @@ explained in the
 Refer also to the note:
 [Viewing from a new location](viewmenu.md#viewing-from-a-new-location).
 
-Both the **X** in the top right corner, and the **Close** button, close the
-**Finder Scope**.
+Both the **X** in the top right corner, and the {{ui(p="Close")}} button, close the
+{{ui(p="Finder Scope")}}.
 
 ![](FinderScopeExpandedMenu.jpg)
 
-Click **Research** to bring up a menu of options to research websites for data
+Click {{ui(p="Research")}} to bring up a menu of options to research websites for data
 or more images of the object.
 
-The **Set as Foreground Imagery**, **Set as Background Imagery**, and **Remove
-from Image Cache** will only appear in the menu if these items are relevant to
+The {{ui(p="Set as Foreground Imagery")}}, {{ui(p="Set as Background Imagery")}}, and {{ui(p="Remove
+from Image Cache")}} will only appear in the menu if these items are relevant to
 the selection.
 
-**Copy Shortcut** can be used to create and copy a URL locating the object
-that can be emailed to friends or colleagues. Refer to the **Sharing Views**
+{{ui(p="Copy Shortcut")}} can be used to create and copy a URL locating the object
+that can be emailed to friends or colleagues. Refer to the {{ui(p="Sharing Views")}}
 section of the
 [WorldWide Telescope Data Files Reference](http://www.worldwidetelescope.org/docs/WorldWideTelescopeDataFilesReference.html)
 for specific details of the format of the URL.
 
-**Add to Collection** can be used to store the view in a data collection file
+{{ui(p="Add to Collection")}} can be used to store the view in a data collection file
 you are working on.
 
 - **SAMP** is an astronomy protocol for sharing data.
@@ -207,11 +207,11 @@ astronomical data, layout to a standard set by the
 
 For example, use the [Search Panel](searchpanel.md) to navigate to the galaxy
 M51 -- much better known as the _Whirlpool Galaxy_, and right click to bring
-up the **Finder Scope**, select **Research > Virtual Observatory Searches >
-NED**. This will bring up the VO table shown below. Select **Plot All** in the
-**VO Table Viewer** to annotate all the located objects in the view with the
-selected **Plot Type** (white circles by default) -- a lot in the case of M51!
-Now use the **Finder Scope** on the individual plots to investigate them
+up the {{ui(p="Finder Scope")}}, select {{ui(p="Research > Virtual Observatory Searches >
+NED")}}. This will bring up the VO table shown below. Select {{ui(p="Plot All")}} in the
+{{ui(p="VO Table Viewer")}} to annotate all the located objects in the view with the
+selected {{ui(p="Plot Type")}} (white circles by default) -- a lot in the case of M51!
+Now use the {{ui(p="Finder Scope")}} on the individual plots to investigate them
 further, many will be unidentified electromagnetic wave sources.
 
 ![](NEDSearchVOTable.jpg)
@@ -236,13 +236,13 @@ objects ("white dwarfs", "knots", "supernovae" etc.) should be located.
 First pan to the area of space you wish to search, then zoom in to reduce the
 radius to an appropriate amount.
 
-Select **VO Cone Search/Registry Look up** from the **Search** drop down menu.
+Select {{ui(p="VO Cone Search/Registry Look up")}} from the {{ui(p="Search")}} drop down menu.
 
-Enter the search criteria (pulsar in the example), and click **NVO Registry
-Search** to populate the table with data.
+Enter the search criteria (pulsar in the example), and click {{ui(p="NVO Registry
+Search")}} to populate the table with data.
 
 Further refine your search by selecting one of the rows in the table (to
-locate the **Base URL** field), and click **Search** to bring up a VO table.
+locate the {{ui(p="Base URL")}} field), and click {{ui(p="Search")}} to bring up a VO table.
 
 Note the Web Client version has an additional option, to allow the selection
 of either a catalog search, or a search for images using a SAIP query.
@@ -257,22 +257,22 @@ image or table of data. For specific details refer to
 [FITS Data Format](http://heasarc.gsfc.nasa.gov/docs/heasarc/fits.html).
 
 If a FITS image is loaded into WorldWide Telescope some additional analysis
-options become available. To load a FITS image simply use the **Explore > Open
-> Image...** option, and note that the **Scale** icon appears in the lower
-panel alongside the **Image Crossfade** slider:
+options become available. To load a FITS image simply use the {{ui(p="Explore > Open
+> Image...")}} option, and note that the {{ui(p="Scale")}} icon appears in the lower
+panel alongside the {{ui(p="Image Crossfade")}} slider:
 
 ![](FITSScale.jpg)
 
-Click on the **Scale** icon to display a light intensity histogram.
+Click on the {{ui(p="Scale")}} icon to display a light intensity histogram.
 
 ![](FitsHistogram.jpg)
 
 Slide the green and red bars to select the starting and ending points for the
-display, then select from **Linear**, **Log**, **Power**, **Square Root** to
+display, then select from {{ui(p="Linear")}}, {{ui(p="Log")}}, {{ui(p="Power")}}, {{ui(p="Square Root")}} to
 determine how the data is to be displayed in the main view. Note that the red
 bar can precede the green bar to invert the slope. The bars limit the range of
 data that is to be displayed, and the slope determines the emphasis given to
-the data. The final option, **Histogram Equalization**, does not use the bars,
+the data. The final option, {{ui(p="Histogram Equalization")}}, does not use the bars,
 but instead gives equal emphasis to each intensity level of the data.
 
 Note that there are 256 intensity levels, from pure black on the left margin
@@ -291,7 +291,7 @@ Using this tool particular light sources can be examined in isolation.
 Comprehensive surveys of the sky have been carried out at different
 wavelengths to help determine the composition of stars and galaxies. The
 digital images generated by sky surveys are compiled into the data sets that
-are available in the **Imagery** drop down list, and usually provide the
+are available in the {{ui(p="Imagery")}} drop down list, and usually provide the
 _background image_ to the view.
 
 Each imagery set provides unique information about objects in the sky because
@@ -321,11 +321,11 @@ Electromagnetic radiation is classified as follows:
 | Less than 1/100nm | Gamma rays |
 
 Try selecting a specific object or an area of the sky and then changing
-**Imagery** to compare the object's properties. Astronomers have used the
+{{ui(p="Imagery")}} to compare the object's properties. Astronomers have used the
 different wavelengths to great effect, for example by using the hydrogen alpha
 wavelength to track stellar red-shift, over 250 planets have been discovered.
 
-Below is a description of the **Imagery** sets included in WorldWide
+Below is a description of the {{ui(p="Imagery")}} sets included in WorldWide
 Telescope. Note that specific objects are not always visible in every imagery
 set. For example, specific stars identifiable in the Digital Sky Survey are
 not always visible to the unaided eye in the Hydrogen Alpha imagery. Also, the
@@ -556,11 +556,11 @@ Simply sets the entire background to black.
 You can also open equirectangular projected images as a background (refer to
 [WorldWide Telescope Projection Reference](http://www.worldwidetelescope.org/docs/WorldWideTelescopeProjectionReference.html))
 by browsing to their location on your computer. This option works in
-**Planet**, **Sky** and **Panorama** modes.
+{{ui(p="Planet")}}, {{ui(p="Sky")}} and {{ui(p="Panorama")}} modes.
 
 Note that there are more surveys available in WorldWide Telescope than are
-included in the **Imagery** list. These additional surveys are available in
-the **Collections > All-Sky Surveys > More Surveys** collection.
+included in the {{ui(p="Imagery")}} list. These additional surveys are available in
+the {{ui(p="Collections > All-Sky Surveys > More Surveys")}} collection.
 
 ## Context Search
 
@@ -572,21 +572,21 @@ to a new constellation, the thumbnails for the deep sky objects change
 automatically to reflect all the deep sky objects in the new constellation.
 
 To obtain some information on the items in the Context Search, right-click on
-the thumbnails in the lower panel and select **Properties** from the menu.
+the thumbnails in the lower panel and select {{ui(p="Properties")}} from the menu.
 This will display the same information that appears in the
 [The Finder Scope](#the-finder-scope), for example:
 
 ![](ContextProperties.jpg)
 
 In this example M86 has appeared in the lower panel as a result of the context
-search. Selecting **Properties** from the right-click menu displays the
+search. Selecting {{ui(p="Properties")}} from the right-click menu displays the
 property data without changing the view.
 
 ### Context Search Filter
 
 You can restrict the list of deep sky objects displayed by the Context Search
 to only those objects identified in the following table, by selecting items in
-the **Context Search Filter**.
+the {{ui(p="Context Search Filter")}}.
 
 Click on the thumbnail images below to link to the example. And then click on
 the thumbnails as they appear in the top panel to bring the objects into view.

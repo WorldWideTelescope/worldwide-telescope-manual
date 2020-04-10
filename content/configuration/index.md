@@ -73,10 +73,10 @@ To setup a multi-monitor cluster, go through the following procedure:
    involves pressing F2 during the startup process. This will bring up a bios
    settings menu, and make the following changes:
    1. Ensure the Ethernet card is on. For example on a Dell computer, go to
-      **Power Management** and set the **Low Power Mode** setting to **Off**.
+      {{ui(p="Power Management")}} and set the {{ui(p="Low Power Mode")}} setting to {{ui(p="Off")}}.
    2. Enable a remote computer to start up this one. For example on a Dell
-      computer, also in **Power Management** set the **Remote startup** setting
-      to **On**.
+      computer, also in {{ui(p="Power Management")}} set the {{ui(p="Remote startup")}} setting
+      to {{ui(p="On")}}.
 1. Turn off any screen savers on the slave computers.
 1. If it is necessary to remotely edit the config.xml files, then enable
    remote login. The following links may be useful:
@@ -115,7 +115,7 @@ To setup a multi-monitor cluster, go through the following procedure:
    [ISA Proxy Server](http://www.microsoft.com/forefront/edgesecurity/isaserver/en/us/default.aspx),
    to reduce the amount of traffic over the web.
 1. Finally, on the master computer, start WorldWide Telescope, and in the
-   **Settings > Advanced** menu, select **Master Controller**. From now on the
+   {{ui(p="Settings > Advanced")}} menu, select {{ui(p="Master Controller")}}. From now on the
    slave computers (when they are running WorldWide Telescope) should display
    their section of the view on the master computer.
 
@@ -123,8 +123,8 @@ To setup a multi-monitor cluster, go through the following procedure:
 
 * Currently the slave computers will not show text or graphic overlays when
   playing a tour.
-* The slave computers will not respond to changes in the **View** or
-  **Settings** menu - they will only run with the default settings.
+* The slave computers will not respond to changes in the {{ui(p="View")}} or
+  {{ui(p="Settings")}} menu - they will only run with the default settings.
 
 ### Single Slave Computer
 
@@ -152,19 +152,19 @@ computers from the master. To do this use the **WWTRemoteControl** utility.
 For this to work though, go through the following procedure:
 
 1. On the master computer run the **WWTRemoteControl** utility program.
-2. Click the **Node List** button and add the MAC Address (physical address
+2. Click the {{ui(p="Node List")}} button and add the MAC Address (physical address
    component) of each slave computer to the list. To get the MAC Address of a
    computer, open up a command-prompt window and type **getmac**. The address
-   that is required is under the column **Physical Address** and should be six
+   that is required is under the column {{ui(p="Physical Address")}} and should be six
    pairs of hexadecimal digits separated by hyphens.
 3. When the node list is complete, close that dialog and return to the main
    dialog.
-4. Click **Wake All** to turn on all of the slave computers.
-5. When all the slave computers have started, click **Launch All** to start
+4. Click {{ui(p="Wake All")}} to turn on all of the slave computers.
+5. When all the slave computers have started, click {{ui(p="Launch All")}} to start
    WorldWide Telescope.
 6. When WorldWide Telescope is up and running on each slave, control the view
    from the master computer.
-7. Click **Close All** to finish the session and **Shutdown All** to shutdown
+7. Click {{ui(p="Close All")}} to finish the session and {{ui(p="Shutdown All")}} to shutdown
    the slave computers.
 8. The node list is saved to the application properties for the utility, so
    the next time it is run there is no need to re-enter the node list.
@@ -183,40 +183,40 @@ The image below shows Saturn and the Milky Way warped for a 16:9 projector.
 
 <!-- ![](uiimages/MirrorWarping.jpg) NOT FOUND -->
 
-Select **Full Dome** from the [View Menu Entries](#view-menu-entries) to
+Select {{ui(p="Full Dome")}} from the [View Menu Entries](#view-menu-entries) to
 initiate setup for a small planetarium.
 
 <!-- ![](uiimages/FullDome.jpg) NOT FOUND -->
 
-Before clicking on **Full Dome** to activate the warping, select **Dome
-Setup** to provide a few basic parameters.
+Before clicking on {{ui(p="Full Dome")}} to activate the warping, select {{ui(p="Dome
+Setup")}} to provide a few basic parameters.
 
-**Start Listener** is a toggle setting, used in
+{{ui(p="Start Listener")}} is a toggle setting, used in
 [Multi-Projector Planetariums](#multi-projector-planetarium), so leave this
 unchecked.
 
-**Detach Main View to Second Monitor** will turn the current screen blank, and
+{{ui(p="Detach Main View to Second Monitor")}} will turn the current screen blank, and
   input control is transferred to the second view (dome or second monitor).
 
 ![](domesetup.jpg)
 
-For **Dome Type** select from the drop down list:
-- **Fisheye**
-- **Mirrordome 16:9**
-- **Mirrordome 4:3**
-- **<Custom Warp>**
+For {{ui(p="Dome Type")}} select from the drop down list:
+- {{ui(p="Fisheye")}}
+- {{ui(p="Mirrordome 16:9")}}
+- {{ui(p="Mirrordome 4:3")}}
+- {{ui(p="<Custom Warp>")}}
 
 The 16:9 or 4:3 numbers refer to the aspect ratio of the projector. These are
 the two most common specifications, however the option to create
 [Custom Warp Files](#custom-warp-files) for other curvatures is provided.
 
-The **Dome Tilt** angle, in degrees, locates the center of interest. For the
+The {{ui(p="Dome Tilt")}} angle, in degrees, locates the center of interest. For the
 [WorldWide Telescope Planetarium](http://www.worldwidetelescope.org/docs/WorldWideTelescopePlanetarium.html)
 dome tilted at 20 degrees, the center of interest is 70 degrees. For a classic
 horizontal dome enter 90 degrees, for a kiosk look-ahead type planetarium
 enter 0 degrees.
 
-Check **Large Textures** at higher resolutions, such as 1920×1080 or
+Check {{ui(p="Large Textures")}} at higher resolutions, such as 1920×1080 or
 1920×1200. With lower resolutions (1024×768 or 800×600) leave this unchecked
 so that no down-sampling is necessary. Also note that some graphics cards will
 not support large textures, and that large textures require four times the
@@ -241,7 +241,7 @@ common options:
 | 1600×1200 | 4:3 |
 | 1920×1080 | 16:9 |
 
-If the option to **Detach Main View to Second Monitor** is used then there is
+If the option to {{ui(p="Detach Main View to Second Monitor")}} is used then there is
 no need to match screen resolution with aspect ratio. Also note that an
 [Xbox Controller](#xbox-controller) can be used to navigate in WorldWide
 Telescope, which can make controlling the view in the dome more comfortable.

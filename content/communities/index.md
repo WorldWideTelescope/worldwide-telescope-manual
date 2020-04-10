@@ -22,14 +22,14 @@ community link to your colleagues so they can join in.
 ## Joining a Community
 
 Joining a public community can be done both from the community menu, and from
-the community collection, by selecting **Join a Community**. This will link
+the community collection, by selecting {{ui(p="Join a Community")}}. This will link
 you to the WorldWide Telescope website:
 
 ![](CommunityWebPage.jpg)
 
 Click the links on this website to join one or more communities. After you
 join a community, its logo displays in the top panel when you select
-**Communities** and when you want to connect to it, just click the thumbnail
+{{ui(p="Communities")}} and when you want to connect to it, just click the thumbnail
 logo, and enter any log in information, if necessary.
 
 To join a private community, click on the .wtml file that you should have
@@ -40,7 +40,7 @@ WorldWide Telescope with the associated community collection data visible.
 ## Creating a Community
 
 Creating a community involves writing `.wtml` data files, so this is covered in
-the **Communities** section of the
+the {{ui(p="Communities")}} section of the
 [WorldWide Telescope Data Files Reference](http://www.worldwidetelescope.org/docs/WorldWideTelescopeDataFilesReference.html)
 document.
 
