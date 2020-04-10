@@ -154,7 +154,7 @@ The image below shows Saturn and the Milky Way warped for a 16:9 projector.
 Select {{ui(p="Full Dome")}} from the [View Menu Entries](#view-menu-entries) to
 initiate setup for a small planetarium.
 
-<!-- ![](uiimages/FullDome.jpg) NOT FOUND -->
+![](../viewmenu/ui_win_Full-Dome.png)
 
 Before clicking on {{ui(p="Full Dome")}} to activate the warping, select {{ui(p="Dome
 Setup")}} to provide a few basic parameters.
