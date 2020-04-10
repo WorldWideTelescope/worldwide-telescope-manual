@@ -993,7 +993,7 @@ path across the Earth. To view the effect in WorldWide Telescope, go through
 the following procedure:
 
 1. Research a time and location of a total solar eclipse.
-   [NASA](http://eclipse.gsfc.nasa.gov/SEcat/SEdecade2041.html) maintains a
+   [NASA](https://eclipse.gsfc.nasa.gov/) maintains a
    website dedicated to this task, as do many other astronomy websites. For
    example, in the year 2041 April 30th, starting around 12.00 UTC (Universal
    time, or Greenwich Mean Time) there will be a total eclipse tracking across

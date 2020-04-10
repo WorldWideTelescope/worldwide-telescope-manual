@@ -4,41 +4,9 @@ description = "How to configure AAS WorldWide Telescope in non-standard ways."
 weight = 1100
 +++
 
-This section contains technical information on how to configure WorldWide
+This section contains technical information on how to configure AAS WorldWide
 Telescope to run in environments other than on a single desktop or laptop
 client computer.
-
-
-## Regional Data Cache
-
-A regional data cache can be set up to improve data download performance on
-both a small and a large scale. A small scale data cache might be for a
-classroom of students, by setting up a local cache on the student network the
-number of simultaneous requests across the internet for one piece of data, a
-tour perhaps, can be greatly reduced. For the student all they have to do is
-enter a URL using the [Settings Menu Entries](#settings-menu-entries).
-
-A large scale data cache could be setup for a region of the world where there
-is a requirement for a significant amount of data in a local language. Again
-all the users have to do is enter the URL.
-
-In both cases the cache simply maintains a copy of the most recently requested
-data, so if a user requests some data that is available on the cache, then it
-is immediately downloaded from the cache rather than a request sent to more
-distant servers.
-
-Note that the use of a regional data cache will only improve performance if
-the connection from computers that are to use it is better to the cache than
-it is to the specified data servers (such as the WorldWide Telescope data
-servers), which should certainly be the case on a local area network, but
-might not be the case across national or regional boundaries. Note also that
-the data is also cached locally on the user's computer whether a regional data
-cache is in use or not. This means that the improved performance of a regional
-cache is limited to the first use of the data by any user.
-
-To set up a regional data cache, either on a small or large scale, contact the
-[WorldWide Telescope support team](http://www.worldwidetelescope.org/help/SupportHelp.aspx?Page=IssuesAndBugs)
-for details.
 
 
 ## Multi-Monitor Cluster
@@ -81,7 +49,7 @@ To setup a multi-monitor cluster, go through the following procedure:
 1. If it is necessary to remotely edit the config.xml files, then enable
    remote login. The following links may be useful:
    * [How to use the Remote Desktop feature of Windows XP Professional](http://support.microsoft.com/kb/315328)
-   * [Remote Desktop Connection for Windows 7 and Vista](http://www.microsoft.com/windows/windows-vista/features/remote-desktop-connection.aspx?tabid=1&catid=1)
+   * [Turn on Remote Desktop in Windows 7, 8, 10, or Vista](https://www.howtogeek.com/howto/windows-vista/turn-on-remote-desktop-in-windows-vista/)
 1. For all the slave computers in the matrix create a configuration file
    (called config.xml) in the root C: folder, with the following contents:
 
@@ -254,7 +222,7 @@ Custom warp files should be used when the aspect ratio of the projector is not
 Warp files have a .data extension and can be created using a third-party tool
 called _meshmapper_ tool described at the following website:
 
-[http://local.wasp.uwa.edu.au/~pbourke/miscellaneous/domemirror/meshmapper/](http://local.wasp.uwa.edu.au/~pbourke/miscellaneous/domemirror/wwt/)
+[http://paulbourke.net/dome/meshmapper/](http://paulbourke.net/dome/meshmapper/)
 
 This website also contains a lot of interesting and useful information about
 small planetariums.
