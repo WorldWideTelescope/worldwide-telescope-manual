@@ -51,7 +51,7 @@ and [Solar System](@/explore/index.md#solar-system) views.
 
 ![](ui_win_Observing-Time.png)
 
-<!-- ![](uiimages/ui_win_Date-Time-Selection.png) NOT FOUND -->
+![](DateTimeSelection.jpg)
 
 Use the {{ui(p="Observing Time")}} pane to change the time of the current view, or to
 greatly accelerate or decelerate the simulated time. The movement applies to
