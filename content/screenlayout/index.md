@@ -27,7 +27,7 @@ Clicking on this down arrow will open up the menu contents. Clicking on the
 main menu item itself (for example, clicking on the entry {{ui(p="Explore")}}) will
 change the appearance of the top panel, and not display the menu contents.
 
-- [{{ui(p="Explore")}}](explore.md): The first two menu items, {{ui(p="New")}} and {{ui(p="Open")}},
+- [{{ui(p="Explore")}}](@/explore/index.md): The first two menu items, {{ui(p="New")}} and {{ui(p="Open")}},
   are used to start new data files, or open existing data files, respectively.
   These are the primary purposes of the {{ui(p="Explore")}} menu - the location of
   data to display. Clicking the {{ui(p="Explore")}} entry itself will display the data
@@ -37,18 +37,18 @@ change the appearance of the top panel, and not display the menu contents.
   individual items, or another set of items (similar to a folder and file
   structure). A set of images are referred to as _collections_ in WorldWide
   Telescope.
-- [{{ui(p="Guided Tours")}}](guidedtours.md): A tour in WorldWide Telescope is an
+- [{{ui(p="Guided Tours")}}](@/guidedtours/index.md): A tour in WorldWide Telescope is an
   animated, annotated slide-show, for educational, research or entertainment
   purposes, usually focusing on a particular topic. Clicking the {{ui(p="Guided
   Tours")}} entry itself will display the {{ui(p="Tours")}} supplied by default with the
   product in the top panel. The menu entries can be used to search for other
   tours on the web, and to create a new tour. Opening a tour can also be done
   from the {{ui(p="Explore > Open")}} sub-menu.
-- [{{ui(p="Search")}}](searchmenu.md): Clicking on this main menu item itself will
+- [{{ui(p="Search")}}](@/searchpanel/index.md): Clicking on this main menu item itself will
   change the top panel to show a range of search parameters, that are used to
   search on the default data provided with the product. Opening up the
   {{ui(p="Search")}} menu will enable some internet based searches.
-- [{{ui(p="Community")}}](communities.md): A community in WorldWide Telescope is a
+- [{{ui(p="Community")}}](@/communities/index.md): A community in WorldWide Telescope is a
   public or private group that can be set up to share data. Clicking on the
   {{ui(p="Community")}} entry itself will display the {{ui(p="My Communities")}} entries in
   the top panel. This list will obviously be empty the first time the product
@@ -56,17 +56,17 @@ change the appearance of the top panel, and not display the menu contents.
   public communities. Joining these communities will add them to your {{ui(p="My
   Communities")}} list, and give you a new collection of data, magazine
   articles, and so on, to browse and explore.
-- [{{ui(p="Telescope")}}](telescopemenu.md): This menu item should only be selected if
+- [{{ui(p="Telescope")}}](@/telescopemenu/index.md): This menu item should only be selected if
   you have a physical telescope that can be connected to your computer with a
   USB cable and has the appropriate software interface. If you have access to
   such a telescope this feature enables some interesting possibilities,
   including using WorldWide Telescope to identify or locate objects in the
   sky, and perhaps to add your own images into the mix.
-- [{{ui(p="View")}}](viewmenu.md): This menu item displays options to control the
+- [{{ui(p="View")}}](@/viewmenu/index.md): This menu item displays options to control the
   observing location and time. You can set WorldWide Telescope to show you the
   view from any location around the globe, using the current time or a
   time/date in the past or future.
-- [{{ui(p="Settings")}}](settingsmenu.md): Clicking on this menu item itself will
+- [{{ui(p="Settings")}}](@/settingsmenu/index.md): Clicking on this menu item itself will
   display a range of settings, these are somewhat similar to the View
   settings, controlling what is displayed.
 
@@ -102,7 +102,7 @@ _constellation_, and is outlined in yellow. The red lines display _figures_ —
 in this case linking the main stars that make up the constellation. Cassiopeia
 is of course known for the five bright stars making up the large _W_.
 
-The [View Menu](viewmenu.md) and the [Settings Menu](settingsmenu.md) have
+The [View Menu](@/viewmenu/index.md) and the [Settings Menu](@/settingsmenu/index.md) have
 options to change what lines are drawn, and their colors. The lines shown in
 the image above are the default for a sky view.
 
@@ -111,7 +111,7 @@ to zoom deep into outer space, and back. Hold down the left mouse button and
 drag to change the angle of the view.
 
 Clicking the right mouse button brings up the
-[Finder Scope](astronomicalresearch.md#the-finder-scope), which can be dragged
+[Finder Scope](@/astronomicalresearch/index.md#the-finder-scope), which can be dragged
 around the screen with the mouse to help identify objects. In the image below,
 it has been used to select one of the stars in Cassiopeia.
 
@@ -128,10 +128,10 @@ of functions, the most significant of which are the {{ui(p="Look At")}} and
 
 ![](LookAt.jpg)
 
-The {{ui(p="Look At")}} list includes [Earth](explore.md#earth),
-[Planet](explore.md#planet), [Sky](explore.md#sky),
-[Panorama](explore.md#panorama), and
-[Solar System](explore.md#solar-system). This is the highest level list
+The {{ui(p="Look At")}} list includes [Earth](@/explore/index.md#earth),
+[Planet](@/explore/index.md#planet), [Sky](@/explore/index.md#sky),
+[Panorama](@/explore/index.md#panorama), and
+[Solar System](@/explore/index.md#solar-system). This is the highest level list
 determining what to display. Selecting {{ui(p="Solar System")}} reveals the
 impressive 3D modeling of the Sun and Solar System planets (this is not
 currently available in the web control version of WorldWide Telescope). The
@@ -151,12 +151,12 @@ on the Moon and Mars. Selecting {{ui(p="Earth")}} gives the chance to examine ou
 planet closely, right down to streets and small geographic features.
 
 The selections made in the {{ui(p="Look At")}} and {{ui(p="Imagery")}} lists greatly affects
-the relevance of other options (the [View](viewmenu.md) and
-[Settings](settingsmenu.md) entries, for example), which are explained in
+the relevance of other options (the [View](@/viewmenu/index.md) and
+[Settings](@/settingsmenu/index.md) entries, for example), which are explained in
 detail later on in this guide.
 
 Underneath these two list entries in the lower panel is the context list of
-thumbnails. A [Context Search](astronomicalresearch.md#context-search) is
+thumbnails. A [Context Search](@/astronomicalresearch/index.md#context-search) is
 carried out whenever the view is changed, and provides a thumbnail list of all
 the objects of interest in the current view. The more you zoom in, the shorter
 and shorter this list will become. For example, select {{ui(p="Explore")}} then
@@ -174,7 +174,7 @@ long, which it often is, use the previous and next arrows to scroll through
 it. Notice too that the context list is populated when a view comes to a halt,
 it is often empty when the view is animating from one location to the next.
 The size of the contexts lists can be reduced by de-selecting items in the
-[Context Search](astronomicalresearch.md#context-search) Filter.
+[Context Search](@/astronomicalresearch/index.md#context-search) Filter.
 
 ![](ContextSearchFilter.jpg)
 
@@ -227,7 +227,7 @@ display, as well as a number of other view-specific settings.
 Each view has its own node within the Layer Manager.
 
 * The {{ui(p="Sun")}} node lets you choose which planetary bodies and 3D models will
-  be visible in the [3D Solar System](explore.md#solar-system) view. You can
+  be visible in the [3D Solar System](@/explore/index.md#solar-system) view. You can
   toggle the visibility of the planets themselves, the moons of a planet, and
   any 3D models associated with the planet (such as the ISS model under
   {{ui(p="Earth")}}). Earth also includes several overlays for clouds, elevation of
@@ -237,7 +237,7 @@ Each view has its own node within the Layer Manager.
   system grids, and planetary orbits. You can also select background imagery
   (such as the Milky Way) for the 3D Solar System view.
 * The {{ui(p="Sandbox")}} node lets you add custom content to view in
-  [Sandbox](explore.md#sandbox) mode.
+  [Sandbox](@/explore/index.md#sandbox) mode.
 * The {{ui(p="Dome")}} node exposes options for using WorldWide Telescope with a
   planetarium dome.
 

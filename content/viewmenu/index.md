@@ -11,7 +11,7 @@ current view.
 ## Observing Location
 
 The entries in the {{ui(p="Observing Location")}} box apply only to the
-[Sky](explore.md#sky) view.
+[Sky](@/explore/index.md#sky) view.
 
 ![](ui_win_Observing-Location.png)
 
@@ -46,8 +46,8 @@ location. To view the sky from a new location in local time:
 
 ### Observing Time
 
-The entries in the {{ui(p="Observing Time")}} box apply to the [Sky](explore.md#sky)
-and [Solar System](explore.md#solar-system) views.
+The entries in the {{ui(p="Observing Time")}} box apply to the [Sky](@/explore/index.md#sky)
+and [Solar System](@/explore/index.md#solar-system) views.
 
 ![](ui_win_Observing-Time.png)
 
@@ -61,7 +61,7 @@ Click the pin icon to keep the {{ui(p="Observing Time")}} dialog open.
 
 One specific use of this feature is in viewing the shadows from past or future
 solar eclipses on the Earth (see the
-[Tutorial: Tracking a Solar Eclipse)](explore.md#tutorial-tracking-a-solar-eclipse).
+[Tutorial: Tracking a Solar Eclipse)](@/explore/index.md#tutorial-tracking-a-solar-eclipse).
 
 **Important:** The date set must be between the limits of 0001/12/25 and
 4000/12/31. Simulated time will freeze if it reaches one of these limits.

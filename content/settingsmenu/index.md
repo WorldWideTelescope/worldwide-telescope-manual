@@ -13,7 +13,7 @@ between the Web Client and the Windows Client.
 
 ## Constellation Lines
 
-The {{ui(p="Constellation Lines")}} settings apply only to the [Sky](explore.md#sky)
+The {{ui(p="Constellation Lines")}} settings apply only to the [Sky](@/explore/index.md#sky)
 view.
 
 ![](ui_win_Constellation-Lines.png)
@@ -108,9 +108,7 @@ Click the down arrow below {{ui(p="Settings")}} to open up the menu entries.
 
   * {{ui(p="Show Download Queue")}} shows the current image tiles being downloaded.
     The queue can be stopped, started again, flushed (all items are removed
-    from the queue) and cleared (all items are removed from memory). Refer
-    also to the section on the
-    [Network and Cache](configuration.md#network-and-cache).
+    from the queue) and cleared (all items are removed from memory).
   * {{ui(p="Start Queue")}} starts the download queue.
   * {{ui(p="Stop Queue")}} stops the download queue.
   * {{ui(p="Tile Loading Throttling")}} lets you set the tile loading rate in tiles
@@ -123,7 +121,7 @@ Click the down arrow below {{ui(p="Settings")}} to open up the menu entries.
   * {{ui(p="Show Performance Data")}} adds a few performance metrics to the title bar
     (such as frame rate).
   * {{ui(p="Master Controller")}}: refer to the
-    [Multi-Monitor Cluster](configuration.md#multi-monitor-cluster) section.
+    [Multi-Monitor Cluster](@/configuration/index.md#multi-monitor-cluster) section.
   * {{ui(p="Multi-Channel Calibration")}} provides options for calibrating the output
     of multiple projectors.
   * {{ui(p="Projector Server List")}} lets you choose from available projector
@@ -141,5 +139,4 @@ Click the down arrow below {{ui(p="Settings")}} to open up the menu entries.
   cache. This is handy for classes and groups. Data is downloaded only once to
   the local cache, which participants can then access. Each user will need to
   enter the URL one time. The URL is used until the setting is cleared.
-  ![](shareddatacache.jpg) For more details refer to
-  [Regional Data Cache](configuration.md#regional-data-cache).
+  ![](shareddatacache.jpg)

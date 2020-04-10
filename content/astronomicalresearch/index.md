@@ -150,10 +150,10 @@ the view no longer shows it.
 
 The properties of the object (**RA**, **Dec**, **Alt** and so on), are
 explained in the
-[Astronomy Terminology](explore.md#tutorial-astronomy-tutorial) tutorial.
+[Astronomy Terminology](@/explore/index.md#tutorial-astronomy-terminology) tutorial.
 
 Refer also to the note:
-[Viewing from a new location](viewmenu.md#viewing-from-a-new-location).
+[Viewing from a new location](@/viewmenu/index.md#viewing-from-a-new-location).
 
 Both the **X** in the top right corner, and the {{ui(p="Close")}} button, close the
 {{ui(p="Finder Scope")}}.
@@ -205,12 +205,12 @@ Virtual Observatory (VO) tables are spreadsheets of mainly numerical
 astronomical data, layout to a standard set by the
 [National Virtual Observatory](http://www.us-vo.org).
 
-For example, use the [Search Panel](searchpanel.md) to navigate to the galaxy
-M51 -- much better known as the _Whirlpool Galaxy_, and right click to bring
+For example, use the [Search Panel](@/searchpanel/index.md) to navigate to the galaxy
+M51 — much better known as the _Whirlpool Galaxy_, and right click to bring
 up the {{ui(p="Finder Scope")}}, select {{ui(p="Research > Virtual Observatory Searches >
 NED")}}. This will bring up the VO table shown below. Select {{ui(p="Plot All")}} in the
 {{ui(p="VO Table Viewer")}} to annotate all the located objects in the view with the
-selected {{ui(p="Plot Type")}} (white circles by default) -- a lot in the case of M51!
+selected {{ui(p="Plot Type")}} (white circles by default) — a lot in the case of M51!
 Now use the {{ui(p="Finder Scope")}} on the individual plots to investigate them
 further, many will be unidentified electromagnetic wave sources.
 

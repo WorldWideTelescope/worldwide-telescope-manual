@@ -79,9 +79,9 @@ To setup a multi-monitor cluster, go through the following procedure:
 1. If the WWTRemoteControl utility is _not_ being used, add WorldWide
    Telescope on the slave computers to the start up list of programs for that
    computer (this is done through the Control Panel).
-1. For large clusters consider adding a proxy server to the setup, such as an
-   [ISA Proxy Server](http://www.microsoft.com/forefront/edgesecurity/isaserver/en/us/default.aspx),
-   to reduce the amount of traffic over the web.
+1. For large clusters consider adding a proxy server to the setup, such as
+   [Squid](http://www.squid-cache.org/) , to reduce the amount of traffic over
+   the web.
 1. Finally, on the master computer, start WorldWide Telescope, and in the
    {{ui(p="Settings > Advanced")}} menu, select {{ui(p="Master Controller")}}. From now on the
    slave computers (when they are running WorldWide Telescope) should display

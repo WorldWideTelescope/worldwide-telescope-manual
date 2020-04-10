@@ -43,7 +43,7 @@ will make the search results appear both as thumbnails and circle annotations
 in the view. For example, entering 20 for **RA**, 18 for **Dec**, clicking
 {{ui(p="Go")}}, {{ui(p="Search View")}} and {{ui(p="Plot Results")}}, will reveal a constellation full
 of objects, as shown below. Use the
-[Finder Scope](astronomicalresearch.md#the-finder-scope) to further identify
+[Finder Scope](@/astronomicalresearch/index.md#the-finder-scope) to further identify
 the objects.
 
 
@@ -58,7 +58,7 @@ Click the down arrow below {{ui(p="Search")}} to expand the menu.
   database.
 * {{ui(p="VO Cone Search/Registry Lookup...")}} provides a more complex dialog for
   searching
-  [Virtual Observatory](astronomicalresearch.md#virtual-observatory-tables)
+  [Virtual Observatory](@/astronomicalresearch/index.md#virtual-observatory-tables)
   databases based on RA, Dec or registry titles.
 * {{ui(p="Find Earth Based Location...")}} lets you search for a specific location on
   Earth. Note that this feature only applies to {{ui(p="Earth")}} view.

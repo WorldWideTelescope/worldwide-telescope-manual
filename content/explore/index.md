@@ -293,7 +293,7 @@ and will be rendered over the background sky image. Note the down arrow in the
 lower right of the image. This can be used to show a much larger top panel,
 with many more thumbnails present. Interesting comparisons can be made by
 using the cross-fade slider (located in the lower panel) to compare the image
-you have loaded with the [Sky Survey](astronomicalresearch.md#sky-surveys).
+you have loaded with the [Sky Survey](@/astronomicalresearch/index.md#sky-surveys).
 
 ![](ImageCrossfade.jpg)
 
@@ -321,13 +321,13 @@ that constellation — Draco in this example:
 
 ![](CelestialSphere.jpg)
 
-All of the [The View Menu](viewmenu.md) options apply to the Sky view, except
+All of the [The View Menu](@/viewmenu/index.md) options apply to the Sky view, except
 the {{ui(p="3d Solar System")}} pane. In particular refer to the
-[Observing Location](viewmenu.md#observing-location) pane to select a
+[Observing Location](@/viewmenu/index.md#observing-location) pane to select a
 different viewpoint on Earth.
 
 Also check the {{ui(p="Constellation Lines")}} and {{ui(p="Experience")}} options in the
-[The Settings Menu](settingsmenu.md).
+[The Settings Menu](@/settingsmenu/index.md).
 
 Use {{ui(p="View > Reset Camera")}} to restore a default view and settings.
 
@@ -356,7 +356,7 @@ Jupiter and Venus that occurred on 1st December 2008.
 Conjunctions are a visually interesting phenomenon that usually involve
 near-Earth objects. To examine a range of distant features of the known
 universe, try the following tutorial, or select the examples in the
-[Context Search](astronomicalresearch.md#context-search) table.
+[Context Search](@/astronomicalresearch/index.md#context-search) table.
 
 ### Tutorial: Visiting the Neighbors
 
@@ -365,7 +365,7 @@ Telescope to locate our stellar neighbors.
 
 1. In the {{ui(p="Look At")}} list ensure that {{ui(p="Sky")}} is selected, and in the
    {{ui(p="Imagery")}} list select the
-   [**Hipparcos Catalog**](astronomicalresearch.md#hipparcos-catalog).
+   [**Hipparcos Catalog**](@/astronomicalresearch/index.md#hipparcos-catalog).
 2. In the {{ui(p="View")}} pane ensure {{ui(p="View from this location")}} is not selected.
 3. Outside of the Solar System, the nearest known star to Earth is so dim it
    is impossible to see with the naked eye. The star, Proxima Centauri, is
@@ -380,7 +380,7 @@ Telescope to locate our stellar neighbors.
    photograph.
 
    Proxima Centauri has an apparent magnitude of around 11.05. This is on a
-   [Stellar Brightness](astronomicalresearch.md#stellar-brightness)
+   [Stellar Brightness](@/astronomicalresearch/index.md#stellar-brightness)
    logarithmic scale (the higher the numbers, the lower the brightness). A
    value of 11 is 2.5 times dimmer than a value of 10, which is 2.5 times
    dimmer than a value of 9, and so on.
@@ -426,7 +426,7 @@ Telescope to locate our stellar neighbors.
    the closest satellite galaxy, the Sagittarius Dwarf Elliptical Galaxy,
    believed to be around 70,000 light years from here. Change the {{ui(p="Imagery")}}
    selection from Hipparcos to the
-   [**Digitized Sky Survey**](astronomicalresearch.md#digitized-sky-survey)
+   [**Digitized Sky Survey**](@/astronomicalresearch/index.md#digitized-sky-survey)
    and type "Sagittarius Dwarf" into the search text box.
    ![](SagittariusDwarfGalaxy.jpg)
 
@@ -455,7 +455,7 @@ Telescope to locate our stellar neighbors.
    more stars than the Milky Way it is calculated to have about the same mass,
    because of the greater amount of dark matter in the Milky Way. The two
    giant galaxies are set to collide in the distant future (the subject of a
-   [guided tour](guidedtours.md) in WorldWide Telescope). The Andromeda galaxy
+   [guided tour](@/guidedtours/index.md) in WorldWide Telescope). The Andromeda galaxy
    is also well known by its Messier Catalog name, M31. Type "M31" into the
    search text box.
    ![](Andromeda.jpg)
@@ -564,7 +564,7 @@ either the [Northern Hemisphere](#northern-hemisphere), or
 3. Check the {{ui(p="View from this location")}} checkbox.
 4. Click {{ui(p="Search")}} and enter **Sun**. Click on the thumbnail for the Sun to
    track it. Right click on the Sun to bring up and track the
-   [The Finder Scope](astronomicalresearch.md#the-finder-scope).
+   [The Finder Scope](@/astronomicalresearch/index.md#the-finder-scope).
 5. Click {{ui(p="View")}} to bring back the view panel, and fast forward the observing
    time (usually **x1000** works well) while tracking the Sun. Faint stars and
    galaxies are best seen once the Sun is at least 18 degrees below the
@@ -734,7 +734,7 @@ some of the most commonly used terms in astronomy.
    panel, then enter **Sirius** in the search text box. When the bright star
    Sirius appears, zoom away from it until the view is from Earth (that is,
    minimize the zoom completely). Right-click on Sirius in the sky to bring up
-   the [Finder Scope](astronmicalresearch.md#the-finder-scope).
+   the [Finder Scope](@/astronomicalresearch/index.md#the-finder-scope).
 
    ![](azimuthaltitude.jpg)
 
@@ -753,7 +753,7 @@ some of the most commonly used terms in astronomy.
 7. The {{ui(p="Magnitude")}} entry on the {{ui(p="Finder Scope")}} refers to the _apparent
    magnitude_ of the brightness of Sirius. For a description of what this
    means refer to the
-   [Stellar Brightness](astronmicalresearch.md#stellar-brightness) section, or
+   [Stellar Brightness](@/astronomicalresearch/index.md#stellar-brightness) section, or
    work through the
    [Tutorial: Visiting the Neighbors](#tutorial-visiting-the-neighbors)
    tutorial.
