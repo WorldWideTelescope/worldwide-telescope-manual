@@ -9,6 +9,16 @@ computer to function as a virtual telescope, combining terabytes of imagery
 from such famous telescopes as Hubble, Chandra and Spitzer into one vast
 panorama of the universe.
 
+{% note(html=1) %}
+While this guide was written for the Windows version of WWT, it should also be
+helpful for understanding the WWT <a
+href="//worldwidetelescope.org/webclient/">web client</a> since its user
+interface mirrors that of the Windows program. However, some specialized
+features are unavailable in the web client. We’re working to annotate this
+guide to show which parts are Windows-specific. Your contributions to that
+effort would be much appreciated!
+{% end %}
+
 WorldWide Telescope allows seamless panning and zooming around the night sky,
 our Solar System, and other space-orientated panoramas, such as the pictures
 taken of the surfaces of the Moon and Mars. [Explore](@/explore/index.md) the
