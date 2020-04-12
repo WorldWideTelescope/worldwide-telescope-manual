@@ -15,7 +15,7 @@ A straightforward example of a multi-monitor cluster is to have a single
 master computer, and a matrix of slave computers each rendering a portion of
 the view.
 
-<!-- ![](uiimages/Cluster1.jpg) NOT FOUND -->
+![](cluster1.jpg)
 
 Hoag's Object - a rare ring galaxy - displayed on a 4 x 3 cluster. With a
 resolution on each monitor of 1920 x 1200 the full image is 27 Megapixels.
@@ -67,14 +67,15 @@ To setup a multi-monitor cluster, go through the following procedure:
    | **    Width="1920"** | The desired screen resolution width for the slave. |
    | **    Height="1200"** | The desired screen resolution height for the slave. |
    | **    Bezel="1.07"** | As the physical edge of the monitors must be taken into account, certain pixels will not be rendered (those that would theoretically appear behind the edges of the monitors). The Bezel factor is the ratio of the size of the monitor to the size of the screen. An estimate of 107 percent is used in this example.
-   The minimum Bezel value is 1.0.
-   <!-- ![](uiimages/Cluster2.jpg) NOT FOUND --> |
+   The minimum Bezel value is 1.0. |
    | **    ConfigFile=""** | The following three entries should be present, but with empty strings as parameters. |
    | **    BlendFile=""** |
    | **    DistortionGrid="">** |
    | **</Device>** |
    | **</Config>** |
    | **</DeviceConfig>** |
+
+   ![](cluster2.jpg)
 
 1. If the WWTRemoteControl utility is _not_ being used, add WorldWide
    Telescope on the slave computers to the start up list of programs for that
@@ -149,7 +150,7 @@ in such a way that it appears correct on the dome (or geodesic dome). This
 warping is most noticeable in the rendering of lines (rather than spheres).
 The image below shows Saturn and the Milky Way warped for a 16:9 projector.
 
-<!-- ![](uiimages/MirrorWarping.jpg) NOT FOUND -->
+![](mirrorwarping.jpg)
 
 Select {{ui(p="Full Dome")}} from the [View Menu Entries](#view-menu-entries) to
 initiate setup for a small planetarium.
@@ -238,7 +239,7 @@ each projector projecting onto an area of the dome — with special blending
 done to mask the edges. The following diagram shows two common six-projector
 projection layouts:
 
-<!-- ![](uiimages/ProjectionSixA.jpg) NOT FOUND -->
+![](projectionsixa.jpg)
 
 There are two methods of projection that can be configured in WorldWide
 Telescope, the first using P_rojection Designer_ software, the second using an

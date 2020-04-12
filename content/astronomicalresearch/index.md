@@ -226,7 +226,7 @@ A Virtual Observatory (VO) cone search is a search for data on objects in
 space within a cone - specified by a direction into space and a radius. The
 diagram below shows a cone search with a radius of approximately 8.5 degrees.
 
-<!-- ![](uiimages/ConeSearch.jpg) NOT FOUND -->
+![](conesearch.jpg)
 
 The cone search can be refined by specifying that only certain types of
 objects ("white dwarfs", "knots", "supernovae" etc.) should be located.
