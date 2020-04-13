@@ -31,7 +31,7 @@ topics.
 You can also create your own tours, and share them with friends and colleagues.
 
 
-## Playing a Tour
+# Playing Tours
 
 To display the range of tours supplied with WorldWide Telescope, click on
 {{ui(p="Guided Tours")}}. Thumbnails will appear in the top pane for many different
@@ -60,7 +60,7 @@ tour in the menu bar to bring it up.
 
 Note the thumbnails in the top panel show the tour stops (the large **M** that
 appears in the first image indicates that this is a master slide - refer to
-[Creating a Tour](#creating-a-tour) for more details).
+[Creating a Tour](#creating-basic-tours) for more details).
 
 ![](Tours_Running.jpg)
 
@@ -84,7 +84,7 @@ the contents of the higher level {{ui(p="Tours")}} folder:
 
 ![](Tours_Navigation.jpg)
 
-### Notes
+## Notes
 
 * There are other ways to start a tour. For example from the {{ui(p="Explore > Open
   > Tour...")}} menu, from community data, and from other data collections that
@@ -95,21 +95,21 @@ the contents of the higher level {{ui(p="Tours")}} folder:
   be played again without internet access, and edited (though be mindful of
   copyright and ownership issues).
 
-### Playing Tours in Demo Mode
+## Playing Tours in Demo Mode
 
 Refer to the [Guided Tours Menu Entries](#guided-tours-menu-entries) section
 for details on how to play one or more tours in demo mode (that is,
 continuously).
 
 
-## Creating a Tour
+# Creating Basic Tours
 
 Creating your own tour can be as simple as annotating a few images showing
 deep sky objects, or locations on Earth. Or a tour can be as immersive as
 combining images with art and music and speech to illustrate and enhance a
 complex argument or experience.
 
-### Tour Properties Dialog
+## Tour Properties Dialog
 
 To create a tour, click {{ui(p="Guided Tours > Create a New Tour...")}}, or {{ui(p="Explore
 > New > Slide-based Tour...,")}} which has the same effect. The first thing that
@@ -126,14 +126,15 @@ users that might run the tour.
 
 The author image should measure 70 pixels wide by 94 in height.
 
-The
-[WorldWide Telescope Data Files Reference](http://www.worldwidetelescope.org/docs/WorldWideTelescopeDataFilesReference.html)
-document contains a full list in the Taxonomy appendix for use with the
-{{ui(p="Classification Taxonomy")}} entry. Properly classifying guided tours will help
-users locate the tour when searching. (Note the search feature currently only
-applies to tours added to the default collection).
+The [Data Guide][data-guide-taxonomy] contains a full list of
+classifications for use with the {{ui(p="Classification Taxonomy")}} entry.
+Properly classifying guided tours will help users locate the tour when
+searching. (Note the search feature currently only applies to tours added to
+the default collection).
 
-### Tour Editing Pane
+[data-guide-classifications]: https://docs.worldwidetelescope.org/data-guide/1/data-file-formats/appendices/#taxonomy
+
+## Tour Editing Pane
 
 Click {{ui(p="OK")}} to close the Tour Properties dialog and bring up the tour editing
 pane:
@@ -222,7 +223,7 @@ narrower screens - checking it simply shades out the wider area.
   be resized and rotated on the slide. The same right click menu available for
   {{ui(p="Shapes")}} can be used with pictures.
 
-### Slide Editing Menu
+## Slide Editing Menu
 
 Some editing options are not quite so visible. Right click on a slide to bring
 up a menu with a range of detailed options:
@@ -278,7 +279,7 @@ Note that the time taken for a tour is greater than the sum total of times for
 each slide, as the transition times from one slide to another are included in
 the total run time.
 
-### Master Slides
+## Master Slides
 
 Before progressing to add more and more slides, first consider creating a
 master slide. Master slides are templates that are applied to all subsequent
@@ -296,7 +297,7 @@ To make a slide a master slide, right click to bring up the context menu, then
 select {{ui(p="Master Slide")}}. A bold **M** will appear on the thumbnail. To revert
 a slide to normal status, bring up the menu and click {{ui(p="Master Slide")}} again.
 
-### Slide Title
+## Slide Title
 
 To add a title to a slide, click on the area below the thumbnail but inside
 the yellow bounding rectangle, and type up to 15 characters as a title, for
@@ -307,7 +308,7 @@ example:
 Note that a selected slide can be dragged and dropped to a new location in the
 displayed list of slides.
 
-### Control Views and Settings
+## Control Views and Settings
 
 To change current view settings for your slides, go into the {{ui(p="View")}} or
 {{ui(p="Settings")}} menus and make the appropriate changes for the selected slide
@@ -316,7 +317,7 @@ go back to editing the tour, click on the name of the tour in the menu bar.
 
 {{ui(p="View")}} and {{ui(p="Settings")}} entries can be changed for each slide.
 
-### Completing the Tour
+## Completing the Tour
 
 Click {{ui(p="Save")}} in the tour editing pane to save off the tour at any stage.
 Close the tour when it is completed by clicking the **X** by the name in the
@@ -324,14 +325,14 @@ menu bar:
 
 ![](Tours_New_Closing.jpg)
 
-### Sharing the Tour
+## Sharing the Tour
 
 Tours can be sent by email to friends and colleagues. A tour is stored in a
 .wtt file, and can be sent as an attachment to a normal email. The file size
 of the tour should obviously be below the limit applied by your ISP.
 
 
-## Creating an Interactive Tour
+# Creating Interactive Tours
 
 An interactive tour is a tour where the user is required to give feedback.
 This feedback could be in response to a menu of possible selections, such as
@@ -344,7 +345,7 @@ been selected by the user, or is in response to input from the user.
 The basic process for creating an interactive tour is very similar to that of
 creating any other tour, this section just covers the differences. So if you
 are not familiar with the process of creating a tour, start with the
-[Creating a Tour](#creating-a-tour) section.
+[Creating Basic Tours](#creating-basic-tours) section.
 
 Scenarios for interactive tours include providing "Back" buttons in normal
 tours, creating coursework quizzes - perhaps at the end of a normal tour, the
@@ -416,7 +417,7 @@ than normal tour:
   systems could be used.
 
 
-## Guided Tours Menu Entries
+# Guided Tours Menu Entries
 
 Clicking on the down arrow below {{ui(p="Guided Tours")}} opens up the menu entries.
 
