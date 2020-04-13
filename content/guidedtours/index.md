@@ -132,7 +132,7 @@ Properly classifying guided tours will help users locate the tour when
 searching. (Note the search feature currently only applies to tours added to
 the default collection).
 
-[data-guide-classifications]: https://docs.worldwidetelescope.org/data-guide/1/data-file-formats/appendices/#taxonomy
+[data-guide-taxonomy]: https://docs.worldwidetelescope.org/data-guide/1/data-file-formats/appendices/#taxonomy
 
 ## Tour Editing Pane
 
