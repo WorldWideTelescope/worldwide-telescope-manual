@@ -51,7 +51,7 @@ the objects.
 
 The {{ui(p="Search")}} panel allows you to query online astronomical catalogs
 distributed using the Virtual Observatory (VO) table protocol. See
-[the Astronomical Research](@/astronomicalresearch/index.md#virtual-obseratory-tables)
+[the Astronomical Research](@/astronomicalresearch/index.md#virtual-observatory-tables)
 page for more information.
 
 
