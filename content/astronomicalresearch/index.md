@@ -201,18 +201,22 @@ you are working on.
 
 ## Virtual Observatory Tables
 
-Virtual Observatory (VO) tables are spreadsheets of mainly numerical
-astronomical data, layout to a standard set by the
-[National Virtual Observatory](http://www.us-vo.org).
+Virtual Observatory (VO) Tables are a standard exchange format for
+astronomical catalog data and queries to registries allow you to find, plot
+and interact with a wide variety of catalogs that have VO table interfaces.
 
-For example, use the [Search Panel](@/searchpanel/index.md) to navigate to the galaxy
-M51 — much better known as the _Whirlpool Galaxy_, and right click to bring
-up the {{ui(p="Finder Scope")}}, select {{ui(p="Research > Virtual Observatory Searches >
-NED")}}. This will bring up the VO table shown below. Select {{ui(p="Plot All")}} in the
-{{ui(p="VO Table Viewer")}} to annotate all the located objects in the view with the
-selected {{ui(p="Plot Type")}} (white circles by default) — a lot in the case of M51!
-Now use the {{ui(p="Finder Scope")}} on the individual plots to investigate them
-further, many will be unidentified electromagnetic wave sources.
+### VO Queries from the Finder Scope
+
+You can launch VO queries of the current view using the Finder Scope. For
+example, use the [Search Panel](@/searchpanel/index.md) to navigate to the
+galaxy M51 — much better known as the _Whirlpool Galaxy_, and right click to
+bring up the {{ui(p="Finder Scope")}}. Selecting {{ui(p="Research > Virtual
+Observatory Searches > NED")}} will bring up the VO table shown below. Select
+{{ui(p="Plot All")}} in the {{ui(p="VO Table Viewer")}} to annotate all the
+located objects in the view with the selected {{ui(p="Plot Type")}} (white
+circles by default) — a lot in the case of M51! Now use the {{ui(p="Finder
+Scope")}} on the individual plots to investigate them further, many will be
+unidentified electromagnetic wave sources.
 
 ![](NEDSearchVOTable.jpg)
 
@@ -220,7 +224,7 @@ further, many will be unidentified electromagnetic wave sources.
 
 ![](M51PlotName.jpg)
 
-### VO Cone Search
+### VO Cone Searches
 
 A Virtual Observatory (VO) cone search is a search for data on objects in
 space within a cone - specified by a direction into space and a radius. The
@@ -233,19 +237,53 @@ objects ("white dwarfs", "knots", "supernovae" etc.) should be located.
 
 ![](ConeSearchPulsar.jpg)
 
-First pan to the area of space you wish to search, then zoom in to reduce the
-radius to an appropriate amount.
+WWT’s {{ui(p="View")}} menu allows you to perform cone searches with greater
+control than that offered by the Finder Scope. First, orient the view to a sky
+location of interest. In this example we target the Pleiades open cluster.
 
-Select {{ui(p="VO Cone Search/Registry Look up")}} from the {{ui(p="Search")}} drop down menu.
-
-Enter the search criteria (pulsar in the example), and click {{ui(p="NVO Registry
-Search")}} to populate the table with data.
-
-Further refine your search by selecting one of the rows in the table (to
-locate the {{ui(p="Base URL")}} field), and click {{ui(p="Search")}} to bring up a VO table.
-
-Note the Web Client version has an additional option, to allow the selection
-of either a catalog search, or a search for images using a SAIP query.
+1. Make sure you are in Sky mode.
+2. Under the Search Tab, select {{ui(p="SIMBAD Search …")}}.
+3. Enter “Pleiades” in the search box. This will orient your view to the
+   Pleiades cluster and zoom in.
+   ![screenshot of simbad search dialog](simbad_search.jpg)
+4. Under the Search Tab, open the {{ui(p="VO Cone Search / Registry Lookup …")}}.
+5. In the field “NVO Registry Title Like” enter “Pleiades.” Then click the “NVO Registry Search” button.
+   ![Screenshot of NVO Registry Search Button](nvo_search_button.jpg)
+6. This will populate the bottom of the table with a list of VO “registries”, which in this case
+   are catalogs registered with the VO service.
+7. Click on a row to search that catalog. This will load values into “Base
+   URL.” For this example, select “ZYJHK photometry in Pleiades …” Since you
+   are looking at the location of the Pleiades, you can click the checkbox
+   next to “from View.” Set the Verbosity pull-down to “Medium” in order to
+   return photometric measurements at all observed bands, rather than the
+   default positions if the default “Low” is used. Then click “Search” on the
+   right.
+   ![screen shot of medium verbosity from view](verbosity_medium.jpg)
+8. This will plot the catalog entries of the returned table on the background
+   sky image. The default is to plot circles at each location. Also, this
+   table is added as a layer (default name is “VO Table”) under the “Sky” of
+   the Layer Manager on the left. If you close this table, you can always
+   right-click on the “VO Table” in the layer manager and select “VO Table
+   Viewer.”
+   ![Screenshot of VO Table Viewer](vo_table_viewer.jpg)
+   ![Screenshot of VO Table Plot](vo_plot.jpg)
+9. Clicking on an entry of the returned table will center the display on the
+   location of the catalog entry and show a label.
+10. You can right-click on the VO Table layer in the layer manager and select
+    **Copy** and then you can paste the table into an Excel spreadsheet.
+11. To plot data, you can use software like
+    [TOPCAT](http://www.star.bris.ac.uk/~mbt/topcat/). First download _and
+    run_ TOPCAT according to its installation instructions. Then in the VO
+    Table Viewer click the “Broadcast” button. This uses the SAMP messaging
+    protocol to send the retrieved VO Table to TOPCAT for plotting.
+13. In TOPCAT, you can then set up a scatter plot, by clicking the icon
+    at the top menu.
+    ![Screen shot of TOPCAT scatter plot selection](topcat.jpg)
+14. This brings up a scatter plot window. You can map columns to axes in the
+    plotting window.
+    ![Screen shot of TOPCAT scatter plot graph](topcat_scatter.jpg)
+15. You can also save the current table out of TOPCAT as Comma Separated
+    Variable (CSV) format for input into Excel or other software.
 
 
 ## FITS Images

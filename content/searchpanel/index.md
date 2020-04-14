@@ -19,7 +19,7 @@ WorldWide Telescope includes the following catalogs in its internal index:
 You must be connected to the internet in order for this feature to work.
 
 
-## The Search Panel
+# The Search Panel
 
 You can open the Search panel by clicking {{ui(p="Search")}} in the upper panel.
 
@@ -47,7 +47,15 @@ of objects, as shown below. Use the
 the objects.
 
 
-## Search Menu Entries
+# Using Virtual Observatory (VO) Tables
+
+The {{ui(p="Search")}} panel allows you to query online astronomical catalogs
+distributed using the Virtual Observatory (VO) table protocol. See
+[the Astronomical Research](@/astronomicalresearch/index.md#virtual-obseratory-tables)
+page for more information.
+
+
+# Search Menu Entries
 
 Click the down arrow below {{ui(p="Search")}} to expand the menu.
 
