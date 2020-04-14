@@ -11,9 +11,9 @@ WorldWide Telescope that experienced astronomers should find helpful in their
 studies.
 
 
-## Creating a New Collection
+# Creating New Collections
 
-A _Collection_ is the term used to describe a WorldWide Telescope data file.
+A _collection_ is the term used to describe a WorldWide Telescope data file.
 You can create your own collections, either from existing images or perhaps
 from your own data. As long as the data that the new collection references is
 available on the internet, your new collections can be shared.
@@ -64,7 +64,7 @@ appropriately) to open up WorldWide Telescope with this collection, or simply
 use {{ui(p="Explore > Open")}} to navigate to and open the collection.
 
 
-## Comparing Foreground and Background Images
+# Comparing Foreground and Background Images
 
 Astronomers often use comparisons of images of different wavelengths of an
 object to help expose information about that object, such as the type of
@@ -115,7 +115,7 @@ taken at different times or even by different telescopes -- so the exact
 location of an object may appear to vary.
 
 
-## The Finder Scope
+# The Finder Scope
 
 The {{ui(p="Finder Scope")}} is a pane designed to help you fix on and research a
 particular object. It can be opened by right-clicking on the view, or from the
@@ -199,13 +199,13 @@ you are working on.
   programs you are running.
 
 
-## Virtual Observatory Tables
+# Virtual Observatory Tables
 
 Virtual Observatory (VO) Tables are a standard exchange format for
 astronomical catalog data and queries to registries allow you to find, plot
 and interact with a wide variety of catalogs that have VO table interfaces.
 
-### VO Queries from the Finder Scope
+## VO Queries from the Finder Scope
 
 You can launch VO queries of the current view using the Finder Scope. For
 example, use the [Search Panel](@/searchpanel/index.md) to navigate to the
@@ -224,7 +224,7 @@ unidentified electromagnetic wave sources.
 
 ![](M51PlotName.jpg)
 
-### VO Cone Searches
+## VO Cone Searches
 
 A Virtual Observatory (VO) cone search is a search for data on objects in
 space within a cone - specified by a direction into space and a radius. The
@@ -286,7 +286,7 @@ location of interest. In this example we target the Pleiades open cluster.
     Variable (CSV) format for input into Excel or other software.
 
 
-## FITS Images
+# FITS Images
 
 The FITS (Flexible Image Transport System) was developed particularly to hold
 the one, two and three dimensional data that is particular to astronomy, with
@@ -324,7 +324,7 @@ data.
 Using this tool particular light sources can be examined in isolation.
 
 
-## Sky Surveys
+# Sky Surveys
 
 Comprehensive surveys of the sky have been carried out at different
 wavelengths to help determine the composition of stars and galaxies. The
@@ -370,9 +370,9 @@ not always visible to the unaided eye in the Hydrogen Alpha imagery. Also, the
 different surveys have been carried out at different resolutions. For
 comparison purposes, the images below show the constellation Cygnus.
 
-### Imagery Data
+## Imagery Data
 
-#### Digitized Sky Survey
+### Digitized Sky Survey
 
 A comprehensive sky survey in the visible wavelength, first published in
 1994. This survey was created by the Space Telescope Science Institute's
@@ -387,7 +387,7 @@ Telescope accesses.
 
 ![](survey_sky.jpg)
 
-#### Hipparcos Catalog
+### Hipparcos Catalog
 
 Hipparcos is the name of a European Space Agency Mission and Satellite that
 took images from 1989 to 1993 and accurately catalogued 118,218 stars. Taken
@@ -400,7 +400,7 @@ considerable accuracy at 0.03 arc seconds. Known as the
 
 ![](survey_hipparcos.jpg)
 
-#### VLSS: VLA Low Frequency Sky Survey (Radio)
+### VLSS: VLA Low Frequency Sky Survey (Radio)
 
 The Very Large Array (VLA) Low-Frequency Sky Survey (VLSS) is an ongoing
 survey of the sky for radio waves at 74 MHz (4-meter wavelength). The radio
@@ -414,7 +414,7 @@ the Universe.
 
 ![](survey_vlss.jpg)
 
-#### WMAP ILC 5-Year Cosmic Microwave Background
+### WMAP ILC 5-Year Cosmic Microwave Background
 
 The Wilkinson Microwave Anisotropy Probe (WMAP) was a three-year, all-sky
 survey that concluded in 2006. The survey was conducted at several microwave
@@ -428,7 +428,7 @@ only a small portion (5%) as atomic.
 
 ![](survey_wmap.jpg)
 
-#### SFD Dust Map
+### SFD Dust Map
 
 The Infrared Dust Map is an all-sky, 100 micron, far infrared (12, 20, 25, and
 100 micron pass bands) survey modulated by dust temperatures and then
@@ -443,7 +443,7 @@ the light has passed through.
 
 ![](survey_dustmap.jpg)
 
-#### IRIS: Improved Imaging of IRAS Survey (Infrared)
+### IRIS: Improved Imaging of IRAS Survey (Infrared)
 
 Starting in 1983 the Infrared Astronomical Satellite (IRAS) - a joint project
 of the US, UK, and the Netherlands - performed a survey of 98% of the sky at
@@ -459,7 +459,7 @@ birthplaces of stars and planets.
 
 ![](survey_iris.jpg)
 
-#### 2MASS Two Micron All Sky Survey (Synthetic)
+### 2MASS Two Micron All Sky Survey (Synthetic)
 
 The 470,992,970-source Two Micron All Sky Survey (2MASS) Point Source Catalog
 was produced by a joint project of the University of Massachusetts and the
@@ -473,7 +473,7 @@ these maps is likely to be as a new estimator of galactic extinction.
 
 ![](survey_2mass.jpg)
 
-#### Hydrogen Alpha Full Sky Map
+### Hydrogen Alpha Full Sky Map
 
 A full sky map generated at Princeton University compositing the Virginia Tech
 Spectral line Survey (VTSS) of the northern skies and the Southern H-Alpha Sky
@@ -486,7 +486,7 @@ emissions from ionized gas known to contaminate microwave-background data.
 
 ![](survey_hydrogen.jpg)
 
-#### SDSS: Sloan Digital Sky Survey
+### SDSS: Sloan Digital Sky Survey
 
 The Sloan Digital Sky Survey (SDSS) was initiated in 2000 and is ongoing. The
 survey uses a dedicated 2.5-meter telescope at Apache Point Observatory, New
@@ -504,7 +504,7 @@ the constellation Leo:
 
 ![](survey_sloan.jpg)
 
-#### Tycho (Synthetic, Optical)
+### Tycho (Synthetic, Optical)
 
 The Tycho-2 catalog is based on a mix of 1991 space-based data from the
 European Space Agency's [Hipparcos](#hipparcos-catalog) satellite, data from
@@ -518,7 +518,7 @@ separations down to 0.8 arc seconds are included.
 
 ![](survey_tycho.jpg)
 
-#### USNOB: US Naval Observatory B1.0 (Synthetic, Optical)
+### USNOB: US Naval Observatory B1.0 (Synthetic, Optical)
 
 The US Naval Obersvatory-B1.0 is a catalog of 1,042,618,261 objects. The data
 were obtained from scans of 7,435 Schmidt plates taken for the various sky
@@ -535,7 +535,7 @@ non-stellar objects. 
 
 ![](survey_USNaval.jpg)
 
-#### GALEX (Ultraviolet)
+### GALEX (Ultraviolet)
 
 Since its launch in 2003, the Galaxy Evolution Explorer (Galex) telescope has
 imaged more than a half-billion objects across two-thirds of the sky. The
@@ -552,7 +552,7 @@ as short as a few million years.
 
 ![](survey_galex.jpg)
 
-#### RASS: ROSAT All Sky Survey (X-Ray)
+### RASS: ROSAT All Sky Survey (X-Ray)
 
 The ROSAT All Sky Survey (RASS) was a survey of the sky released in March 2000
 by the Max-Planck-Institut f�r extraterrestrische Physik. The survey was the
@@ -570,7 +570,7 @@ greater. Counts per second (or CPS) is a measure of x-ray activity.
 
 ![](survey_rass.jpg)
 
-#### Fermi (Gamma)
+### Fermi (Gamma)
 
 Launched in 2008, NASA's Fermi Gamma-ray Space Telescope is tasked with
 exploring extreme environments in the Universe. These include the powerful
@@ -583,24 +583,27 @@ away.
 
 ![](survey_femmi.jpg)
 
-#### Black Sky Background
+### Black Sky Background
 
 Simply sets the entire background to black.
 
 ![](survey_blacksky.jpg)
 
-### Browse
+## Loading Equirectangular Projection Maps from Local Files
 
-You can also open equirectangular projected images as a background (refer to
-[WorldWide Telescope Projection Reference](http://www.worldwidetelescope.org/docs/WorldWideTelescopeProjectionReference.html))
-by browsing to their location on your computer. This option works in
-{{ui(p="Planet")}}, {{ui(p="Sky")}} and {{ui(p="Panorama")}} modes.
+You can also open equirectangular projected images (see
+[the Data Guide][data-equirectangular]) by browsing to their location on your
+computer. This option works in {{ui(p="Planet")}}, {{ui(p="Sky")}} and
+{{ui(p="Panorama")}} modes.
+
+[data-equirectangular]: https://docs.worldwidetelescope.org/data-guide/1/spherical-projections/source-projections/#equirectangular-projection
 
 Note that there are more surveys available in WorldWide Telescope than are
 included in the {{ui(p="Imagery")}} list. These additional surveys are available in
 the {{ui(p="Collections > All-Sky Surveys > More Surveys")}} collection.
 
-## Context Search
+
+# Context Search
 
 The _Context Search_ automatically searches the constellation that the reticle
 is currently on for deep sky objects that are listed in a catalog, such as the
@@ -620,7 +623,7 @@ In this example M86 has appeared in the lower panel as a result of the context
 search. Selecting {{ui(p="Properties")}} from the right-click menu displays the
 property data without changing the view.
 
-### Context Search Filter
+## Context Search Filter
 
 You can restrict the list of deep sky objects displayed by the Context Search
 to only those objects identified in the following table, by selecting items in
@@ -663,7 +666,7 @@ the thumbnails as they appear in the top panel to bring the objects into view.
 | | **Other NGC** | The New General Catalogue is one of the most commonly-used catalogs in amateur astronomy and contains nearly 8,000 objects. | [![](OtherNGC.jpg)](http://www.worldwidetelescope.org/wwtweb/goto.aspx?object=IC1165A&ra=16.03552778&dec=15.69638889&zoom=1.40625) |
 
 
-## Stellar Brightness
+# Stellar Brightness
 
 The value in comparing and cataloging the brightness of stars was apparent to
 the ancient Greeks, who developed a system of six magnitudes, the brightest
