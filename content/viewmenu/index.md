@@ -67,6 +67,38 @@ solar eclipses on the Earth (see the
 4000/12/31. Simulated time will freeze if it reaches one of these limits.
 
 
+## Virtual Reality Support
+
+WWT supports the Oculus Rift virtual reality (BR) headset as a special stereo
+mode. Activate it as follows:
+
+- Connect the Oculus to your computer.
+- Turn the Oculus on. The Oculus will appear as a secondary monitor. If you
+  look through the Oculus without WWT running you should see a desktop similar
+  to what you see if you connected a secondary monitor.
+- Start WWT.
+- Enable Oculus Rift mode. Select the menu item {{ui(p="View > Stereo > Oculus
+  Rift")}}. See the screenshot below.
+  ![](stereo_oculus.jpg)
+- The WWT scene should be visible in the Oculus. Note the menu items are still
+  on the primary display and the main window in the primary will go blank when
+  outputting to Oculus.
+- You can interact with WWT while wearing the headset. Since you can’t see the
+  keyboard and menus, it is easier to use an XBox or MIDI controller. However,
+  be careful doing fast rotations with the controller, since if the motion is
+  not coordinated with your head rotations, you can induce motion sickness.
+- To see an example of VR-optimized content creation, download and play the
+  VR-optimized version of the [Impacts] tour created by the WWT team.
+- You can create a virtual or physical button (see
+  [the Controllers section of the Planetarium Guide][planetarium-controllers])
+  to reset the Oculus Rift view. The function `ResetRiftView` is under
+  `Navigation/Action`. This can be useful to set the initial orientation of
+  the virtual environment relative the physical orientation of the Rift.
+
+[Impacts]: https://docs.worldwidetelescope.org/tour-authoring-guide/1/impacts/
+[planetarium-controllers]: http://docs.worldwidetelescope.org/planetarium-guide/1/controllers/
+
+
 ## View Menu Entries
 
 Click the down arrow below {{ui(p="View")}} to open the view menu entries.
