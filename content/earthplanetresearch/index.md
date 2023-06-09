@@ -20,7 +20,7 @@ times and the magnitude and persistence of the event).
 Layers can also be applied to the Sun, the other planets, and some of the
 moons, in our solar system.
 
-Layers can be added and used as part of [Guided Tours](#GuidedTours).
+Layers can be added and used as part of [Guided Tours](../guidedtours/index.md).
 
 
 ## Time Series Data
@@ -55,6 +55,7 @@ in the spreadsheet to those requested by the Data Visualization tool.
 ### Setting Time Series Data Running
 
 To set the time series data running, select and highlight the layer in the
-{{ui(p="Layer Manager.")}} Then ensure the {{ui(p="Time Series")}} and (optionally) the {{ui(p="Auto
-Loop")}} checkboxes are selected. Then go to the [View Menu](#TheViewMenu) and
-accelerate time to see the visualization of the events.
+{{ui(p="Layer Manager.")}} Then ensure the {{ui(p="Time Series")}} and (optionally)
+the {{ui(p="Auto Loop")}} checkboxes are selected. Then go to the
+[View Menu](../viewmenu/index.md) and accelerate time to see the visualization of
+the events.

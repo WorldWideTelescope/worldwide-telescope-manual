@@ -218,7 +218,7 @@ narrower screens - checking it simply shades out the wider area.
   you are working on, select {{ui(p="Preview Tour From Here...")}} and test the
   animations. Each animated object should smoothly move, recolor and resize
   over the time period assigned to the slide.
-* {{ui(p="Picture")}}: Jpeg, Tiff, Png and [FITS](#fits-images) still images can be
+* {{ui(p="Picture")}}: Jpeg, Tiff, Png and [FITS](../astronomicalresearch/index.md#fits-images) still images can be
   added to the slide. Similar to text and shape entries, picture entries can
   be resized and rotated on the slide. The same right click menu available for
   {{ui(p="Shapes")}} can be used with pictures.
