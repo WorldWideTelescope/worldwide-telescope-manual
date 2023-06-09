@@ -1,10 +1,10 @@
 +++
 title = "Configuration"
-description = "How to configure AAS WorldWide Telescope in non-standard ways."
+description = "How to configure WorldWide Telescope in non-standard ways."
 weight = 1100
 +++
 
-This section contains technical information on how to configure AAS WorldWide
+This section contains technical information on how to configure WorldWide
 Telescope to run in environments other than on a single desktop or laptop
 client computer.
 
@@ -152,7 +152,7 @@ The image below shows Saturn and the Milky Way warped for a 16:9 projector.
 
 ![](mirrorwarping.jpg)
 
-Select {{ui(p="Full Dome")}} from the [View Menu Entries](#view-menu-entries) to
+Select {{ui(p="Full Dome")}} from the [View Menu Entries](../viewmenu/index.md#view-menu-entries) to
 initiate setup for a small planetarium.
 
 ![](../viewmenu/ui_win_Full-Dome.png)
@@ -212,7 +212,7 @@ common options:
 
 If the option to {{ui(p="Detach Main View to Second Monitor")}} is used then there is
 no need to match screen resolution with aspect ratio. Also note that an
-[Xbox Controller](#xbox-controller) can be used to navigate in WorldWide
+[Xbox Controller](../explore/index.md#xbox-controller) can be used to navigate in WorldWide
 Telescope, which can make controlling the view in the dome more comfortable.
 
 ### Custom Warp Files

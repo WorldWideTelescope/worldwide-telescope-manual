@@ -1,6 +1,6 @@
 +++
 title = "Explore"
-description = "Exploring the sky with AAS WorldWide Telescope."
+description = "Exploring the sky with WorldWide Telescope."
 weight = 200
 +++
 
@@ -371,7 +371,7 @@ Telescope to locate our stellar neighbors.
    is impossible to see with the naked eye. The star, Proxima Centauri, is
    about 4.2 light years distant. It has two very bright neighbors known
    either as Alpha Centauri (A and B) or Rigil Kentaurus. To locate these
-   click [**Search**](#TheSearchPanel) so that the search panel appears, and
+   click [**Search**](../searchpanel/index.md) so that the search panel appears, and
    type "Prox" into the search text box. Note that the search narrows as you
    enter each letter, and it is only necessary to enter a few to locate this
    star. Double click the thumbnail to jump to the location.
@@ -972,8 +972,8 @@ and Saturn. For this particular image planet size is magnified to the maximum:
 
 ![](EarthMoonSun.jpg)
 
-Refer to the [3d Solar System](#3d-solar-system) settings in the {{ui(p="View")}}
-pane. Of great interest is the [Observing Time](#ObservingTime) pane, which
+Refer to the 3D Solar System settings in the {{ui(p="View")}}
+panel. Of great interest is the [Observing Time](../viewmenu/index.md#observing-time) pane, which
 enables the planets to be set in motion (more rapidly than in real time) and
 orbits to be observed, and also, for expert users of WorldWide Telescope,
 eclipse times and locations to be identified (see the
@@ -1137,19 +1137,20 @@ Clicking on the down arrow below {{ui(p="Explore")}} opens up the menu entries.
 
 ![](ui_win_Explore-Menu.png)
 
-The {{ui(p="New")}} options start a new data collection of images, or initiate the [tour creation process](#CreatingaTour).
+The {{ui(p="New")}} options start a new data collection of images, or initiate the
+[tour creation process](../guidedtours/index.md#creating-basic-tours).
 
 ![](ExploreMenuEntries2.jpg)
 
 The {{ui(p="Open")}} options enable the opening of a tour, a data collection, an image
 (which will be placed in the sky if it includes AVM metadata, or simply
 centered if there is no such data) and, for astronomers only, a
-[Virtual Observatory Table](#VirtualObservatoryTables). Finally there is an
+[Virtual Observatory Table](../astronomicalresearch/index.md#virtual-observatory-tables). Finally there is an
 option to load ESRI Shape Files.
 
 ![](ui_win_Explore-Menu-Submenu-Open.png)
 
-Clicking {{ui(p="Show Finder")}} will bring up [The Finder Scope](#TheFinderScope).
+Clicking {{ui(p="Show Finder")}} will bring up [The Finder Scope](../astronomicalresearch/index.md#the-finder-scope).
 
 Clicking {{ui(p="Getting Started")}} links to this User Guide, {{ui(p="WorldWide Telescope
 Home Page")}} links to the website.

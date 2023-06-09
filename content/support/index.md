@@ -1,6 +1,6 @@
 +++
 title = "Support"
-description = "Help and support for the AAS WorldWide Telescope."
+description = "Help and support for WorldWide Telescope."
 weight = 1200
 +++
 

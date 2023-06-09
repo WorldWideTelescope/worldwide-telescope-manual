@@ -1,8 +1,8 @@
-base_url = "//docs.worldwidetelescope.org/user-manual/1"
-title = "The AAS WorldWide Telescope User Manual"
-description = "AAS WorldWide Telescope is a tool for showcasing astronomical data and knowledge."
+base_url = "https://docs.worldwidetelescope.org/user-manual/1"
+title = "WorldWide Telescope User Manual"
+description = "WorldWide Telescope is a tool for showcasing astronomical data and knowledge."
 theme = "wwtguide"
 
 [extra]
-github_base = "//github.com/WorldWideTelescope/worldwide-telescope-manual"
+github_base = "https://github.com/WorldWideTelescope/worldwide-telescope-manual"
 google_analytics_id = "UA-107473046-3"

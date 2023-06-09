@@ -1,6 +1,6 @@
 +++
 title = "Astronomical Research"
-description = "Using AAS WorldWide Telescope for astronomical research."
+description = "Using WorldWide Telescope for astronomical research."
 weight = 900
 +++
 

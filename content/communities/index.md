@@ -1,11 +1,16 @@
 +++
 title = "Communities"
-description = "Data sharing through AAS WorldWide Telescope communities."
+description = "Data sharing through WorldWide Telescope communities."
 weight = 400
 +++
 
 Communities are public or private groups that can share data using WorldWide
 Telescope.
+
+{% note(html=1) %}
+The WWT Communities functionality is unmaintained. We do not recommend
+that new users start using it.
+{% end %}
 
 Communities are great places to meet and share information with people who
 share your astronomy interests. Often communities are associated with product

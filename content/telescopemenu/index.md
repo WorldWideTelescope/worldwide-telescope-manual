@@ -1,6 +1,6 @@
 +++
 title = "The Telescope Menu"
-description = "The Telescope menu of the AAS WorldWide Telescope program."
+description = "The Telescope menu of WorldWide Telescope."
 weight = 800
 +++
 

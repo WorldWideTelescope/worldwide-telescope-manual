@@ -4,7 +4,7 @@ sort_by = "weight"
 insert_anchor_links = "right"
 +++
 
-The AAS WorldWide Telescope is a software environment that enables your
+WorldWide Telescope is a software environment that enables your
 computer to function as a virtual telescope, combining terabytes of imagery
 from such famous telescopes as Hubble, Chandra and Spitzer into one vast
 panorama of the universe.
@@ -12,7 +12,7 @@ panorama of the universe.
 {% note(html=1) %}
 While this guide was written for the Windows version of WWT, it should also be
 helpful for understanding the WWT <a
-href="//worldwidetelescope.org/webclient/">web client</a> since its user
+href="https://worldwidetelescope.org/webclient/">web client</a> since its user
 interface mirrors that of the Windows program. However, some specialized
 features are unavailable in the web client. We’re working to annotate this
 guide to show which parts are Windows-specific. Your contributions to that
@@ -48,10 +48,3 @@ only applies to one. The essential differences between the two are that the
 Windows version is downloaded and installed first, then run, and has a few
 more features. The web client is not downloaded and installed, is based on
 HTML5, and has fewer features but can be customized.
-
-_WorldWide Telescope is created by Microsoft Research using the Microsoft high
-performance Visual Experience Engine, and the project is dedicated to
-legendary researcher Jim Gray, without whom this project would not have
-happened. WorldWide Telescope is released as a free resource to the astronomy
-and education community with the hope that it will inspire and empower people
-to explore and understand the universe like never before._

@@ -1,6 +1,6 @@
 +++
 title = "Screen Layout"
-description = "The layout of the main AAS WorldWide Telescope interface."
+description = "The layout of the main WorldWide Telescope interface."
 weight = 100
 +++
 
