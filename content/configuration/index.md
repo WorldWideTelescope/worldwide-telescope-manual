@@ -1,10 +1,10 @@
 +++
 title = "Configuration"
-description = "How to configure AAS WorldWide Telescope in non-standard ways."
+description = "How to configure WorldWide Telescope in non-standard ways."
 weight = 1100
 +++
 
-This section contains technical information on how to configure AAS WorldWide
+This section contains technical information on how to configure WorldWide
 Telescope to run in environments other than on a single desktop or laptop
 client computer.
 

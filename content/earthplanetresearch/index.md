@@ -1,6 +1,6 @@
 +++
 title = "Earth and Planetary Research"
-description = "Earth and planetary research with AAS WorldWide Telescope."
+description = "Earth and planetary research with WorldWide Telescope."
 weight = 1000
 +++
 

@@ -1,6 +1,6 @@
 +++
 title = "Explore"
-description = "Exploring the sky with AAS WorldWide Telescope."
+description = "Exploring the sky with WorldWide Telescope."
 weight = 200
 +++
 

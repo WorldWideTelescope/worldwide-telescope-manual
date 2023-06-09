@@ -1,6 +1,6 @@
 +++
 title = "Search Panel"
-description = "The Search panel of the AAS WorldWide Telescope user interface"
+description = "The Search panel of the WorldWide Telescope user interface"
 weight = 500
 +++
 
